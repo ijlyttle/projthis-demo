@@ -64,5 +64,5 @@ library("usethis")
 We want to automate the build on a schedule. 
 
 1. `proj_use_github_action()`
-1. Modify 
+1. Modify action.
 

@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2020-10-25 22:10:46
+2020-10-25 22:24:08
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -32,7 +32,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "j"
+    ## [1] "g"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -40,9 +40,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##   rank   package count       from         to
-    ## 1    5  jsonlite 61491 2020-10-24 2020-10-24
-    ## 2   73 rprojroot 13228 2020-10-24 2020-10-24
+    ##    rank  package  count       from         to
+    ## 1     1 magrittr 103420 2020-10-24 2020-10-24
+    ## 2     9  ggplot2  41116 2020-10-24 2020-10-24
+    ## 3    10    rlang  39474 2020-10-24 2020-10-24
+    ## 4    14     glue  27031 2020-10-24 2020-10-24
+    ## 5    20    rgeos  22977 2020-10-24 2020-10-24
+    ## 6    21  pkgdown  22681 2020-10-24 2020-10-24
+    ## 7    23   gargle  22281 2020-10-24 2020-10-24
+    ## 8    24   gmailr  21922 2020-10-24 2020-10-24
+    ## 9    25   digest  21406 2020-10-24 2020-10-24
+    ## 10   42  stringi  16383 2020-10-24 2020-10-24
 
 ## Steps
 
@@ -74,4 +82,4 @@ library("usethis")
 We want to automate the build on a schedule.
 
 1.  `proj_use_github_action()`
-2.  Modify
+2.  Modify action.

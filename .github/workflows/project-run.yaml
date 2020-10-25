@@ -32,6 +32,11 @@ on:
   #     - main
   #     - master
 
+  # runs when we push README.Rmd
+  push:
+    paths:
+      - README.Rmd
+
   # runs on a schedule using UTC - see https://en.wikipedia.org/wiki/Cron
   schedule:
     - cron:  '15 * * * *' # 15 minutes past the hour every hour
