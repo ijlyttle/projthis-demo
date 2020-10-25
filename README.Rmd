@@ -1,7 +1,7 @@
 ---
 output: github_document
 title: "projthis Demonstration"
-date: '`r lubridate::now(tz = "UTC")`'
+date: '`r lubridate::now(tz = "UTC")` UTC'
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
