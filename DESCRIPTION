@@ -13,3 +13,5 @@ Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 
+URL: https://github.com/ijlyttle/projthis-demo
+BugReports: https://github.com/ijlyttle/projthis-demo/issues
