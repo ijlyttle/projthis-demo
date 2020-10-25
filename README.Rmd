@@ -13,7 +13,9 @@ The goal of this project is to show how you can use the [projthis]() package, al
 
 ## Demo
 
-For this demo, we will select a letter at random, then get a data frame of the top ten most-downloaded packages (from the day's top 100) that contain this letter.
+This demo is run automatically by GitHub Actions, every day at midnight UTC, as well as whenever there is a change to `README.Rmd`.
+
+For this demo, we will select a letter at random, then get a data frame of the top ten most-downloaded packages (from the day's top 100) that contain this letter in its name. 
 
 ```{r setup, message=FALSE}
 library("cranlogs")
@@ -47,7 +49,6 @@ library("usethis")
 ### Initial structure
 
 1. `proj_create("../projthis-demo")`
-1. edit `Title` in `DESCRIPTION` 
 1. `use_mit_license()`
 1. `use_git()`
 1. `use_github()`
@@ -56,7 +57,7 @@ library("usethis")
 
 ## Create demo
 
-1. add **Demo** section to `README.Rmd`
+1. Add **Demo** section to `README.Rmd`
 1. `proj_update_deps()` to add packages to `DESCRIPTION`
 
 ## Add GitHub Action
@@ -64,5 +65,63 @@ library("usethis")
 We want to automate the build on a schedule. 
 
 1. `proj_use_github_action()`
-1. Modify action.
+1. Modify `.github/workflows/project-run.yaml` to customize trigger, what is built, and what is deployed.
+
+I modified a bit at the start of the [Actions file](https://github.com/ijlyttle/projthis-demo/blob/master/.github/workflows/project-run.yaml) so that the build would be triggered by either:
+
+- a change to `README.Rmd`
+- the clock changing to midnight UTC
+
+```yaml
+on:
+
+  # # runs whenever you push a specific branch
+  # push:
+  #   branches:
+  #     - main
+  #     - master
+
+  # # runs on pull requests to a specific branch
+  # pull_request:
+  #   branches:
+  #     - main
+  #     - master
+
+  # runs when we push README.Rmd
+  push:
+    paths:
+      - README.Rmd
+
+  # runs on a schedule using UTC - see https://en.wikipedia.org/wiki/Cron
+  schedule:
+    - cron:  '0 0 * * *' # midnight UTC, every day
+```
+
+I also modified a bit at the end of the Actions file, to specify the rendering and deployment. In this case, we are rendering the `README.Rmd` file, committing `README.md` then pushing back to the original branch:
+
+```yaml
+      # rename and adapt this step to build your project
+      - name: Render README.Rmd
+        # if you are running only R commands, this can be a convenient syntax
+        run: |
+          rmarkdown::render("README.Rmd")
+        shell: Rscript {0}
+
+      # rename and adapt this step to deploy your project
+      - name: Commit README.md, push
+        # if you need to combine R commands with shell commands, try this syntax
+        #
+        # caution to stay away from syntax like `git add -A` as you might be committing
+        #  files that you would prefer not to commit:
+        #  https://twitter.com/JennyBryan/status/1319320033063923712
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add 'README.md'
+          git commit -m 'automated run' || echo "No changes to commit"
+          git push origin || echo "No changes to commit"
+```
+
+It is likely your build and deploy processes will be more complicated, but this gives you a sense of how to get things working.
+In Actions, as with any CI system, there is an element of "try stuff until it works", which can be frustrating.
 
