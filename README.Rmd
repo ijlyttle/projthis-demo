@@ -9,7 +9,7 @@ date: '`r lubridate::now(tz = "UTC")`'
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of this project is to show how you can use the [projthis]() package, along with [usethis](), to build a project workflow that manages package dependencies.
+The goal of this project is to show how you can use the [projthis]() package, along with [usethis](), to build a project workflow that manages package dependencies. 
 
 ## Demo
 
