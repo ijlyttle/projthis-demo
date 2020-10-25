@@ -58,3 +58,11 @@ library("usethis")
 
 1. add **Demo** section to `README.Rmd`
 1. `proj_update_deps()` to add packages to `DESCRIPTION`
+
+## Add GitHub Action
+
+We want to automate the build on a schedule. 
+
+1. `proj_use_github_action()`
+1. Modify 
+

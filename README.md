@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2020-10-25 21:59:24
+2020-10-25 22:10:46
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -32,7 +32,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "w"
+    ## [1] "j"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -40,14 +40,9 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##   rank         package count       from         to
-    ## 1    2          aws.s3 87487 2020-10-24 2020-10-24
-    ## 2    3 aws.ec2metadata 86200 2020-10-24 2020-10-24
-    ## 3   21         pkgdown 22681 2020-10-24 2020-10-24
-    ## 4   34        markdown 18364 2020-10-24 2020-10-24
-    ## 5   36       rmarkdown 18046 2020-10-24 2020-10-24
-    ## 6   47           withr 16180 2020-10-24 2020-10-24
-    ## 7   85    RColorBrewer 11156 2020-10-24 2020-10-24
+    ##   rank   package count       from         to
+    ## 1    5  jsonlite 61491 2020-10-24 2020-10-24
+    ## 2   73 rprojroot 13228 2020-10-24 2020-10-24
 
 ## Steps
 
@@ -73,3 +68,10 @@ library("usethis")
 
 1.  add **Demo** section to `README.Rmd`
 2.  `proj_update_deps()` to add packages to `DESCRIPTION`
+
+## Add GitHub Action
+
+We want to automate the build on a schedule.
+
+1.  `proj_use_github_action()`
+2.  Modify
