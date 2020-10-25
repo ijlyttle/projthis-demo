@@ -1,17 +1,39 @@
 ---
 output: github_document
+title: "projthis Demonstration"
+date: '`r lubridate::now(tz = "UTC")`'
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-
-# projthis-demo
 
 <!-- badges: start -->
 <!-- badges: end -->
 
 The goal of this project is to show how you can use the [projthis]() package, along with [usethis](), to build a project workflow that manages package dependencies.
 
-##
+## Demo
+
+For this demo, we will select a letter at random, then get a data frame of the top ten most-downloaded packages (from the day's top 100) that contain this letter.
+
+```{r setup, message=FALSE}
+library("cranlogs")
+library("dplyr")
+library("stringr")
+library("conflicted")
+
+conflict_prefer("filter", "dplyr")
+```
+
+```{r letter}
+letter <- sample(letters, 1)
+letter
+```
+
+```{r}
+cran_top_downloads(when = "last-day", count = 100) %>%
+  filter(str_detect(package, regex(letter, ignore_case = TRUE))) %>%
+  head(10)
+```
 
 ## Steps
 
@@ -32,4 +54,7 @@ library("usethis")
 1. `use_readme_rmd()`
 1. edit `README.Rmd` and `DESCRIPTION` 
 
+## Create demo
 
+1. add **Demo** section to `README.Rmd`
+1. `proj_update_deps()` to add packages to `DESCRIPTION`

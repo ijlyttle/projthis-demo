@@ -14,3 +14,10 @@ Encoding: UTF-8
 LazyData: true
 URL: https://github.com/ijlyttle/projthis-demo
 BugReports: https://github.com/ijlyttle/projthis-demo/issues
+Imports: 
+    rmarkdown,
+    conflicted,
+    cranlogs,
+    dplyr,
+    stringr,
+    lubridate
