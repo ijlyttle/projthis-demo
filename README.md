@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2020-10-26 00:13:54 UTC
+2020-10-26 01:36:07 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -35,7 +35,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "q"
+    ## [1] "c"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -43,8 +43,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ## [1] rank    package count   from    to     
-    ## <0 rows> (or 0-length row.names)
+    ##    rank         package count       from         to
+    ## 1     3 aws.ec2metadata 86200 2020-10-24 2020-10-24
+    ## 2     4       rsconnect 84364 2020-10-24 2020-10-24
+    ## 3    11           vctrs 33425 2020-10-24 2020-10-24
+    ## 4    15           Hmisc 26133 2020-10-24 2020-10-24
+    ## 5    16      tidyselect 25404 2020-10-24 2020-10-24
+    ## 6    18       lifecycle 24055 2020-10-24 2020-10-24
+    ## 7    29             cli 20028 2020-10-24 2020-10-24
+    ## 8    31            Rcpp 19409 2020-10-24 2020-10-24
+    ## 9    32           callr 19017 2020-10-24 2020-10-24
+    ## 10   33           cpp11 18456 2020-10-24 2020-10-24
 
 ## Steps
 
@@ -109,7 +118,7 @@ on:
 
   # runs on a schedule using UTC - see https://en.wikipedia.org/wiki/Cron
   schedule:
-  - cron:  '15 0 * * *' # 00:15 UTC, every day
+    - cron:  '00 01 * * *' # 01:00 UTC, every day
 ```
 
 I also modified a bit at the end of the Actions file, to specify the
