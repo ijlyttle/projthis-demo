@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2020-10-26 15:54:17 UTC
+2020-10-26 15:55:36 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -35,7 +35,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "f"
+    ## [1] "s"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -43,16 +43,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##   rank   package count       from         to
-    ## 1    6        fs 51287 2020-10-24 2020-10-24
-    ## 2   17        sf 25009 2020-10-24 2020-10-24
-    ## 3   18 lifecycle 24055 2020-10-24 2020-10-24
-    ## 4   22    vdiffr 22350 2020-10-24 2020-10-24
-    ## 5   28      xfun 20437 2020-10-24 2020-10-24
-    ## 6   46     fansi 16222 2020-10-24 2020-10-24
-    ## 7   57      utf8 14792 2020-10-24 2020-10-24
-    ## 8   60 pkgconfig 14403 2020-10-24 2020-10-24
-    ## 9   89    farver 10980 2020-10-24 2020-10-24
+    ##    rank         package count       from         to
+    ## 1     2          aws.s3 87487 2020-10-24 2020-10-24
+    ## 2     3 aws.ec2metadata 86200 2020-10-24 2020-10-24
+    ## 3     4       rsconnect 84364 2020-10-24 2020-10-24
+    ## 4     5        jsonlite 61491 2020-10-24 2020-10-24
+    ## 5     6              fs 51287 2020-10-24 2020-10-24
+    ## 6     7        devtools 50159 2020-10-24 2020-10-24
+    ## 7     8         usethis 49362 2020-10-24 2020-10-24
+    ## 8    11           vctrs 33425 2020-10-24 2020-10-24
+    ## 9    15           Hmisc 26133 2020-10-24 2020-10-24
+    ## 10   16      tidyselect 25404 2020-10-24 2020-10-24
 
 ## Steps
 
