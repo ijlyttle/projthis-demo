@@ -15,7 +15,7 @@ The goal of this project is to show how you can use the [projthis]() package, al
 
 This demo is run automatically by GitHub Actions, every day at 02:30 UTC, as well as whenever there is a change to `README.Rmd`.
 
-For this demo, we will select a letter at random, then get a data frame of the top ten most-downloaded packages (from the day's top 100) that contain this letter in its name.
+For this demo, we will select a letter at random, then get a data frame of the top ten most-downloaded packages (from the day's top 100) that contain this letter in its name. 
 
 ```{r setup, message=FALSE}
 library("cranlogs")
