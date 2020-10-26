@@ -94,7 +94,7 @@ on:
 
   # runs on a schedule using UTC - see https://en.wikipedia.org/wiki/Cron
   schedule:
-    - cron:  '00 01 * * *' # 01:00 UTC, every day
+    - cron:  '00 02 * * *' # 02:00 UTC, every day
 ```
 
 I also modified a bit at the end of the Actions file, to specify the rendering and deployment. In this case, we are rendering the `README.Rmd` file, committing `README.md` then pushing back to the original branch:

@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2020-10-26 01:37:37 UTC
+2020-10-26 01:51:05 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -35,7 +35,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "d"
+    ## [1] "u"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -43,17 +43,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank         package count       from         to
-    ## 1     3 aws.ec2metadata 86200 2020-10-24 2020-10-24
-    ## 2     7        devtools 50159 2020-10-24 2020-10-24
-    ## 3    12           dplyr 32797 2020-10-24 2020-10-24
-    ## 4    16      tidyselect 25404 2020-10-24 2020-10-24
-    ## 5    21         pkgdown 22681 2020-10-24 2020-10-24
-    ## 6    22          vdiffr 22350 2020-10-24 2020-10-24
-    ## 7    25          digest 21406 2020-10-24 2020-10-24
-    ## 8    34        markdown 18364 2020-10-24 2020-10-24
-    ## 9    35           tidyr 18164 2020-10-24 2020-10-24
-    ## 10   36       rmarkdown 18046 2020-10-24 2020-10-24
+    ##    rank   package count       from         to
+    ## 1     8   usethis 49362 2020-10-24 2020-10-24
+    ## 2    14      glue 27031 2020-10-24 2020-10-24
+    ## 3    19     units 23950 2020-10-24 2020-10-24
+    ## 4    28      xfun 20437 2020-10-24 2020-10-24
+    ## 5    41     purrr 16456 2020-10-24 2020-10-24
+    ## 6    43  pkgbuild 16289 2020-10-24 2020-10-24
+    ## 7    49 lubridate 15584 2020-10-24 2020-10-24
+    ## 8    55  evaluate 14929 2020-10-24 2020-10-24
+    ## 9    57      utf8 14792 2020-10-24 2020-10-24
+    ## 10   61      curl 14398 2020-10-24 2020-10-24
 
 ## Steps
 
@@ -118,7 +118,7 @@ on:
 
   # runs on a schedule using UTC - see https://en.wikipedia.org/wiki/Cron
   schedule:
-    - cron:  '00 01 * * *' # 01:00 UTC, every day
+    - cron:  '00 02 * * *' # 02:00 UTC, every day
 ```
 
 I also modified a bit at the end of the Actions file, to specify the
