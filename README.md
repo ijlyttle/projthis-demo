@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2020-10-26 01:51:05 UTC
+2020-10-26 01:54:11 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -35,7 +35,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "u"
+    ## [1] "y"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -43,17 +43,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank   package count       from         to
-    ## 1     8   usethis 49362 2020-10-24 2020-10-24
-    ## 2    14      glue 27031 2020-10-24 2020-10-24
-    ## 3    19     units 23950 2020-10-24 2020-10-24
-    ## 4    28      xfun 20437 2020-10-24 2020-10-24
-    ## 5    41     purrr 16456 2020-10-24 2020-10-24
-    ## 6    43  pkgbuild 16289 2020-10-24 2020-10-24
-    ## 7    49 lubridate 15584 2020-10-24 2020-10-24
-    ## 8    55  evaluate 14929 2020-10-24 2020-10-24
-    ## 9    57      utf8 14792 2020-10-24 2020-10-24
-    ## 10   61      curl 14398 2020-10-24 2020-10-24
+    ##    rank     package count       from         to
+    ## 1    12       dplyr 32797 2020-10-24 2020-10-24
+    ## 2    16  tidyselect 25404 2020-10-24 2020-10-24
+    ## 3    18   lifecycle 24055 2020-10-24 2020-10-24
+    ## 4    35       tidyr 18164 2020-10-24 2020-10-24
+    ## 5    40      crayon 16714 2020-10-24 2020-10-24
+    ## 6    53     tinytex 15273 2020-10-24 2020-10-24
+    ## 7    63 prettyunits 14181 2020-10-24 2020-10-24
+    ## 8    66        yaml 13935 2020-10-24 2020-10-24
+    ## 9    68   tidyverse 13739 2020-10-24 2020-10-24
+    ## 10   82        plyr 11391 2020-10-24 2020-10-24
 
 ## Steps
 
