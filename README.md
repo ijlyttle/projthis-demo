@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2020-10-26 01:54:11 UTC
+2020-10-26 02:20:05 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -14,7 +14,7 @@ manages package dependencies.
 
 ## Demo
 
-This demo is run automatically by GitHub Actions, every day at midnight
+This demo is run automatically by GitHub Actions, every day at 02:30
 UTC, as well as whenever there is a change to `README.Rmd`.
 
 For this demo, we will select a letter at random, then get a data frame
@@ -35,7 +35,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "y"
+    ## [1] "o"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -43,17 +43,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank     package count       from         to
-    ## 1    12       dplyr 32797 2020-10-24 2020-10-24
-    ## 2    16  tidyselect 25404 2020-10-24 2020-10-24
-    ## 3    18   lifecycle 24055 2020-10-24 2020-10-24
-    ## 4    35       tidyr 18164 2020-10-24 2020-10-24
-    ## 5    40      crayon 16714 2020-10-24 2020-10-24
-    ## 6    53     tinytex 15273 2020-10-24 2020-10-24
-    ## 7    63 prettyunits 14181 2020-10-24 2020-10-24
-    ## 8    66        yaml 13935 2020-10-24 2020-10-24
-    ## 9    68   tidyverse 13739 2020-10-24 2020-10-24
-    ## 10   82        plyr 11391 2020-10-24 2020-10-24
+    ##    rank   package count       from         to
+    ## 1     4 rsconnect 84364 2020-10-24 2020-10-24
+    ## 2     5  jsonlite 61491 2020-10-24 2020-10-24
+    ## 3     7  devtools 50159 2020-10-24 2020-10-24
+    ## 4     9   ggplot2 41116 2020-10-24 2020-10-24
+    ## 5    20     rgeos 22977 2020-10-24 2020-10-24
+    ## 6    21   pkgdown 22681 2020-10-24 2020-10-24
+    ## 7    34  markdown 18364 2020-10-24 2020-10-24
+    ## 8    36 rmarkdown 18046 2020-10-24 2020-10-24
+    ## 9    37  processx 17933 2020-10-24 2020-10-24
+    ## 10   38     broom 17412 2020-10-24 2020-10-24
 
 ## Steps
 
@@ -92,7 +92,7 @@ file](https://github.com/ijlyttle/projthis-demo/blob/master/.github/workflows/pr
 so that the build would be triggered by either:
 
   - a change to `README.Rmd`
-  - the clock changing to midnight UTC
+  - the clock changing to 02:30 UTC
 
 <!-- end list -->
 
@@ -118,7 +118,7 @@ on:
 
   # runs on a schedule using UTC - see https://en.wikipedia.org/wiki/Cron
   schedule:
-    - cron:  '00 02 * * *' # 02:00 UTC, every day
+    - cron:  '30 02 * * *' # 02:30 UTC, every day
 ```
 
 I also modified a bit at the end of the Actions file, to specify the

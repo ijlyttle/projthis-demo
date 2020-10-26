@@ -13,7 +13,7 @@ The goal of this project is to show how you can use the [projthis]() package, al
 
 ## Demo
 
-This demo is run automatically by GitHub Actions, every day at midnight UTC, as well as whenever there is a change to `README.Rmd`.
+This demo is run automatically by GitHub Actions, every day at 02:30 UTC, as well as whenever there is a change to `README.Rmd`.
 
 For this demo, we will select a letter at random, then get a data frame of the top ten most-downloaded packages (from the day's top 100) that contain this letter in its name. 
 
@@ -70,7 +70,7 @@ We want to automate the build on a schedule.
 I modified a bit at the start of the [Actions file](https://github.com/ijlyttle/projthis-demo/blob/master/.github/workflows/project-run.yaml) so that the build would be triggered by either:
 
 - a change to `README.Rmd`
-- the clock changing to midnight UTC
+- the clock changing to 02:30 UTC
 
 ```yaml
 on:
@@ -94,7 +94,7 @@ on:
 
   # runs on a schedule using UTC - see https://en.wikipedia.org/wiki/Cron
   schedule:
-    - cron:  '00 02 * * *' # 02:00 UTC, every day
+    - cron:  '30 02 * * *' # 02:30 UTC, every day
 ```
 
 I also modified a bit at the end of the Actions file, to specify the rendering and deployment. In this case, we are rendering the `README.Rmd` file, committing `README.md` then pushing back to the original branch:
