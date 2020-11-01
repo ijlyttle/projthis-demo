@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2020-10-31 02:34:48 UTC
+2020-11-01 02:32:40 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -35,7 +35,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "a"
+    ## [1] "w"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -43,17 +43,12 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank   package count       from         to
-    ## 1     2     rlang 78929 2020-10-29 2020-10-29
-    ## 2    17    pillar 42829 2020-10-29 2020-10-29
-    ## 3    20  magrittr 40145 2020-10-29 2020-10-29
-    ## 4    22     callr 39693 2020-10-29 2020-10-29
-    ## 5    24  markdown 36637 2020-10-29 2020-10-29
-    ## 6    27    crayon 35655 2020-10-29 2020-10-29
-    ## 7    28     fansi 35274 2020-10-29 2020-10-29
-    ## 8    31   pkgload 34741 2020-10-29 2020-10-29
-    ## 9    32      yaml 34539 2020-10-29 2020-10-29
-    ## 10   33 rmarkdown 34478 2020-10-29 2020-10-29
+    ##   rank      package count       from         to
+    ## 1   24    rmarkdown 30426 2020-10-30 2020-10-30
+    ## 2   26     markdown 28385 2020-10-30 2020-10-30
+    ## 3   38        withr 26634 2020-10-30 2020-10-30
+    ## 4   57      pkgdown 23730 2020-10-30 2020-10-30
+    ## 5   81 RColorBrewer 18541 2020-10-30 2020-10-30
 
 ## Steps
 
