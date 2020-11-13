@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2020-11-12 02:33:35 UTC
+2020-11-13 02:33:08 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -35,7 +35,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "n"
+    ## [1] "i"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -43,17 +43,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank   package count       from         to
-    ## 1     1  jsonlite 86733 2020-11-10 2020-11-10
-    ## 2     2     rlang 76611 2020-11-10 2020-11-10
-    ## 3    13      xfun 44301 2020-11-10 2020-11-10
-    ## 4    24     knitr 35801 2020-11-10 2020-11-10
-    ## 5    26 rmarkdown 35124 2020-11-10 2020-11-10
-    ## 6    29   tinytex 34381 2020-11-10 2020-11-10
-    ## 7    37   stringi 31772 2020-11-10 2020-11-10
-    ## 8    45    crayon 30271 2020-11-10 2020-11-10
-    ## 9    46     fansi 30185 2020-11-10 2020-11-10
-    ## 10   47   stringr 30031 2020-11-10 2020-11-10
+    ##    rank    package count       from         to
+    ## 1     1   jsonlite 86002 2020-11-11 2020-11-11
+    ## 2     8    usethis 52867 2020-11-11 2020-11-11
+    ## 3     9     tibble 51095 2020-11-11 2020-11-11
+    ## 4    11 tidyselect 44633 2020-11-11 2020-11-11
+    ## 5    12  lifecycle 43800 2020-11-11 2020-11-11
+    ## 6    14 rstudioapi 39771 2020-11-11 2020-11-11
+    ## 7    16     pillar 37127 2020-11-11 2020-11-11
+    ## 8    17   ellipsis 37030 2020-11-11 2020-11-11
+    ## 9    18     digest 36811 2020-11-11 2020-11-11
+    ## 10   19   magrittr 35542 2020-11-11 2020-11-11
 
 ## Steps
 
