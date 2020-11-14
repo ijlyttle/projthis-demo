@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2020-11-13 02:33:08 UTC
+2020-11-14 02:34:56 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -35,7 +35,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "i"
+    ## [1] "z"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -43,17 +43,8 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank    package count       from         to
-    ## 1     1   jsonlite 86002 2020-11-11 2020-11-11
-    ## 2     8    usethis 52867 2020-11-11 2020-11-11
-    ## 3     9     tibble 51095 2020-11-11 2020-11-11
-    ## 4    11 tidyselect 44633 2020-11-11 2020-11-11
-    ## 5    12  lifecycle 43800 2020-11-11 2020-11-11
-    ## 6    14 rstudioapi 39771 2020-11-11 2020-11-11
-    ## 7    16     pillar 37127 2020-11-11 2020-11-11
-    ## 8    17   ellipsis 37030 2020-11-11 2020-11-11
-    ## 9    18     digest 36811 2020-11-11 2020-11-11
-    ## 10   19   magrittr 35542 2020-11-11 2020-11-11
+    ##   rank package count       from         to
+    ## 1   41     zoo 30121 2020-11-12 2020-11-12
 
 ## Steps
 
