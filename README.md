@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2020-11-19 02:31:41 UTC
+2020-11-20 02:31:45 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -35,7 +35,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "j"
+    ## [1] "s"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -43,10 +43,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##   rank   package count       from         to
-    ## 1    1  jsonlite 85622 2020-11-17 2020-11-17
-    ## 2   18 rprojroot 37161 2020-11-17 2020-11-17
-    ## 3   33   diffobj 32690 2020-11-17 2020-11-17
+    ##    rank    package count       from         to
+    ## 1     1   jsonlite 83810 2020-11-18 2020-11-18
+    ## 2     2      vctrs 82363 2020-11-18 2020-11-18
+    ## 3     7         fs 55451 2020-11-18 2020-11-18
+    ## 4     8   devtools 54427 2020-11-18 2020-11-18
+    ## 5     9    usethis 51678 2020-11-18 2020-11-18
+    ## 6    12 tidyselect 45838 2020-11-18 2020-11-18
+    ## 7    15    StepReg 40170 2020-11-18 2020-11-18
+    ## 8    16   ellipsis 38781 2020-11-18 2020-11-18
+    ## 9    19     digest 35637 2020-11-18 2020-11-18
+    ## 10   22   testthat 34726 2020-11-18 2020-11-18
 
 ## Steps
 
