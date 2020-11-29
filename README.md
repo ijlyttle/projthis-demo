@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2020-11-28 02:32:08 UTC
+2020-11-29 02:32:54 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -35,7 +35,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "f"
+    ## [1] "q"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -43,17 +43,8 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank   package count       from         to
-    ## 1     5        fs 53972 2020-11-26 2020-11-26
-    ## 2    11 lifecycle 37742 2020-11-26 2020-11-26
-    ## 3    17      xfun 30715 2020-11-26 2020-11-26
-    ## 4    28   diffobj 26498 2020-11-26 2020-11-26
-    ## 5    31        sf 25839 2020-11-26 2020-11-26
-    ## 6    42     fansi 23641 2020-11-26 2020-11-26
-    ## 7    54      utf8 22270 2020-11-26 2020-11-26
-    ## 8    58 pkgconfig 22050 2020-11-26 2020-11-26
-    ## 9    63    vdiffr 21799 2020-11-26 2020-11-26
-    ## 10   84    farver 16858 2020-11-26 2020-11-26
+    ## [1] rank    package count   from    to     
+    ## <0 rows> (or 0-length row.names)
 
 ## Steps
 
