@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2020-12-11 02:43:11 UTC
+2020-12-12 02:42:31 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -35,7 +35,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "f"
+    ## [1] "h"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -43,14 +43,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##   rank   package count       from         to
-    ## 1    9 lifecycle 39189 2020-12-09 2020-12-09
-    ## 2   14      xfun 34722 2020-12-09 2020-12-09
-    ## 3   29   diffobj 27631 2020-12-09 2020-12-09
-    ## 4   50     fansi 24546 2020-12-09 2020-12-09
-    ## 5   55      utf8 23257 2020-12-09 2020-12-09
-    ## 6   56 pkgconfig 22975 2020-12-09 2020-12-09
-    ## 7   73    farver 18706 2020-12-09 2020-12-09
+    ##    rank     package count       from         to
+    ## 1    13    testthat 33388 2020-12-10 2020-12-10
+    ## 2    33        httr 26451 2020-12-10 2020-12-10
+    ## 3    39       withr 25655 2020-12-10 2020-12-10
+    ## 4    50       highr 24089 2020-12-10 2020-12-10
+    ## 5    53    rematch2 23684 2020-12-10 2020-12-10
+    ## 6    57  assertthat 22659 2020-12-10 2020-12-10
+    ## 7    58         hms 22611 2020-12-10 2020-12-10
+    ## 8    64   htmltools 20892 2020-12-10 2020-12-10
+    ## 9    70          BH 19412 2020-12-10 2020-12-10
+    ## 10   87 htmlwidgets 16613 2020-12-10 2020-12-10
 
 ## Steps
 
