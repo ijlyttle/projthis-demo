@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2020-12-13 02:43:02 UTC
+2020-12-14 02:45:02 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -35,7 +35,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "a"
+    ## [1] "q"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -43,17 +43,8 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank         package count       from         to
-    ## 1     1          aws.s3 86793 2020-12-11 2020-12-11
-    ## 2     2   aws.signature 84153 2020-12-11 2020-12-11
-    ## 3     3 aws.ec2metadata 80990 2020-12-11 2020-12-11
-    ## 4     5           rlang 60037 2020-12-11 2020-12-11
-    ## 5    13          pillar 36359 2020-12-11 2020-12-11
-    ## 6    14        magrittr 35099 2020-12-11 2020-12-11
-    ## 7    25       rmarkdown 27737 2020-12-11 2020-12-11
-    ## 8    27      data.table 26589 2020-12-11 2020-12-11
-    ## 9    28        testthat 26583 2020-12-11 2020-12-11
-    ## 10   29           callr 26423 2020-12-11 2020-12-11
+    ## [1] rank    package count   from    to     
+    ## <0 rows> (or 0-length row.names)
 
 ## Steps
 
