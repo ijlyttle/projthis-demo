@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2020-12-16 02:47:05 UTC
+2020-12-17 02:47:38 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -35,7 +35,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "r"
+    ## [1] "d"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -43,17 +43,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank   package  count       from         to
-    ## 1     1   StepReg 132841 2020-12-14 2020-12-14
-    ## 2     2     rlang  62287 2020-12-14 2020-12-14
-    ## 3     3     vctrs  56510 2020-12-14 2020-12-14
-    ## 4     4     dplyr  51634 2020-12-14 2020-12-14
-    ## 5    11  magrittr  34541 2020-12-14 2020-12-14
-    ## 6    12    pillar  34146 2020-12-14 2020-12-14
-    ## 7    14 rmarkdown  31757 2020-12-14 2020-12-14
-    ## 8    18  processx  29164 2020-12-14 2020-12-14
-    ## 9    22     knitr  28760 2020-12-14 2020-12-14
-    ## 10   25        R6  27424 2020-12-14 2020-12-14
+    ##    rank    package count       from         to
+    ## 1     3      dplyr 51350 2020-12-15 2020-12-15
+    ## 2     8 tidyselect 38139 2020-12-15 2020-12-15
+    ## 3    12  rmarkdown 33998 2020-12-15 2020-12-15
+    ## 4    22     digest 29374 2020-12-15 2020-12-15
+    ## 5    23 data.table 29118 2020-12-15 2020-12-15
+    ## 6    27  tidyverse 27558 2020-12-15 2020-12-15
+    ## 7    33      tidyr 26587 2020-12-15 2020-12-15
+    ## 8    34   markdown 26377 2020-12-15 2020-12-15
+    ## 9    35      waldo 26209 2020-12-15 2020-12-15
+    ## 10   39    diffobj 25590 2020-12-15 2020-12-15
 
 ## Steps
 
