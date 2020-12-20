@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2020-12-19 02:53:08 UTC
+2020-12-20 02:50:11 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -35,7 +35,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "e"
+    ## [1] "o"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -43,17 +43,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank    package count       from         to
-    ## 1     4     tibble 41010 2020-12-17 2020-12-17
-    ## 2     5   testthat 40365 2020-12-17 2020-12-17
-    ## 3     6       glue 39563 2020-12-17 2020-12-17
-    ## 4     7   jsonlite 38988 2020-12-17 2020-12-17
-    ## 5     8 tidyselect 37889 2020-12-17 2020-12-17
-    ## 6     9  lifecycle 37881 2020-12-17 2020-12-17
-    ## 7    10    StepReg 37216 2020-12-17 2020-12-17
-    ## 8    20   ellipsis 30193 2020-12-17 2020-12-17
-    ## 9    23    tinytex 29357 2020-12-17 2020-12-17
-    ## 10   25   processx 28148 2020-12-17 2020-12-17
+    ##    rank   package count       from         to
+    ## 1     8  jsonlite 32600 2020-12-18 2020-12-18
+    ## 2    16     broom 27648 2020-12-18 2020-12-18
+    ## 3    18 rmarkdown 26359 2020-12-18 2020-12-18
+    ## 4    22   ggplot2 25871 2020-12-18 2020-12-18
+    ## 5    25  markdown 24301 2020-12-18 2020-12-18
+    ## 6    26  processx 24239 2020-12-18 2020-12-18
+    ## 7    36       zoo 22082 2020-12-18 2020-12-18
+    ## 8    42     waldo 21074 2020-12-18 2020-12-18
+    ## 9    44   diffobj 20601 2020-12-18 2020-12-18
+    ## 10   45   globals 20514 2020-12-18 2020-12-18
 
 ## Steps
 
