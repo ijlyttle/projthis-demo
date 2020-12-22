@@ -49,12 +49,13 @@ jobs:
   # name of the job
   project-compile:
     # there are other OS options available,
-    # but the package-caching is set up for `macOS-latest`
-    runs-on: macOS-latest
+    # but the package-caching is set up for `ubuntu`
+    runs-on: ubuntu-20.04
     # set variables in your environment:
     # as this is GitHub, your token is available
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+      RSPM: "https://packagemanager.rstudio.com/cran/__linux__/focal/latest"
     steps:
 
       # these steps are provided by Jim Hester - as he makes improvements,

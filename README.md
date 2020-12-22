@@ -1,11 +1,9 @@
 projthis Demonstration
 ================
-2020-12-22 02:59:14 UTC
+2020-12-22 15:37:46 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-
 <!-- badges: start -->
-
 <!-- badges: end -->
 
 The goal of this project is to show how you can use the [projthis]()
@@ -35,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "t"
+    ## [1] "q"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -43,17 +41,8 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank    package count       from         to
-    ## 1     2      vctrs 30645 2020-12-20 2020-12-20
-    ## 2     6     tibble 19828 2020-12-20 2020-12-20
-    ## 3     7   jsonlite 19604 2020-12-20 2020-12-20
-    ## 4     8 tidyselect 19110 2020-12-20 2020-12-20
-    ## 5     9   magrittr 18538 2020-12-20 2020-12-20
-    ## 6    13      tidyr 16089 2020-12-20 2020-12-20
-    ## 7    14    ggplot2 15716 2020-12-20 2020-12-20
-    ## 8    16   testthat 15382 2020-12-20 2020-12-20
-    ## 9    19      knitr 15148 2020-12-20 2020-12-20
-    ## 10   20     digest 14925 2020-12-20 2020-12-20
+    ## [1] rank    package count   from    to     
+    ## <0 rows> (or 0-length row.names)
 
 ## Steps
 
@@ -91,10 +80,8 @@ I modified a bit at the start of the [Actions
 file](https://github.com/ijlyttle/projthis-demo/blob/master/.github/workflows/project-run.yaml)
 so that the build would be triggered by either:
 
-  - a change to `README.Rmd`
-  - the clock changing to 02:30 UTC
-
-<!-- end list -->
+-   a change to `README.Rmd`
+-   the clock changing to 02:30 UTC
 
 ``` yaml
 on:
