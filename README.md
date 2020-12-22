@@ -1,11 +1,9 @@
 projthis Demonstration
 ================
-2020-10-26 15:55:36 UTC
+2020-12-22 15:36:56 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-
 <!-- badges: start -->
-
 <!-- badges: end -->
 
 The goal of this project is to show how you can use the [projthis]()
@@ -35,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "s"
+    ## [1] "k"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -43,17 +41,15 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank         package count       from         to
-    ## 1     2          aws.s3 87487 2020-10-24 2020-10-24
-    ## 2     3 aws.ec2metadata 86200 2020-10-24 2020-10-24
-    ## 3     4       rsconnect 84364 2020-10-24 2020-10-24
-    ## 4     5        jsonlite 61491 2020-10-24 2020-10-24
-    ## 5     6              fs 51287 2020-10-24 2020-10-24
-    ## 6     7        devtools 50159 2020-10-24 2020-10-24
-    ## 7     8         usethis 49362 2020-10-24 2020-10-24
-    ## 8    11           vctrs 33425 2020-10-24 2020-10-24
-    ## 9    15           Hmisc 26133 2020-10-24 2020-10-24
-    ## 10   16      tidyselect 25404 2020-10-24 2020-10-24
+    ##   rank   package count       from         to
+    ## 1   18  markdown 15162 2020-12-20 2020-12-20
+    ## 2   19     knitr 15148 2020-12-20 2020-12-20
+    ## 3   22  pkgbuild 14556 2020-12-20 2020-12-20
+    ## 4   28 rmarkdown 13808 2020-12-20 2020-12-20
+    ## 5   48   pkgload 11665 2020-12-20 2020-12-20
+    ## 6   58 pkgconfig 10737 2020-12-20 2020-12-20
+    ## 7   62 backports 10214 2020-12-20 2020-12-20
+    ## 8   80   askpass  8328 2020-12-20 2020-12-20
 
 ## Steps
 
@@ -91,10 +87,8 @@ I modified a bit at the start of the [Actions
 file](https://github.com/ijlyttle/projthis-demo/blob/master/.github/workflows/project-run.yaml)
 so that the build would be triggered by either:
 
-  - a change to `README.Rmd`
-  - the clock changing to 02:30 UTC
-
-<!-- end list -->
+-   a change to `README.Rmd`
+-   the clock changing to 02:30 UTC
 
 ``` yaml
 on:
