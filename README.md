@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2020-12-30 03:00:04 UTC
+2021-01-01 03:02:06 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -35,7 +35,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "b"
+    ## [1] "p"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -43,17 +43,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank    package count       from         to
-    ## 1     3 stabledist 39543 2020-12-28 2020-12-28
-    ## 2     5     tibble 30090 2020-12-28 2020-12-28
-    ## 3    15      broom 21316 2020-12-28 2020-12-28
-    ## 4    28   pkgbuild 19007 2020-12-28 2020-12-28
-    ## 5    32 data.table 18445 2020-12-28 2020-12-28
-    ## 6    39  lubridate 17006 2020-12-28 2020-12-28
-    ## 7    43    diffobj 16258 2020-12-28 2020-12-28
-    ## 8    45       brio 16046 2020-12-28 2020-12-28
-    ## 9    53    isoband 15278 2020-12-28 2020-12-28
-    ## 10   71  backports 12652 2020-12-28 2020-12-28
+    ##    rank  package count       from         to
+    ## 1     2    dplyr 38997 2020-12-30 2020-12-30
+    ## 2     5  ggplot2 31306 2020-12-30 2020-12-30
+    ## 3     6   pillar 31006 2020-12-30 2020-12-30
+    ## 4     9 processx 27423 2020-12-30 2020-12-30
+    ## 5    10 pkgbuild 26850 2020-12-30 2020-12-30
+    ## 6    18  pkgload 24405 2020-12-30 2020-12-30
+    ## 7    26    purrr 19833 2020-12-30 2020-12-30
+    ## 8    27 ellipsis 19625 2020-12-30 2020-12-30
+    ## 9    32    cpp11 18612 2020-12-30 2020-12-30
+    ## 10   40       ps 16994 2020-12-30 2020-12-30
 
 ## Steps
 
