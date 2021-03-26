@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2021-03-25 03:13:59 UTC
+2021-03-26 04:02:32 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -35,7 +35,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "m"
+    ## [1] "q"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -43,17 +43,8 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank       package count       from         to
-    ## 1    14      magrittr 40251 2021-03-23 2021-03-23
-    ## 2    33         broom 31522 2021-03-23 2021-03-23
-    ## 3    35     rmarkdown 30975 2021-03-23 2021-03-23
-    ## 4    36           hms 30933 2021-03-23 2021-03-23
-    ## 5    38      markdown 30033 2021-03-23 2021-03-23
-    ## 6    42     htmltools 29018 2021-03-23 2021-03-23
-    ## 7    43          mime 28916 2021-03-23 2021-03-23
-    ## 8    44 RcppArmadillo 28888 2021-03-23 2021-03-23
-    ## 9    55          yaml 25496 2021-03-23 2021-03-23
-    ## 10   56          xml2 25053 2021-03-23 2021-03-23
+    ## [1] rank    package count   from    to     
+    ## <0 rows> (or 0-length row.names)
 
 ## Steps
 
