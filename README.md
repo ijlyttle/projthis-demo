@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2021-06-21 02:54:23 UTC
+2021-06-22 02:51:39 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -35,7 +35,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "v"
+    ## [1] "k"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -43,17 +43,14 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank     package count       from         to
-    ## 1     6       vctrs 32455 2021-06-19 2021-06-19
-    ## 2    12    devtools 28230 2021-06-19 2021-06-19
-    ## 3    17          V8 23366 2021-06-19 2021-06-19
-    ## 4    50   tidyverse 14353 2021-06-19 2021-06-19
-    ## 5    59 viridisLite 12811 2021-06-19 2021-06-19
-    ## 6    61       rvest 12511 2021-06-19 2021-06-19
-    ## 7    72 googledrive 11213 2021-06-19 2021-06-19
-    ## 8    77       haven 10959 2021-06-19 2021-06-19
-    ## 9    79    evaluate 10812 2021-06-19 2021-06-19
-    ## 10   81      farver 10136 2021-06-19 2021-06-19
+    ##   rank   package count       from         to
+    ## 1    9   pkgdown 31675 2021-06-20 2021-06-20
+    ## 2   31     knitr 19437 2021-06-20 2021-06-20
+    ## 3   37 rmarkdown 17483 2021-06-20 2021-06-20
+    ## 4   45  markdown 15397 2021-06-20 2021-06-20
+    ## 5   65 pkgconfig 12310 2021-06-20 2021-06-20
+    ## 6   89   askpass  9651 2021-06-20 2021-06-20
+    ## 7   97   pkgload  9245 2021-06-20 2021-06-20
 
 ## Steps
 
