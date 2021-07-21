@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2021-07-20 02:45:18 UTC
+2021-07-21 02:44:24 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -35,7 +35,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "b"
+    ## [1] "i"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -43,17 +43,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank      package count       from         to
-    ## 1    15       tibble 23276 2021-07-18 2021-07-18
-    ## 2    32    lubridate 17471 2021-07-18 2021-07-18
-    ## 3    43        broom 14888 2021-07-18 2021-07-18
-    ## 4    48      isoband 14074 2021-07-18 2021-07-18
-    ## 5    55   data.table 13236 2021-07-18 2021-07-18
-    ## 6    68       dbplyr 10596 2021-07-18 2021-07-18
-    ## 7    74    base64enc  9934 2021-07-18 2021-07-18
-    ## 8    80         brio  9508 2021-07-18 2021-07-18
-    ## 9    82      diffobj  9424 2021-07-18 2021-07-18
-    ## 10   97 RColorBrewer  8276 2021-07-18 2021-07-18
+    ##    rank     package count       from         to
+    ## 1     4         cli 56066 2021-07-19 2021-07-19
+    ## 2     5   lifecycle 55828 2021-07-19 2021-07-19
+    ## 3     6    ellipsis 55681 2021-07-19 2021-07-19
+    ## 4     8      pillar 53420 2021-07-19 2021-07-19
+    ## 5    10 textshaping 45658 2021-07-19 2021-07-19
+    ## 6    11      tibble 43694 2021-07-19 2021-07-19
+    ## 7    13    jsonlite 40390 2021-07-19 2021-07-19
+    ## 8    14    magrittr 39654 2021-07-19 2021-07-19
+    ## 9    15     stringi 39096 2021-07-19 2021-07-19
+    ## 10   19       tidyr 34163 2021-07-19 2021-07-19
 
 ## Steps
 
