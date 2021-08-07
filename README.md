@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2021-08-06 02:43:29 UTC
+2021-08-07 02:44:52 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -44,13 +44,13 @@ cran_top_downloads(when = "last-day", count = 100) %>%
 ```
 
     ##   rank   package count       from         to
-    ## 1   35     knitr 29151 2021-08-04 2021-08-04
-    ## 2   36   pkgdown 28985 2021-08-04 2021-08-04
-    ## 3   46  markdown 25423 2021-08-04 2021-08-04
-    ## 4   49 rmarkdown 24913 2021-08-04 2021-08-04
-    ## 5   68 pkgconfig 20007 2021-08-04 2021-08-04
-    ## 6   83   askpass 17636 2021-08-04 2021-08-04
-    ## 7   92   pkgload 15512 2021-08-04 2021-08-04
+    ## 1   34     knitr 29567 2021-08-05 2021-08-05
+    ## 2   39   pkgdown 27562 2021-08-05 2021-08-05
+    ## 3   44 rmarkdown 25738 2021-08-05 2021-08-05
+    ## 4   45  markdown 25715 2021-08-05 2021-08-05
+    ## 5   68 pkgconfig 20521 2021-08-05 2021-08-05
+    ## 6   86   askpass 17099 2021-08-05 2021-08-05
+    ## 7   97   pkgload 15086 2021-08-05 2021-08-05
 
 ## Steps
 
