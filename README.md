@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2022-02-10 02:44:45 UTC
+2022-02-11 02:46:47 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -35,7 +35,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "d"
+    ## [1] "q"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -43,17 +43,9 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank    package count       from         to
-    ## 1     3      dplyr 74921 2022-02-08 2022-02-08
-    ## 2    17      tidyr 50287 2022-02-08 2022-02-08
-    ## 3    18   devtools 48365 2022-02-08 2022-02-08
-    ## 4    19    pkgdown 46373 2022-02-08 2022-02-08
-    ## 5    22 tidyselect 42031 2022-02-08 2022-02-08
-    ## 6    27 data.table 39113 2022-02-08 2022-02-08
-    ## 7    33  tidyverse 34659 2022-02-08 2022-02-08
-    ## 8    36     digest 33998 2022-02-08 2022-02-08
-    ## 9    37  lubridate 33729 2022-02-08 2022-02-08
-    ## 10   39      readr 33497 2022-02-08 2022-02-08
+    ##   rank   package count       from         to
+    ## 1   70 jquerylib 25626 2022-02-09 2022-02-09
+    ## 2   91  quadprog 20801 2022-02-09 2022-02-09
 
 ## Steps
 
