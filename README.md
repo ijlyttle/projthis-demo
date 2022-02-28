@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2022-02-27 02:49:08 UTC
+2022-02-28 02:47:51 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -35,7 +35,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "x"
+    ## [1] "t"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -43,13 +43,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##   rank     package count       from         to
-    ## 1   15 textshaping 40312 2022-02-25 2022-02-25
-    ## 2   26        xfun 28203 2022-02-25 2022-02-25
-    ## 3   42    processx 25864 2022-02-25 2022-02-25
-    ## 4   51     tinytex 22909 2022-02-25 2022-02-25
-    ## 5   60        xml2 20949 2022-02-25 2022-02-25
-    ## 6   81      readxl 17520 2022-02-25 2022-02-25
+    ##    rank     package count       from         to
+    ## 1     3     ggplot2 64602 2022-02-25 2022-02-25
+    ## 2     7    jsonlite 51027 2022-02-25 2022-02-25
+    ## 3     9       vctrs 45903 2022-02-25 2022-02-25
+    ## 4    10  tidyselect 44318 2022-02-25 2022-02-25
+    ## 5    12    magrittr 43350 2022-02-25 2022-02-25
+    ## 6    15 textshaping 40312 2022-02-25 2022-02-25
+    ## 7    16      tibble 39912 2022-02-25 2022-02-25
+    ## 8    18       tidyr 37698 2022-02-25 2022-02-25
+    ## 9    20    devtools 33656 2022-02-25 2022-02-25
+    ## 10   21       withr 33332 2022-02-25 2022-02-25
 
 ## Steps
 
