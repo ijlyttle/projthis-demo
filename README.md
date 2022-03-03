@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2022-03-02 02:54:44 UTC
+2022-03-03 03:01:36 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -35,7 +35,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "w"
+    ## [1] "f"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -43,13 +43,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##   rank         package count       from         to
-    ## 1   11         pkgdown 33624 2022-02-27 2022-02-27
-    ## 2   24           withr 19327 2022-02-27 2022-02-27
-    ## 3   51 aws.ec2metadata 12979 2022-02-27 2022-02-27
-    ## 4   60       rmarkdown 12200 2022-02-27 2022-02-27
-    ## 5   71    RColorBrewer 10974 2022-02-27 2022-02-27
-    ## 6   97           waldo  9291 2022-02-27 2022-02-27
+    ##    rank   package count       from         to
+    ## 1     6 lifecycle 59380 2022-03-01 2022-03-01
+    ## 2    15        sf 48728 2022-03-01 2022-03-01
+    ## 3    25     fansi 35305 2022-03-01 2022-03-01
+    ## 4    27      xfun 33330 2022-03-01 2022-03-01
+    ## 5    42      utf8 30555 2022-03-01 2022-03-01
+    ## 6    50 pkgconfig 27824 2022-03-01 2022-03-01
+    ## 7    64   fastmap 24403 2022-03-01 2022-03-01
+    ## 8    69    farver 23363 2022-03-01 2022-03-01
+    ## 9    78        fs 21202 2022-03-01 2022-03-01
+    ## 10   86   diffobj 20063 2022-03-01 2022-03-01
 
 ## Steps
 
