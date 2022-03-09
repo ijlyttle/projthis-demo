@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2022-03-08 02:48:30 UTC
+2022-03-09 02:53:10 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -35,7 +35,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "p"
+    ## [1] "b"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -43,17 +43,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank     package count       from         to
-    ## 1     1     ggplot2 60670 2022-03-06 2022-03-06
-    ## 2     3 textshaping 49183 2022-03-06 2022-03-06
-    ## 3    11       dplyr 33023 2022-03-06 2022-03-06
-    ## 4    12     pkgdown 32728 2022-03-06 2022-03-06
-    ## 5    15      pillar 28160 2022-03-06 2022-03-06
-    ## 6    18    ellipsis 26038 2022-03-06 2022-03-06
-    ## 7    20       cpp11 24815 2022-03-06 2022-03-06
-    ## 8    30        Rcpp 17933 2022-03-06 2022-03-06
-    ## 9    31    processx 17682 2022-03-06 2022-03-06
-    ## 10   39     openssl 15857 2022-03-06 2022-03-06
+    ##    rank      package count       from         to
+    ## 1    17       tibble 47266 2022-03-07 2022-03-07
+    ## 2    37   data.table 32591 2022-03-07 2022-03-07
+    ## 3    38        bslib 31974 2022-03-07 2022-03-07
+    ## 4    44    lubridate 31366 2022-03-07 2022-03-07
+    ## 5    59        broom 27741 2022-03-07 2022-03-07
+    ## 6    60         tzdb 26742 2022-03-07 2022-03-07
+    ## 7    64      isoband 25911 2022-03-07 2022-03-07
+    ## 8    67    jquerylib 25628 2022-03-07 2022-03-07
+    ## 9    72 RColorBrewer 24479 2022-03-07 2022-03-07
+    ## 10   75       gtable 22932 2022-03-07 2022-03-07
 
 ## Steps
 
