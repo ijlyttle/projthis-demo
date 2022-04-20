@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2022-04-19 03:40:56 UTC
+2022-04-20 03:52:35 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -35,7 +35,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "k"
+    ## [1] "x"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -43,11 +43,15 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##   rank   package count       from         to
-    ## 1   23   pkgdown 24164 2022-04-17 2022-04-17
-    ## 2   25     knitr 24071 2022-04-17 2022-04-17
-    ## 3   45 rmarkdown 18826 2022-04-17 2022-04-17
-    ## 4   62 pkgconfig 14254 2022-04-17 2022-04-17
+    ##   rank     package count       from         to
+    ## 1   18    processx 39964 2022-04-18 2022-04-18
+    ## 2   26 textshaping 37088 2022-04-18 2022-04-18
+    ## 3   55        xfun 25972 2022-04-18 2022-04-18
+    ## 4   58        xlsx 24670 2022-04-18 2022-04-18
+    ## 5   64        xml2 22912 2022-04-18 2022-04-18
+    ## 6   67    xlsxjars 22542 2022-04-18 2022-04-18
+    ## 7   71      readxl 21450 2022-04-18 2022-04-18
+    ## 8   88     tinytex 18910 2022-04-18 2022-04-18
 
 ## Steps
 
