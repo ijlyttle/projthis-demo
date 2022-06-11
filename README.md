@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2022-06-10 03:34:39 UTC
+2022-06-11 03:30:55 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -35,7 +35,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "y"
+    ## [1] "f"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -43,17 +43,16 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank     package count       from         to
-    ## 1     5       dplyr 76913 2022-06-07 2022-06-07
-    ## 2    11   lifecycle 58258 2022-06-07 2022-06-07
-    ## 3    21   tidyverse 45720 2022-06-07 2022-06-07
-    ## 4    23      crayon 45044 2022-06-07 2022-06-07
-    ## 5    28  tidyselect 42528 2022-06-07 2022-06-07
-    ## 6    30       tidyr 41465 2022-06-07 2022-06-07
-    ## 7    60      dbplyr 29173 2022-06-07 2022-06-07
-    ## 8    71        yaml 26685 2022-06-07 2022-06-07
-    ## 9    74     tinytex 25677 2022-06-07 2022-06-07
-    ## 10   75 prettyunits 25618 2022-06-07 2022-06-07
+    ##   rank   package count       from         to
+    ## 1    8        sf 62657 2022-06-09 2022-06-09
+    ## 2   14 lifecycle 54981 2022-06-09 2022-06-09
+    ## 3   36     fansi 36760 2022-06-09 2022-06-09
+    ## 4   41      xfun 34652 2022-06-09 2022-06-09
+    ## 5   47        fs 32189 2022-06-09 2022-06-09
+    ## 6   51      utf8 31379 2022-06-09 2022-06-09
+    ## 7   53 pkgconfig 30015 2022-06-09 2022-06-09
+    ## 8   71   fastmap 25329 2022-06-09 2022-06-09
+    ## 9   76    farver 24883 2022-06-09 2022-06-09
 
 ## Steps
 
