@@ -1,11 +1,9 @@
 projthis Demonstration
 ================
-2022-08-13 03:33:37 UTC
+2022-08-13 21:38:10 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-
 <!-- badges: start -->
-
 <!-- badges: end -->
 
 The goal of this project is to show how you can use the [projthis]()
@@ -35,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "b"
+    ## [1] "u"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -43,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank      package count       from         to
-    ## 1    16       tibble 41755 2022-08-11 2022-08-11
-    ## 2    17    lubridate 37889 2022-08-11 2022-08-11
-    ## 3    35   data.table 30245 2022-08-11 2022-08-11
-    ## 4    38        bslib 29472 2022-08-11 2022-08-11
-    ## 5    60        broom 24070 2022-08-11 2022-08-11
-    ## 6    61  BiocManager 23614 2022-08-11 2022-08-11
-    ## 7    62       dbplyr 23487 2022-08-11 2022-08-11
-    ## 8    68       ggpubr 22026 2022-08-11 2022-08-11
-    ## 9    73 RColorBrewer 21486 2022-08-11 2022-08-11
-    ## 10   77    jquerylib 19979 2022-08-11 2022-08-11
+    ##    rank   package count       from         to
+    ## 1     6      glue 54054 2022-08-12 2022-08-12
+    ## 2    23 lubridate 33178 2022-08-12 2022-08-12
+    ## 3    31      xfun 29267 2022-08-12 2022-08-12
+    ## 4    37      curl 27213 2022-08-12 2022-08-12
+    ## 5    59  evaluate 23208 2022-08-12 2022-08-12
+    ## 6    62      utf8 21140 2022-08-12 2022-08-12
+    ## 7    63    ggpubr 21080 2022-08-12 2022-08-12
+    ## 8    66     purrr 20621 2022-08-12 2022-08-12
+    ## 9    72 jquerylib 18961 2022-08-12 2022-08-12
+    ## 10   88     units 16733 2022-08-12 2022-08-12
 
 ## Steps
 
@@ -91,10 +89,8 @@ I modified a bit at the start of the [Actions
 file](https://github.com/ijlyttle/projthis-demo/blob/master/.github/workflows/project-run.yaml)
 so that the build would be triggered by either:
 
-  - a change to `README.Rmd`
-  - the clock changing to 02:30 UTC
-
-<!-- end list -->
+-   a change to `README.Rmd`
+-   the clock changing to 02:30 UTC
 
 ``` yaml
 on:
