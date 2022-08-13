@@ -37,6 +37,13 @@ jobs:
 
       - uses: r-lib/actions/setup-r-dependencies@v2
 
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.8.6
+          cache: pip # caching pip dependencies
+
+      - run: pip install -r requirements.txt
+
       # adapt this step to build your project
       - name: Render
         # - uncomment and adapt the call to `projthis::proj_workflow_render()`
