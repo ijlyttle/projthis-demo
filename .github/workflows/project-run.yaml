@@ -1,11 +1,15 @@
-# Workflow derived from https://github.com/r-lib/actions/tree/v2/examples
+# Workflow derived from https://github.com/r-lib/actions/blob/v2/examples/pkgdown.yaml
 # Need help debugging build failures? Start at https://github.com/r-lib/actions#where-to-find-help
 on:
   push:
     branches: [main, master]
   pull_request:
     branches: [main, master]
-  workflow_dispatch:
+  # # runs on a schedule using UTC - see https://en.wikipedia.org/wiki/Cron
+  # # **important**
+  # #   uncommented, `schedule:` must have the same indentation as `push:`
+  # schedule:
+  #   - cron:  '00 08 * * *' # 08:00 UTC every day
 
 name: projthis-build
 
@@ -14,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     # Only restrict concurrency for non-PR jobs
     concurrency:
-      group: pkgdown-${{ github.event_name != 'pull_request' || github.run_id }}
+      group: projthis-${{ github.event_name != 'pull_request' || github.run_id }}
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
     steps:
@@ -28,3 +32,22 @@ jobs:
 
       - uses: r-lib/actions/setup-r-dependencies@v2
 
+      # adapt this step to build your project
+      - name: Render workflow
+        # - uncomment and adapt the call to `projthis::proj_workflow_render()`
+        # - to run another workflow, add another call
+        run: |
+          # projthis::proj_workflow_render("workflow")
+        shell: Rscript {0}
+
+      # adapt this step to deploy your project
+      - name: Deploy
+        # - `git add -u` adds files that are *already* part of the repository
+        # - you may have to be creative with your `git add` call(s)
+        # - be wary of `git add -A`, as you might commit files you wish you hadn't
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add -u
+          git commit -m "updated by Actions" || echo "No changes to commit"
+          git push || echo "No changes to commit"
