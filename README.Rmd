@@ -67,26 +67,22 @@ We want to automate the build on a schedule.
 1. `proj_use_github_action()`
 1. Modify `.github/workflows/project-run.yaml` to customize trigger, what is built, and what is deployed.
 
-I modified a bit at the start of the [Actions file](https://github.com/ijlyttle/projthis-demo/blob/master/.github/workflows/project-run.yaml) so that the build would be triggered by either:
+This is a modification of the [pkgdown Actions file](https://github.com/r-lib/actions/blob/v2/examples/pkgdown.yaml), where the build is triggered by either:
 
 - a change to `README.Rmd`
-- the clock changing to 02:30 UTC
+- the clock changing to 08:00 UTC
 
 ```yaml
 on:
 
   # # runs whenever you push a specific branch
   # push:
-  #   branches:
-  #     - main
-  #     - master
+  #   branches: [main, master]
 
   # # runs on pull requests to a specific branch
   # pull_request:
-  #   branches:
-  #     - main
-  #     - master
-
+  #   branches: [main, master]
+  
   # runs when we push README.Rmd
   push:
     paths:
@@ -94,21 +90,21 @@ on:
 
   # runs on a schedule using UTC - see https://en.wikipedia.org/wiki/Cron
   schedule:
-    - cron:  '30 02 * * *' # 02:30 UTC, every day
+    - cron:  '00 02 * * *' # 08:00 UTC, every day
 ```
 
 I also modified a bit at the end of the Actions file, to specify the rendering and deployment. In this case, we are rendering the `README.Rmd` file, committing `README.md` then pushing back to the original branch:
 
 ```yaml
       # rename and adapt this step to build your project
-      - name: Render README.Rmd
+      - name: Render
         # if you are running only R commands, this can be a convenient syntax
         run: |
           rmarkdown::render("README.Rmd")
         shell: Rscript {0}
 
       # rename and adapt this step to deploy your project
-      - name: Commit README.md, push
+      - name: Commit
         # if you need to combine R commands with shell commands, try this syntax
         #
         # caution to stay away from syntax like `git add -A` as you might be committing
@@ -117,7 +113,7 @@ I also modified a bit at the end of the Actions file, to specify the rendering a
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
-          git add 'README.md'
+          git add "README.md"
           git commit -m 'automated run' || echo "No changes to commit"
           git push origin || echo "No changes to commit"
 ```
