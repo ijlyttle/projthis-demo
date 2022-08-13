@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2022-08-13 21:38:10 UTC
+2022-08-13 21:48:56 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "u"
+    ## [1] "c"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank   package count       from         to
-    ## 1     6      glue 54054 2022-08-12 2022-08-12
-    ## 2    23 lubridate 33178 2022-08-12 2022-08-12
-    ## 3    31      xfun 29267 2022-08-12 2022-08-12
-    ## 4    37      curl 27213 2022-08-12 2022-08-12
-    ## 5    59  evaluate 23208 2022-08-12 2022-08-12
-    ## 6    62      utf8 21140 2022-08-12 2022-08-12
-    ## 7    63    ggpubr 21080 2022-08-12 2022-08-12
-    ## 8    66     purrr 20621 2022-08-12 2022-08-12
-    ## 9    72 jquerylib 18961 2022-08-12 2022-08-12
-    ## 10   88     units 16733 2022-08-12 2022-08-12
+    ##    rank    package count       from         to
+    ## 1     5        cli 56349 2022-08-12 2022-08-12
+    ## 2    13      vctrs 45829 2022-08-12 2022-08-12
+    ## 3    16  lifecycle 38594 2022-08-12 2022-08-12
+    ## 4    24      callr 32828 2022-08-12 2022-08-12
+    ## 5    25      cpp11 32815 2022-08-12 2022-08-12
+    ## 6    26   processx 32810 2022-08-12 2022-08-12
+    ## 7    34 tidyselect 28387 2022-08-12 2022-08-12
+    ## 8    37       curl 27213 2022-08-12 2022-08-12
+    ## 9    42   corrplot 25872 2022-08-12 2022-08-12
+    ## 10   44     crayon 25506 2022-08-12 2022-08-12
 
 ## Steps
 
@@ -85,28 +85,24 @@ We want to automate the build on a schedule.
 2.  Modify `.github/workflows/project-run.yaml` to customize trigger,
     what is built, and what is deployed.
 
-I modified a bit at the start of the [Actions
-file](https://github.com/ijlyttle/projthis-demo/blob/master/.github/workflows/project-run.yaml)
-so that the build would be triggered by either:
+This is a modification of the [pkgdown Actions
+file](https://github.com/r-lib/actions/blob/v2/examples/pkgdown.yaml),
+where the build is triggered by either:
 
 -   a change to `README.Rmd`
--   the clock changing to 02:30 UTC
+-   the clock changing to 08:00 UTC
 
 ``` yaml
 on:
 
   # # runs whenever you push a specific branch
   # push:
-  #   branches:
-  #     - main
-  #     - master
+  #   branches: [main, master]
 
   # # runs on pull requests to a specific branch
   # pull_request:
-  #   branches:
-  #     - main
-  #     - master
-
+  #   branches: [main, master]
+  
   # runs when we push README.Rmd
   push:
     paths:
@@ -114,7 +110,7 @@ on:
 
   # runs on a schedule using UTC - see https://en.wikipedia.org/wiki/Cron
   schedule:
-    - cron:  '30 02 * * *' # 02:30 UTC, every day
+    - cron:  '00 02 * * *' # 08:00 UTC, every day
 ```
 
 I also modified a bit at the end of the Actions file, to specify the
@@ -124,14 +120,14 @@ original branch:
 
 ``` yaml
       # rename and adapt this step to build your project
-      - name: Render README.Rmd
+      - name: Render
         # if you are running only R commands, this can be a convenient syntax
         run: |
           rmarkdown::render("README.Rmd")
         shell: Rscript {0}
 
       # rename and adapt this step to deploy your project
-      - name: Commit README.md, push
+      - name: Commit
         # if you need to combine R commands with shell commands, try this syntax
         #
         # caution to stay away from syntax like `git add -A` as you might be committing
@@ -140,7 +136,7 @@ original branch:
         run: |
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Actions"
-          git add 'README.md'
+          git add "README.md"
           git commit -m 'automated run' || echo "No changes to commit"
           git push origin || echo "No changes to commit"
 ```
