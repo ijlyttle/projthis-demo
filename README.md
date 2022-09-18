@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2022-09-17 08:21:23 UTC
+2022-09-18 08:21:24 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "o"
+    ## [1] "c"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank   package  count       from         to
-    ## 1     5   ggplot2 101545 2022-09-15 2022-09-15
-    ## 2    12  devtools  54594 2022-09-15 2022-09-15
-    ## 3    14   pkgdown  53048 2022-09-15 2022-09-15
-    ## 4    18   openssl  50048 2022-09-15 2022-09-15
-    ## 5    21  jsonlite  49248 2022-09-15 2022-09-15
-    ## 6    28  processx  46069 2022-09-15 2022-09-15
-    ## 7    35     rgeos  42044 2022-09-15 2022-09-15
-    ## 8    41     broom  41383 2022-09-15 2022-09-15
-    ## 9    42 htmltools  41282 2022-09-15 2022-09-15
-    ## 10   44 rmarkdown  40200 2022-09-15 2022-09-15
+    ##    rank    package count       from         to
+    ## 1     2      vctrs 99465 2022-09-16 2022-09-16
+    ## 2     8        cli 70129 2022-09-16 2022-09-16
+    ## 3     9  lifecycle 62397 2022-09-16 2022-09-16
+    ## 4    18      callr 42041 2022-09-16 2022-09-16
+    ## 5    21   processx 41086 2022-09-16 2022-09-16
+    ## 6    33       curl 37114 2022-09-16 2022-09-16
+    ## 7    36 tidyselect 35653 2022-09-16 2022-09-16
+    ## 8    37      cpp11 34647 2022-09-16 2022-09-16
+    ## 9    39     scales 34496 2022-09-16 2022-09-16
+    ## 10   47       Rcpp 31908 2022-09-16 2022-09-16
 
 ## Steps
 
