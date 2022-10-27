@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2022-10-26 08:21:57 UTC
+2022-10-27 08:22:51 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "x"
+    ## [1] "r"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,14 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##   rank     package count       from         to
-    ## 1    8 textshaping 78517 2022-10-24 2022-10-24
-    ## 2   20        xfun 44192 2022-10-24 2022-10-24
-    ## 3   34    processx 39322 2022-10-24 2022-10-24
-    ## 4   67        xml2 29399 2022-10-24 2022-10-24
-    ## 5   71     tinytex 27006 2022-10-24 2022-10-24
-    ## 6   72      readxl 26982 2022-10-24 2022-10-24
-    ## 7   98      Matrix 20687 2022-10-24 2022-10-24
+    ##    rank  package  count       from         to
+    ## 1     1    rlang 106801 2022-10-25 2022-10-25
+    ## 2     6     ragg  85253 2022-10-25 2022-10-25
+    ## 3     7    vctrs  85162 2022-10-25 2022-10-25
+    ## 4     8    dplyr  78431 2022-10-25 2022-10-25
+    ## 5    10   pillar  60375 2022-10-25 2022-10-25
+    ## 6    18  stringr  48931 2022-10-25 2022-10-25
+    ## 7    20 magrittr  47991 2022-10-25 2022-10-25
+    ## 8    22  stringi  45731 2022-10-25 2022-10-25
+    ## 9    25     Rcpp  43878 2022-10-25 2022-10-25
+    ## 10   26     curl  43180 2022-10-25 2022-10-25
 
 ## Steps
 
@@ -86,8 +89,8 @@ This is a modification of the [pkgdown Actions
 file](https://github.com/r-lib/actions/blob/v2/examples/pkgdown.yaml),
 where the build is triggered by either:
 
--   a change to `README.Rmd`
--   the clock changing to 08:00 UTC
+- a change to `README.Rmd`
+- the clock changing to 08:00 UTC
 
 ``` yaml
 on:
