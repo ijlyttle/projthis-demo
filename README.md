@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2023-01-11 08:18:34 UTC
+2023-01-14 08:17:00 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "j"
+    ## [1] "b"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,10 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##   rank   package count       from         to
-    ## 1   20  jsonlite 19697 2023-01-08 2023-01-08
-    ## 2   69 jquerylib 11856 2023-01-08 2023-01-08
-    ## 3   96 rprojroot  9043 2023-01-08 2023-01-08
+    ##    rank      package count       from         to
+    ## 1    15       tibble 43597 2023-01-12 2023-01-12
+    ## 2    30        bslib 33399 2023-01-12 2023-01-12
+    ## 3    40   data.table 31687 2023-01-12 2023-01-12
+    ## 4    52    jquerylib 29175 2023-01-12 2023-01-12
+    ## 5    53      isoband 29139 2023-01-12 2023-01-12
+    ## 6    55    lubridate 28434 2023-01-12 2023-01-12
+    ## 7    61 RColorBrewer 26827 2023-01-12 2023-01-12
+    ## 8    64        broom 26546 2023-01-12 2023-01-12
+    ## 9    71       gtable 25164 2023-01-12 2023-01-12
+    ## 10   72          bit 24846 2023-01-12 2023-01-12
 
 ## Steps
 
