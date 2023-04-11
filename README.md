@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2023-04-10 08:15:51 UTC
+2023-04-11 08:16:29 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -42,11 +42,11 @@ cran_top_downloads(when = "last-day", count = 100) %>%
 ```
 
     ##   rank      package count       from         to
-    ## 1   10      pkgdown 37230 2023-04-08 2023-04-08
-    ## 2   30    rmarkdown 22794 2023-04-08 2023-04-08
-    ## 3   40        withr 19514 2023-04-08 2023-04-08
-    ## 4   57  fontawesome 14964 2023-04-08 2023-04-08
-    ## 5   65 RColorBrewer 13555 2023-04-08 2023-04-08
+    ## 1    9      pkgdown 36967 2023-04-09 2023-04-09
+    ## 2   30    rmarkdown 22532 2023-04-09 2023-04-09
+    ## 3   41        withr 19056 2023-04-09 2023-04-09
+    ## 4   59  fontawesome 14081 2023-04-09 2023-04-09
+    ## 5   64 RColorBrewer 13105 2023-04-09 2023-04-09
 
 ## Steps
 
