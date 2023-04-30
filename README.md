@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2023-04-29 08:14:51.649969 UTC
+2023-04-30 08:14:42.023949 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "l"
+    ## [1] "x"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,13 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank    package  count       from         to
-    ## 1     1      rlang 104680 2023-04-27 2023-04-27
-    ## 2     5        cli  83098 2023-04-27 2023-04-27
-    ## 3     6      dplyr  75297 2023-04-27 2023-04-27
-    ## 4     7  lifecycle  71942 2023-04-27 2023-04-27
-    ## 5     8    ggplot2  70703 2023-04-27 2023-04-27
-    ## 6     9     tibble  69855 2023-04-27 2023-04-27
-    ## 7    10     pillar  65905 2023-04-27 2023-04-27
-    ## 8    15 tidyselect  52340 2023-04-27 2023-04-27
-    ## 9    16       glue  50214 2023-04-27 2023-04-27
-    ## 10   18   jsonlite  48358 2023-04-27 2023-04-27
+    ##   rank     package count       from         to
+    ## 1    3 textshaping 85190 2023-04-28 2023-04-28
+    ## 2   20        xml2 40920 2023-04-28 2023-04-28
+    ## 3   22    processx 40024 2023-04-28 2023-04-28
+    ## 4   33        xfun 35121 2023-04-28 2023-04-28
+    ## 5   49      readxl 28316 2023-04-28 2023-04-28
+    ## 6   55     tinytex 27608 2023-04-28 2023-04-28
 
 ## Steps
 
