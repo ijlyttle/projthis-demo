@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2024-01-16 08:16:58.882683 UTC
+2024-01-17 08:16:50.476987 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "b"
+    ## [1] "t"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank    package count       from         to
-    ## 1    18     tibble 22099 2024-01-14 2024-01-14
-    ## 2    43     gtable 14308 2024-01-14 2024-01-14
-    ## 3    45      bslib 14112 2024-01-14 2024-01-14
-    ## 4    47   labeling 13789 2024-01-14 2024-01-14
-    ## 5    49  lubridate 13730 2024-01-14 2024-01-14
-    ## 6    50        DBI 13717 2024-01-14 2024-01-14
-    ## 7    57    isoband 13259 2024-01-14 2024-01-14
-    ## 8    60  base64enc 12844 2024-01-14 2024-01-14
-    ## 9    66 data.table 12283 2024-01-14 2024-01-14
-    ## 10   67  jquerylib 12091 2024-01-14 2024-01-14
+    ##    rank     package  count       from         to
+    ## 1     2 textshaping 108958 2024-01-15 2024-01-15
+    ## 2     3     ggplot2  77815 2024-01-15 2024-01-15
+    ## 3     6    devtools  60612 2024-01-15 2024-01-15
+    ## 4     8       vctrs  52634 2024-01-15 2024-01-15
+    ## 5    13   tidyverse  42861 2024-01-15 2024-01-15
+    ## 6    15      digest  40263 2024-01-15 2024-01-15
+    ## 7    17      tibble  38355 2024-01-15 2024-01-15
+    ## 8    18     stringr  37497 2024-01-15 2024-01-15
+    ## 9    19    jsonlite  36567 2024-01-15 2024-01-15
+    ## 10   21       withr  35287 2024-01-15 2024-01-15
 
 ## Steps
 
