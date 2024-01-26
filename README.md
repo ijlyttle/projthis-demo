@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2024-01-25 08:16:57.671354 UTC
+2024-01-26 08:15:41.178563 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "d"
+    ## [1] "b"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank     package count       from         to
-    ## 1     8       dplyr 63863 2024-01-23 2024-01-23
-    ## 2     9    devtools 63495 2024-01-23 2024-01-23
-    ## 3    10     pkgdown 62709 2024-01-23 2024-01-23
-    ## 4    17   tidyverse 50966 2024-01-23 2024-01-23
-    ## 5    23      digest 45605 2024-01-23 2024-01-23
-    ## 6    30  tidyselect 40835 2024-01-23 2024-01-23
-    ## 7    32       readr 38926 2024-01-23 2024-01-23
-    ## 8    37       tidyr 37610 2024-01-23 2024-01-23
-    ## 9    42   rmarkdown 35237 2024-01-23 2024-01-23
-    ## 10   43 viridisLite 35169 2024-01-23 2024-01-23
+    ##    rank    package count       from         to
+    ## 1    13     tibble 52203 2024-01-24 2024-01-24
+    ## 2    37      bslib 37871 2024-01-24 2024-01-24
+    ## 3    43  jquerylib 35056 2024-01-24 2024-01-24
+    ## 4    50     gtable 34048 2024-01-24 2024-01-24
+    ## 5    55   labeling 32703 2024-01-24 2024-01-24
+    ## 6    58 data.table 32138 2024-01-24 2024-01-24
+    ## 7    59  base64enc 31733 2024-01-24 2024-01-24
+    ## 8    65    isoband 30969 2024-01-24 2024-01-24
+    ## 9    66  lubridate 30823 2024-01-24 2024-01-24
+    ## 10   68       tzdb 30798 2024-01-24 2024-01-24
 
 ## Steps
 
