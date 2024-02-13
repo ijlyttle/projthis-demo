@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2024-02-12 08:16:45.518589 UTC
+2024-02-13 08:16:35.359249 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "m"
+    ## [1] "b"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank     package count       from         to
-    ## 1    25    magrittr 22065 2024-02-10 2024-02-10
-    ## 2    30   htmltools 21210 2024-02-10 2024-02-10
-    ## 3    35        yaml 19500 2024-02-10 2024-02-10
-    ## 4    37       vroom 19361 2024-02-10 2024-02-10
-    ## 5    38 systemfonts 19253 2024-02-10 2024-02-10
-    ## 6    39       Hmisc 19040 2024-02-10 2024-02-10
-    ## 7    41     fastmap 18320 2024-02-10 2024-02-10
-    ## 8    52   rmarkdown 17254 2024-02-10 2024-02-10
-    ## 9    59     munsell 16839 2024-02-10 2024-02-10
-    ## 10   64         hms 16310 2024-02-10 2024-02-10
+    ##    rank    package count       from         to
+    ## 1    16     tibble 20926 2024-02-11 2024-02-11
+    ## 2    33 data.table 15428 2024-02-11 2024-02-11
+    ## 3    42  lubridate 13645 2024-02-11 2024-02-11
+    ## 4    47      bslib 13050 2024-02-11 2024-02-11
+    ## 5    50   labeling 12617 2024-02-11 2024-02-11
+    ## 6    53     gtable 12524 2024-02-11 2024-02-11
+    ## 7    56  base64enc 12200 2024-02-11 2024-02-11
+    ## 8    63    isoband 11554 2024-02-11 2024-02-11
+    ## 9    64        DBI 11533 2024-02-11 2024-02-11
+    ## 10   65       tzdb 11455 2024-02-11 2024-02-11
 
 ## Steps
 
