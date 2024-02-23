@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2024-02-22 08:22:29.58781 UTC
+2024-02-23 08:16:59.179712 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "y"
+    ## [1] "d"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank     package count       from         to
-    ## 1     7       dplyr 60501 2024-02-20 2024-02-20
-    ## 2     8   lifecycle 58428 2024-02-20 2024-02-20
-    ## 3    20   tidyverse 40168 2024-02-20 2024-02-20
-    ## 4    23       tidyr 39314 2024-02-20 2024-02-20
-    ## 5    32  tidyselect 36799 2024-02-20 2024-02-20
-    ## 6    38        yaml 32911 2024-02-20 2024-02-20
-    ## 7    48      crayon 29907 2024-02-20 2024-02-20
-    ## 8    50   jquerylib 29750 2024-02-20 2024-02-20
-    ## 9    55     tinytex 28991 2024-02-20 2024-02-20
-    ## 10   65 systemfonts 27578 2024-02-20 2024-02-20
+    ##    rank    package count       from         to
+    ## 1     6      dplyr 63168 2024-02-21 2024-02-21
+    ## 2    12   devtools 46232 2024-02-21 2024-02-21
+    ## 3    18  tidyverse 42191 2024-02-21 2024-02-21
+    ## 4    21    pkgdown 41476 2024-02-21 2024-02-21
+    ## 5    24      tidyr 40901 2024-02-21 2024-02-21
+    ## 6    27     digest 39797 2024-02-21 2024-02-21
+    ## 7    32 tidyselect 38234 2024-02-21 2024-02-21
+    ## 8    38      readr 34482 2024-02-21 2024-02-21
+    ## 9    41     readxl 33689 2024-02-21 2024-02-21
+    ## 10   43  rmarkdown 33610 2024-02-21 2024-02-21
 
 ## Steps
 
