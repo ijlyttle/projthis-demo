@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2024-03-06 08:17:24.449211 UTC
+2024-03-07 08:13:22.617613 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "l"
+    ## [1] "p"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank   package count       from         to
-    ## 1     1   ggplot2 95322 2024-03-04 2024-03-04
-    ## 2     4     rlang 78643 2024-03-04 2024-03-04
-    ## 3     5       cli 68226 2024-03-04 2024-03-04
-    ## 4     7     dplyr 63511 2024-03-04 2024-03-04
-    ## 5     8 lifecycle 62817 2024-03-04 2024-03-04
-    ## 6     9      glue 53812 2024-03-04 2024-03-04
-    ## 7    10      curl 53538 2024-03-04 2024-03-04
-    ## 8    11    tibble 52404 2024-03-04 2024-03-04
-    ## 9    12    pillar 49114 2024-03-04 2024-03-04
-    ## 10   13  devtools 47292 2024-03-04 2024-03-04
+    ##    rank       package count       from         to
+    ## 1     1       ggplot2 94516 2024-03-05 2024-03-05
+    ## 2     3   textshaping 87536 2024-03-05 2024-03-05
+    ## 3     6         dplyr 63948 2024-03-05 2024-03-05
+    ## 4    12        pillar 46787 2024-03-05 2024-03-05
+    ## 5    16          Rcpp 44185 2024-03-05 2024-03-05
+    ## 6    23       pkgdown 41809 2024-03-05 2024-03-05
+    ## 7    26         cpp11 39854 2024-03-05 2024-03-05
+    ## 8    33         purrr 37709 2024-03-05 2024-03-05
+    ## 9    36     pkgconfig 35908 2024-03-05 2024-03-05
+    ## 10   50 RcppArmadillo 31540 2024-03-05 2024-03-05
 
 ## Steps
 
