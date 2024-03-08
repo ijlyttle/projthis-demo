@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2024-03-07 08:13:22.617613 UTC
+2024-03-08 08:15:22.211823 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "p"
+    ## [1] "u"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank       package count       from         to
-    ## 1     1       ggplot2 94516 2024-03-05 2024-03-05
-    ## 2     3   textshaping 87536 2024-03-05 2024-03-05
-    ## 3     6         dplyr 63948 2024-03-05 2024-03-05
-    ## 4    12        pillar 46787 2024-03-05 2024-03-05
-    ## 5    16          Rcpp 44185 2024-03-05 2024-03-05
-    ## 6    23       pkgdown 41809 2024-03-05 2024-03-05
-    ## 7    26         cpp11 39854 2024-03-05 2024-03-05
-    ## 8    33         purrr 37709 2024-03-05 2024-03-05
-    ## 9    36     pkgconfig 35908 2024-03-05 2024-03-05
-    ## 10   50 RcppArmadillo 31540 2024-03-05 2024-03-05
+    ##    rank     package count       from         to
+    ## 1    11        glue 50172 2024-03-06 2024-03-06
+    ## 2    24        curl 40717 2024-03-06 2024-03-06
+    ## 3    25        utf8 40138 2024-03-06 2024-03-06
+    ## 4    31        xfun 37572 2024-03-06 2024-03-06
+    ## 5    34       purrr 35294 2024-03-06 2024-03-06
+    ## 6    43    evaluate 31203 2024-03-06 2024-03-06
+    ## 7    47   jquerylib 30490 2024-03-06 2024-03-06
+    ## 8    62     munsell 28044 2024-03-06 2024-03-06
+    ## 9    73 prettyunits 26733 2024-03-06 2024-03-06
+    ## 10   80   lubridate 25363 2024-03-06 2024-03-06
 
 ## Steps
 
