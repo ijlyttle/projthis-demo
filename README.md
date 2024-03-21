@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2024-03-20 08:04:45.294333 UTC
+2024-03-21 08:05:02.446931 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "k"
+    ## [1] "d"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,14 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##   rank   package count       from         to
-    ## 1   18   pkgdown 40889 2024-03-18 2024-03-18
-    ## 2   36 rmarkdown 34585 2024-03-18 2024-03-18
-    ## 3   38 pkgconfig 33705 2024-03-18 2024-03-18
-    ## 4   42     knitr 31549 2024-03-18 2024-03-18
-    ## 5   44  pkgbuild 31199 2024-03-18 2024-03-18
-    ## 6   84   askpass 23176 2024-03-18 2024-03-18
-    ## 7   90   pkgload 21706 2024-03-18 2024-03-18
+    ##    rank    package count       from         to
+    ## 1     5      dplyr 61211 2024-03-19 2024-03-19
+    ## 2    11   devtools 48599 2024-03-19 2024-03-19
+    ## 3    13 tidyselect 45392 2024-03-19 2024-03-19
+    ## 4    17     digest 42683 2024-03-19 2024-03-19
+    ## 5    21    pkgdown 41478 2024-03-19 2024-03-19
+    ## 6    27  tidyverse 38343 2024-03-19 2024-03-19
+    ## 7    30      tidyr 37397 2024-03-19 2024-03-19
+    ## 8    35  rmarkdown 36194 2024-03-19 2024-03-19
+    ## 9    40     readxl 34157 2024-03-19 2024-03-19
+    ## 10   45 data.table 32133 2024-03-19 2024-03-19
 
 ## Steps
 
