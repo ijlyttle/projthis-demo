@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2024-04-05 08:05:02.99739 UTC
+2024-04-06 08:04:46.03823 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "r"
+    ## [1] "h"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank   package count       from         to
-    ## 1     2      ragg 84878 2024-04-03 2024-04-03
-    ## 2     4     rlang 68615 2024-04-03 2024-04-03
-    ## 3     6     dplyr 59727 2024-04-03 2024-04-03
-    ## 4     8     vctrs 58325 2024-04-03 2024-04-03
-    ## 5     9 tidyverse 57129 2024-04-03 2024-04-03
-    ## 6    12    pillar 46509 2024-04-03 2024-04-03
-    ## 7    17     withr 42415 2024-04-03 2024-04-03
-    ## 8    20  magrittr 41770 2024-04-03 2024-04-03
-    ## 9    21   stringr 41601 2024-04-03 2024-04-03
-    ## 10   22      Rcpp 41585 2024-04-03 2024-04-03
+    ##    rank     package count       from         to
+    ## 1     4 textshaping 58305 2024-04-04 2024-04-04
+    ## 2    10   htmltools 50739 2024-04-04 2024-04-04
+    ## 3    18       withr 37902 2024-04-04 2024-04-04
+    ## 4    56        httr 26869 2024-04-04 2024-04-04
+    ## 5    61      cachem 26457 2024-04-04 2024-04-04
+    ## 6    65         hms 26071 2024-04-04 2024-04-04
+    ## 7    69       highr 25627 2024-04-04 2024-04-04
+    ## 8    82    rematch2 22140 2024-04-04 2024-04-04
+    ## 9    86       shiny 21686 2024-04-04 2024-04-04
+    ## 10   87  timechange 20762 2024-04-04 2024-04-04
 
 ## Steps
 
