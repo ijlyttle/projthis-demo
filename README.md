@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2024-04-06 08:04:46.03823 UTC
+2024-04-07 08:05:11.740183 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "h"
+    ## [1] "a"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank     package count       from         to
-    ## 1     4 textshaping 58305 2024-04-04 2024-04-04
-    ## 2    10   htmltools 50739 2024-04-04 2024-04-04
-    ## 3    18       withr 37902 2024-04-04 2024-04-04
-    ## 4    56        httr 26869 2024-04-04 2024-04-04
-    ## 5    61      cachem 26457 2024-04-04 2024-04-04
-    ## 6    65         hms 26071 2024-04-04 2024-04-04
-    ## 7    69       highr 25627 2024-04-04 2024-04-04
-    ## 8    82    rematch2 22140 2024-04-04 2024-04-04
-    ## 9    86       shiny 21686 2024-04-04 2024-04-04
-    ## 10   87  timechange 20762 2024-04-04 2024-04-04
+    ##    rank     package  count       from         to
+    ## 1     1       rlang 240069 2024-04-05 2024-04-05
+    ## 2     7         car 104308 2024-04-05 2024-04-05
+    ## 3     9       minqa 102347 2024-04-05 2024-04-05
+    ## 4    10 BiocManager 101511 2024-04-05 2024-04-05
+    ## 5    12     carData  99747 2024-04-05 2024-04-05
+    ## 6    17     rstatix  96529 2024-04-05 2024-04-05
+    ## 7    19  reticulate  95473 2024-04-05 2024-04-05
+    ## 8    22     R.cache  92444 2024-04-05 2024-04-05
+    ## 9    24    maptools  90949 2024-04-05 2024-04-05
+    ## 10   27        ragg  49856 2024-04-05 2024-04-05
 
 ## Steps
 
