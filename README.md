@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2024-04-08 08:05:21.382951 UTC
+2024-04-09 08:05:58.17361 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -42,9 +42,9 @@ cran_top_downloads(when = "last-day", count = 100) %>%
 ```
 
     ##   rank   package count       from         to
-    ## 1   12  jsonlite 24833 2024-04-06 2024-04-06
-    ## 2   53 jquerylib 14108 2024-04-06 2024-04-06
-    ## 3   99 rprojroot 10124 2024-04-06 2024-04-06
+    ## 1   13  jsonlite 26930 2024-04-07 2024-04-07
+    ## 2   53 jquerylib 15428 2024-04-07 2024-04-07
+    ## 3   91 rprojroot 11225 2024-04-07 2024-04-07
 
 ## Steps
 
