@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2024-04-10 08:05:04.20887 UTC
+2024-04-11 08:05:26.711059 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "f"
+    ## [1] "o"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank     package count       from         to
-    ## 1     3   lifecycle 63840 2024-04-08 2024-04-08
-    ## 2    19       fansi 43613 2024-04-08 2024-04-08
-    ## 3    23        xfun 43025 2024-04-08 2024-04-08
-    ## 4    25        utf8 42853 2024-04-08 2024-04-08
-    ## 5    34   pkgconfig 38051 2024-04-08 2024-04-08
-    ## 6    39          sf 36242 2024-04-08 2024-04-08
-    ## 7    42          fs 35066 2024-04-08 2024-04-08
-    ## 8    54     fastmap 32771 2024-04-08 2024-04-08
-    ## 9    57 systemfonts 32468 2024-04-08 2024-04-08
-    ## 10   61 fontawesome 31577 2024-04-08 2024-04-08
+    ##    rank      package count       from         to
+    ## 1     1      ggplot2 74687 2024-04-09 2024-04-09
+    ## 2     9    htmltools 45380 2024-04-09 2024-04-09
+    ## 3    14     jsonlite 43477 2024-04-09 2024-04-09
+    ## 4    36    rmarkdown 33121 2024-04-09 2024-04-09
+    ## 5    37     devtools 32560 2024-04-09 2024-04-09
+    ## 6    39    pkgconfig 31858 2024-04-09 2024-04-09
+    ## 7    45     processx 29494 2024-04-09 2024-04-09
+    ## 8    48       crayon 29360 2024-04-09 2024-04-09
+    ## 9    49  systemfonts 29093 2024-04-09 2024-04-09
+    ## 10   52 RColorBrewer 28547 2024-04-09 2024-04-09
 
 ## Steps
 
