@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2024-04-21 08:04:50.531127 UTC
+2024-04-22 08:05:10.107326 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "y"
+    ## [1] "r"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank     package count       from         to
-    ## 1     3   lifecycle 56338 2024-04-19 2024-04-19
-    ## 2     4       dplyr 55357 2024-04-19 2024-04-19
-    ## 3    13  tidyselect 39141 2024-04-19 2024-04-19
-    ## 4    18   tidyverse 37466 2024-04-19 2024-04-19
-    ## 5    26       tidyr 34453 2024-04-19 2024-04-19
-    ## 6    43     tinytex 28742 2024-04-19 2024-04-19
-    ## 7    45      crayon 28598 2024-04-19 2024-04-19
-    ## 8    52 systemfonts 27920 2024-04-19 2024-04-19
-    ## 9    55   jquerylib 27343 2024-04-19 2024-04-19
-    ## 10   62 prettyunits 25581 2024-04-19 2024-04-19
+    ##    rank   package count       from         to
+    ## 1     2     rlang 39249 2024-04-20 2024-04-20
+    ## 2     4     dplyr 35871 2024-04-20 2024-04-20
+    ## 3     6     vctrs 34792 2024-04-20 2024-04-20
+    ## 4     9 tidyverse 30144 2024-04-20 2024-04-20
+    ## 5    10    pillar 29958 2024-04-20 2024-04-20
+    ## 6    13     withr 27460 2024-04-20 2024-04-20
+    ## 7    15  magrittr 26468 2024-04-20 2024-04-20
+    ## 8    16   stringr 26151 2024-04-20 2024-04-20
+    ## 9    17      ragg 26017 2024-04-20 2024-04-20
+    ## 10   18      Rcpp 25826 2024-04-20 2024-04-20
 
 ## Steps
 
