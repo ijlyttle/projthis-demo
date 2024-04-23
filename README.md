@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2024-04-22 08:05:10.107326 UTC
+2024-04-23 08:05:28.615517 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "r"
+    ## [1] "m"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank   package count       from         to
-    ## 1     2     rlang 39249 2024-04-20 2024-04-20
-    ## 2     4     dplyr 35871 2024-04-20 2024-04-20
-    ## 3     6     vctrs 34792 2024-04-20 2024-04-20
-    ## 4     9 tidyverse 30144 2024-04-20 2024-04-20
-    ## 5    10    pillar 29958 2024-04-20 2024-04-20
-    ## 6    13     withr 27460 2024-04-20 2024-04-20
-    ## 7    15  magrittr 26468 2024-04-20 2024-04-20
-    ## 8    16   stringr 26151 2024-04-20 2024-04-20
-    ## 9    17      ragg 26017 2024-04-20 2024-04-20
-    ## 10   18      Rcpp 25826 2024-04-20 2024-04-20
+    ##    rank     package count       from         to
+    ## 1    18   htmltools 21640 2024-04-21 2024-04-21
+    ## 2    20    magrittr 21434 2024-04-21 2024-04-21
+    ## 3    33     munsell 18919 2024-04-21 2024-04-21
+    ## 4    35 systemfonts 18228 2024-04-21 2024-04-21
+    ## 5    39   rmarkdown 17881 2024-04-21 2024-04-21
+    ## 6    59     fastmap 15675 2024-04-21 2024-04-21
+    ## 7    60         hms 15522 2024-04-21 2024-04-21
+    ## 8    64 fontawesome 14939 2024-04-21 2024-04-21
+    ## 9    65      cachem 14927 2024-04-21 2024-04-21
+    ## 10   69     memoise 14520 2024-04-21 2024-04-21
 
 ## Steps
 
