@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2024-04-24 08:07:38.267291 UTC
+2024-04-25 08:11:04.369467 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "o"
+    ## [1] "s"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank     package count       from         to
-    ## 1     1     ggplot2 66700 2024-04-22 2024-04-22
-    ## 2     7    jsonlite 48403 2024-04-22 2024-04-22
-    ## 3    10     openssl 47195 2024-04-22 2024-04-22
-    ## 4    14   htmltools 43495 2024-04-22 2024-04-22
-    ## 5    33   rmarkdown 35733 2024-04-22 2024-04-22
-    ## 6    34   pkgconfig 35396 2024-04-22 2024-04-22
-    ## 7    43 systemfonts 31895 2024-04-22 2024-04-22
-    ## 8    46      crayon 31809 2024-04-22 2024-04-22
-    ## 9    50    processx 30861 2024-04-22 2024-04-22
-    ## 10   52  colorspace 30739 2024-04-22 2024-04-22
+    ##    rank    package count       from         to
+    ## 1     6      vctrs 60452 2024-04-23 2024-04-23
+    ## 2     7   jsonlite 51237 2024-04-23 2024-04-23
+    ## 3    13     scales 45188 2024-04-23 2024-04-23
+    ## 4    15  htmltools 44543 2024-04-23 2024-04-23
+    ## 5    16 tidyselect 43971 2024-04-23 2024-04-23
+    ## 6    19      fansi 43300 2024-04-23 2024-04-23
+    ## 7    20  tidyverse 43199 2024-04-23 2024-04-23
+    ## 8    22    stringr 40827 2024-04-23 2024-04-23
+    ## 9    26     digest 39733 2024-04-23 2024-04-23
+    ## 10   27    openssl 39155 2024-04-23 2024-04-23
 
 ## Steps
 
