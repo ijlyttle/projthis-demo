@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2024-04-30 08:04:59.039413 UTC
+2024-05-01 08:06:09.392187 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "s"
+    ## [1] "o"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -42,16 +42,16 @@ cran_top_downloads(when = "last-day", count = 100) %>%
 ```
 
     ##    rank      package count       from         to
-    ## 1     5 MatrixModels 33970 2024-04-28 2024-04-28
-    ## 2     9        vctrs 32325 2024-04-28 2024-04-28
-    ## 3    10     jsonlite 30461 2024-04-28 2024-04-28
-    ## 4    13    tidyverse 27620 2024-04-28 2024-04-28
-    ## 5    17       scales 24494 2024-04-28 2024-04-28
-    ## 6    18   tidyselect 24261 2024-04-28 2024-04-28
-    ## 7    19           fs 24063 2024-04-28 2024-04-28
-    ## 8    20        fansi 23580 2024-04-28 2024-04-28
-    ## 9    22      stringr 23352 2024-04-28 2024-04-28
-    ## 10   26    htmltools 22127 2024-04-28 2024-04-28
+    ## 1     2      ggplot2 70865 2024-04-29 2024-04-29
+    ## 2     8     jsonlite 52214 2024-04-29 2024-04-29
+    ## 3    15    htmltools 44050 2024-04-29 2024-04-29
+    ## 4    29    pkgconfig 38877 2024-04-29 2024-04-29
+    ## 5    31    rmarkdown 38614 2024-04-29 2024-04-29
+    ## 6    37 MatrixModels 36043 2024-04-29 2024-04-29
+    ## 7    40 RColorBrewer 35011 2024-04-29 2024-04-29
+    ## 8    46      openssl 34372 2024-04-29 2024-04-29
+    ## 9    47       crayon 34269 2024-04-29 2024-04-29
+    ## 10   50   colorspace 33663 2024-04-29 2024-04-29
 
 ## Steps
 
