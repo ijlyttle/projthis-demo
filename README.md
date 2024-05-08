@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2024-05-07 08:05:26.616254 UTC
+2024-05-08 08:05:34.80577 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "b"
+    ## [1] "e"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank      package count       from         to
-    ## 1     9       tibble 27952 2024-05-05 2024-05-05
-    ## 2    26       gtable 22098 2024-05-05 2024-05-05
-    ## 3    37        bslib 19592 2024-05-05 2024-05-05
-    ## 4    42 RColorBrewer 18953 2024-05-05 2024-05-05
-    ## 5    48     labeling 18733 2024-05-05 2024-05-05
-    ## 6    50   data.table 18648 2024-05-05 2024-05-05
-    ## 7    58    jquerylib 17893 2024-05-05 2024-05-05
-    ## 8    59      isoband 17774 2024-05-05 2024-05-05
-    ## 9    72    base64enc 16441 2024-05-05 2024-05-05
-    ## 10   73    lubridate 16247 2024-05-05 2024-05-05
+    ##    rank     package count       from         to
+    ## 1     3   lifecycle 62170 2024-05-06 2024-05-06
+    ## 2     7    jsonlite 53465 2024-05-06 2024-05-06
+    ## 3     9      tibble 49582 2024-05-06 2024-05-06
+    ## 4    10        glue 49425 2024-05-06 2024-05-06
+    ## 5    16      scales 43441 2024-05-06 2024-05-06
+    ## 6    17   tidyverse 43386 2024-05-06 2024-05-06
+    ## 7    18  tidyselect 42870 2024-05-06 2024-05-06
+    ## 8    27      digest 40236 2024-05-06 2024-05-06
+    ## 9    28      gtable 39962 2024-05-06 2024-05-06
+    ## 10   34 textshaping 37238 2024-05-06 2024-05-06
 
 ## Steps
 
