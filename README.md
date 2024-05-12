@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2024-05-11 08:04:57.519981 UTC
+2024-05-12 08:05:14.065084 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "t"
+    ## [1] "a"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank    package count       from         to
-    ## 1     1   jsonlite 68891 2024-05-09 2024-05-09
-    ## 2     2    ggplot2 65123 2024-05-09 2024-05-09
-    ## 3     5      vctrs 57333 2024-05-09 2024-05-09
-    ## 4     8     tibble 46187 2024-05-09 2024-05-09
-    ## 5    12      withr 41061 2024-05-09 2024-05-09
-    ## 6    13    stringi 40784 2024-05-09 2024-05-09
-    ## 7    15   magrittr 40426 2024-05-09 2024-05-09
-    ## 8    16  tidyverse 40191 2024-05-09 2024-05-09
-    ## 9    18 tidyselect 39396 2024-05-09 2024-05-09
-    ## 10   20       utf8 38282 2024-05-09 2024-05-09
+    ##    rank     package count       from         to
+    ## 1     3       rlang 56218 2024-05-10 2024-05-10
+    ## 2    10      pillar 41442 2024-05-10 2024-05-10
+    ## 3    13        ragg 38295 2024-05-10 2024-05-10
+    ## 4    15    magrittr 37713 2024-05-10 2024-05-10
+    ## 5    18      scales 36422 2024-05-10 2024-05-10
+    ## 6    19       fansi 35916 2024-05-10 2024-05-10
+    ## 7    29      gtable 33217 2024-05-10 2024-05-10
+    ## 8    31 textshaping 32782 2024-05-10 2024-05-10
+    ## 9    39        sass 29566 2024-05-10 2024-05-10
+    ## 10   40   rmarkdown 29304 2024-05-10 2024-05-10
 
 ## Steps
 
