@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2024-05-31 08:05:18.203894 UTC
+2024-06-01 08:04:25.501754 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "b"
+    ## [1] "d"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -42,16 +42,16 @@ cran_top_downloads(when = "last-day", count = 100) %>%
 ```
 
     ##    rank      package count       from         to
-    ## 1     8       tibble 49129 2024-05-29 2024-05-29
-    ## 2    38       gtable 37071 2024-05-29 2024-05-29
-    ## 3    41        bslib 35317 2024-05-29 2024-05-29
-    ## 4    49 RColorBrewer 33317 2024-05-29 2024-05-29
-    ## 5    54     labeling 32131 2024-05-29 2024-05-29
-    ## 6    57   data.table 31715 2024-05-29 2024-05-29
-    ## 7    58    jquerylib 31320 2024-05-29 2024-05-29
-    ## 8    60    backports 30849 2024-05-29 2024-05-29
-    ## 9    63      isoband 30474 2024-05-29 2024-05-29
-    ## 10   70        broom 28899 2024-05-29 2024-05-29
+    ## 1     4        dplyr 54717 2024-05-30 2024-05-30
+    ## 2     9    tidyverse 44562 2024-05-30 2024-05-30
+    ## 3    21   tidyselect 37334 2024-05-30 2024-05-30
+    ## 4    30    rmarkdown 35374 2024-05-30 2024-05-30
+    ## 5    33        tidyr 34123 2024-05-30 2024-05-30
+    ## 6    35       digest 33971 2024-05-30 2024-05-30
+    ## 7    41       readxl 31984 2024-05-30 2024-05-30
+    ## 8    51  viridisLite 29595 2024-05-30 2024-05-30
+    ## 9    53 MatrixModels 29193 2024-05-30 2024-05-30
+    ## 10   58   data.table 28625 2024-05-30 2024-05-30
 
 ## Steps
 
