@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2024-06-01 08:04:25.501754 UTC
+2024-06-02 08:04:57.10687 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "d"
+    ## [1] "e"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank      package count       from         to
-    ## 1     4        dplyr 54717 2024-05-30 2024-05-30
-    ## 2     9    tidyverse 44562 2024-05-30 2024-05-30
-    ## 3    21   tidyselect 37334 2024-05-30 2024-05-30
-    ## 4    30    rmarkdown 35374 2024-05-30 2024-05-30
-    ## 5    33        tidyr 34123 2024-05-30 2024-05-30
-    ## 6    35       digest 33971 2024-05-30 2024-05-30
-    ## 7    41       readxl 31984 2024-05-30 2024-05-30
-    ## 8    51  viridisLite 29595 2024-05-30 2024-05-30
-    ## 9    53 MatrixModels 29193 2024-05-30 2024-05-30
-    ## 10   58   data.table 28625 2024-05-30 2024-05-30
+    ##    rank     package count       from         to
+    ## 1     3   lifecycle 52597 2024-05-31 2024-05-31
+    ## 2     7    jsonlite 43547 2024-05-31 2024-05-31
+    ## 3     8      tibble 42378 2024-05-31 2024-05-31
+    ## 4    10        glue 41330 2024-05-31 2024-05-31
+    ## 5    14   tidyverse 38819 2024-05-31 2024-05-31
+    ## 6    15 textshaping 38483 2024-05-31 2024-05-31
+    ## 7    19      scales 36636 2024-05-31 2024-05-31
+    ## 8    22  tidyselect 35645 2024-05-31 2024-05-31
+    ## 9    25 systemfonts 35387 2024-05-31 2024-05-31
+    ## 10   30      farver 34356 2024-05-31 2024-05-31
 
 ## Steps
 
