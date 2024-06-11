@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2024-06-10 08:05:35.939291 UTC
+2024-06-11 08:05:53.673614 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "y"
+    ## [1] "t"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -42,16 +42,16 @@ cran_top_downloads(when = "last-day", count = 100) %>%
 ```
 
     ##    rank     package count       from         to
-    ## 1     5   lifecycle 28512 2024-06-08 2024-06-08
-    ## 2     6       dplyr 27951 2024-06-08 2024-06-08
-    ## 3     8   tidyverse 26478 2024-06-08 2024-06-08
-    ## 4    15 systemfonts 20822 2024-06-08 2024-06-08
-    ## 5    22  tidyselect 18768 2024-06-08 2024-06-08
-    ## 6    39       tidyr 16640 2024-06-08 2024-06-08
-    ## 7    45     tinytex 15488 2024-06-08 2024-06-08
-    ## 8    55      crayon 14457 2024-06-08 2024-06-08
-    ## 9    62        yaml 13596 2024-06-08 2024-06-08
-    ## 10   66   jquerylib 13309 2024-06-08 2024-06-08
+    ## 1     2     ggplot2 38522 2024-06-09 2024-06-09
+    ## 2     6   tidyverse 27368 2024-06-09 2024-06-09
+    ## 3     7    jsonlite 27278 2024-06-09 2024-06-09
+    ## 4     9       vctrs 26079 2024-06-09 2024-06-09
+    ## 5    11 textshaping 25594 2024-06-09 2024-06-09
+    ## 6    12      tibble 22988 2024-06-09 2024-06-09
+    ## 7    14 systemfonts 22012 2024-06-09 2024-06-09
+    ## 8    16       withr 20380 2024-06-09 2024-06-09
+    ## 9    17    magrittr 19684 2024-06-09 2024-06-09
+    ## 10   19  tidyselect 19028 2024-06-09 2024-06-09
 
 ## Steps
 
