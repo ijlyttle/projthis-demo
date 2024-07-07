@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2024-07-06 08:06:36.034075 UTC
+2024-07-07 08:05:03.046818 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "u"
+    ## [1] "v"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,16 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank   package count       from         to
-    ## 1    10      glue 35447 2024-07-04 2024-07-04
-    ## 2    15      xfun 31037 2024-07-04 2024-07-04
-    ## 3    22      utf8 28728 2024-07-04 2024-07-04
-    ## 4    27     purrr 26982 2024-07-04 2024-07-04
-    ## 5    30      curl 26703 2024-07-04 2024-07-04
-    ## 6    37   munsell 24925 2024-07-04 2024-07-04
-    ## 7    43  evaluate 24336 2024-07-04 2024-07-04
-    ## 8    61 lubridate 21819 2024-07-04 2024-07-04
-    ## 9    62 jquerylib 21773 2024-07-04 2024-07-04
-    ## 10   67  quantreg 20750 2024-07-04 2024-07-04
+    ##   rank     package count       from         to
+    ## 1    6       vctrs 39493 2024-07-05 2024-07-05
+    ## 2   26      farver 26639 2024-07-05 2024-07-05
+    ## 3   39    evaluate 24032 2024-07-05 2024-07-05
+    ## 4   40   tidyverse 23928 2024-07-05 2024-07-05
+    ## 5   52 viridisLite 22612 2024-07-05 2024-07-05
+    ## 6   85       vroom 16675 2024-07-05 2024-07-05
+    ## 7   92       rvest 15649 2024-07-05 2024-07-05
+    ## 8   93    devtools 15517 2024-07-05 2024-07-05
+    ## 9   99       haven 14841 2024-07-05 2024-07-05
 
 ## Steps
 
