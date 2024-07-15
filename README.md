@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2024-07-14 08:06:00.385419 UTC
+2024-07-15 08:05:50.961559 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "f"
+    ## [1] "m"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank     package count       from         to
-    ## 1     6   lifecycle 41619 2024-07-12 2024-07-12
-    ## 2    11        utf8 35398 2024-07-12 2024-07-12
-    ## 3    15       fansi 34059 2024-07-12 2024-07-12
-    ## 4    18      farver 33042 2024-07-12 2024-07-12
-    ## 5    21        xfun 31384 2024-07-12 2024-07-12
-    ## 6    24   pkgconfig 30910 2024-07-12 2024-07-12
-    ## 7    37     fastmap 27623 2024-07-12 2024-07-12
-    ## 8    40          fs 26985 2024-07-12 2024-07-12
-    ## 9    58 systemfonts 23415 2024-07-12 2024-07-12
-    ## 10   64 fontawesome 22121 2024-07-12 2024-07-12
+    ##    rank      package count       from         to
+    ## 1    13     magrittr 21214 2024-07-13 2024-07-13
+    ## 2    30      munsell 17759 2024-07-13 2024-07-13
+    ## 3    31    rmarkdown 17329 2024-07-13 2024-07-13
+    ## 4    33         yaml 17106 2024-07-13 2024-07-13
+    ## 5    44      fastmap 16433 2024-07-13 2024-07-13
+    ## 6    45       cachem 15839 2024-07-13 2024-07-13
+    ## 7    46    htmltools 15817 2024-07-13 2024-07-13
+    ## 8    60  systemfonts 14384 2024-07-13 2024-07-13
+    ## 9    63         mime 14145 2024-07-13 2024-07-13
+    ## 10   66 MatrixModels 13837 2024-07-13 2024-07-13
 
 ## Steps
 
