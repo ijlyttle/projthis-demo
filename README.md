@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2024-07-20 08:05:22.172246 UTC
+2024-07-21 08:05:04.676595 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "x"
+    ## [1] "f"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,15 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##   rank      package count       from         to
-    ## 1    7         xfun 46292 2024-07-18 2024-07-18
-    ## 2   32      tinytex 29221 2024-07-18 2024-07-18
-    ## 3   42  textshaping 27119 2024-07-18 2024-07-18
-    ## 4   48       readxl 26407 2024-07-18 2024-07-18
-    ## 5   61         xml2 24253 2024-07-18 2024-07-18
-    ## 6   74     processx 21762 2024-07-18 2024-07-18
-    ## 7   87 MatrixModels 19210 2024-07-18 2024-07-18
-    ## 8  100       reprex 17246 2024-07-18 2024-07-18
+    ##    rank     package count       from         to
+    ## 1     4   lifecycle 45168 2024-07-19 2024-07-19
+    ## 2     7        xfun 41822 2024-07-19 2024-07-19
+    ## 3    18       fansi 29917 2024-07-19 2024-07-19
+    ## 4    21        utf8 29491 2024-07-19 2024-07-19
+    ## 5    25   pkgconfig 27872 2024-07-19 2024-07-19
+    ## 6    28      farver 27149 2024-07-19 2024-07-19
+    ## 7    34     fastmap 26106 2024-07-19 2024-07-19
+    ## 8    36          fs 25888 2024-07-19 2024-07-19
+    ## 9    55 systemfonts 23140 2024-07-19 2024-07-19
+    ## 10   56          sf 23087 2024-07-19 2024-07-19
 
 ## Steps
 
