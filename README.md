@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2024-07-26 08:05:30.3524 UTC
+2024-07-27 08:04:44.531219 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "g"
+    ## [1] "b"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank   package count       from         to
-    ## 1     1     rlang 56685 2024-07-24 2024-07-24
-    ## 2     2   ggplot2 56585 2024-07-24 2024-07-24
-    ## 3    10      glue 39476 2024-07-24 2024-07-24
-    ## 4    14  magrittr 35022 2024-07-24 2024-07-24
-    ## 5    17   stringr 34042 2024-07-24 2024-07-24
-    ## 6    19    digest 32978 2024-07-24 2024-07-24
-    ## 7    23   stringi 32339 2024-07-24 2024-07-24
-    ## 8    29 pkgconfig 30499 2024-07-24 2024-07-24
-    ## 9    32    gtable 29683 2024-07-24 2024-07-24
-    ## 10   40      ragg 27984 2024-07-24 2024-07-24
+    ##    rank      package count       from         to
+    ## 1     9       tibble 41763 2024-07-25 2024-07-25
+    ## 2    31       gtable 30323 2024-07-25 2024-07-25
+    ## 3    39        bslib 28230 2024-07-25 2024-07-25
+    ## 4    47 RColorBrewer 27239 2024-07-25 2024-07-25
+    ## 5    52     labeling 26940 2024-07-25 2024-07-25
+    ## 6    53   data.table 26940 2024-07-25 2024-07-25
+    ## 7    55      isoband 26210 2024-07-25 2024-07-25
+    ## 8    58    lubridate 25334 2024-07-25 2024-07-25
+    ## 9    59    jquerylib 25310 2024-07-25 2024-07-25
+    ## 10   65          DBI 24642 2024-07-25 2024-07-25
 
 ## Steps
 
