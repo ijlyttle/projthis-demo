@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2024-07-27 08:04:44.531219 UTC
+2024-07-28 08:04:37.55149 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "b"
+    ## [1] "h"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank      package count       from         to
-    ## 1     9       tibble 41763 2024-07-25 2024-07-25
-    ## 2    31       gtable 30323 2024-07-25 2024-07-25
-    ## 3    39        bslib 28230 2024-07-25 2024-07-25
-    ## 4    47 RColorBrewer 27239 2024-07-25 2024-07-25
-    ## 5    52     labeling 26940 2024-07-25 2024-07-25
-    ## 6    53   data.table 26940 2024-07-25 2024-07-25
-    ## 7    55      isoband 26210 2024-07-25 2024-07-25
-    ## 8    58    lubridate 25334 2024-07-25 2024-07-25
-    ## 9    59    jquerylib 25310 2024-07-25 2024-07-25
-    ## 10   65          DBI 24642 2024-07-25 2024-07-25
+    ##    rank     package count       from         to
+    ## 1    13       withr 32994 2024-07-26 2024-07-26
+    ## 2    34   htmltools 26969 2024-07-26 2024-07-26
+    ## 3    44 textshaping 25106 2024-07-26 2024-07-26
+    ## 4    47      cachem 24944 2024-07-26 2024-07-26
+    ## 5    51       highr 24723 2024-07-26 2024-07-26
+    ## 6    55        httr 23395 2024-07-26 2024-07-26
+    ## 7    72         hms 20927 2024-07-26 2024-07-26
+    ## 8    77      igraph 19526 2024-07-26 2024-07-26
+    ## 9    83  timechange 18291 2024-07-26 2024-07-26
+    ## 10   89       shiny 17589 2024-07-26 2024-07-26
 
 ## Steps
 
