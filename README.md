@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2024-08-02 08:05:06.366433 UTC
+2024-08-03 08:05:42.646717 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "d"
+    ## [1] "c"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank     package count       from         to
-    ## 1     5       dplyr 46677 2024-07-31 2024-07-31
-    ## 2    24  tidyselect 32040 2024-07-31 2024-07-31
-    ## 3    25      digest 31823 2024-07-31 2024-07-31
-    ## 4    27   rmarkdown 30627 2024-07-31 2024-07-31
-    ## 5    32       tidyr 29927 2024-07-31 2024-07-31
-    ## 6    35   tidyverse 29348 2024-07-31 2024-07-31
-    ## 7    49      readxl 26459 2024-07-31 2024-07-31
-    ## 8    50 viridisLite 26298 2024-07-31 2024-07-31
-    ## 9    52  data.table 25951 2024-07-31 2024-07-31
-    ## 10   54   lubridate 25410 2024-07-31 2024-07-31
+    ##    rank    package count       from         to
+    ## 1     4        cli 51509 2024-08-01 2024-08-01
+    ## 2     5  lifecycle 47771 2024-08-01 2024-08-01
+    ## 3     7      vctrs 45173 2024-08-01 2024-08-01
+    ## 4     9       Rcpp 40935 2024-08-01 2024-08-01
+    ## 5    15 colorspace 34707 2024-08-01 2024-08-01
+    ## 6    17     scales 34052 2024-08-01 2024-08-01
+    ## 7    23 tidyselect 32291 2024-08-01 2024-08-01
+    ## 8    26       curl 30672 2024-08-01 2024-08-01
+    ## 9    28  pkgconfig 30591 2024-08-01 2024-08-01
+    ## 10   37     cachem 29152 2024-08-01 2024-08-01
 
 ## Steps
 
