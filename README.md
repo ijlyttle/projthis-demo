@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2024-08-10 08:04:53.571922 UTC
+2024-08-11 08:04:41.731833 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "b"
+    ## [1] "h"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank      package count       from         to
-    ## 1    18       tibble 42891 2024-08-08 2024-08-08
-    ## 2    28        bslib 35520 2024-08-08 2024-08-08
-    ## 3    47       gtable 30410 2024-08-08 2024-08-08
-    ## 4    52    jquerylib 28831 2024-08-08 2024-08-08
-    ## 5    61 RColorBrewer 27232 2024-08-08 2024-08-08
-    ## 6    63     labeling 26850 2024-08-08 2024-08-08
-    ## 7    64    base64enc 26830 2024-08-08 2024-08-08
-    ## 8    66      isoband 26719 2024-08-08 2024-08-08
-    ## 9    68   data.table 26292 2024-08-08 2024-08-08
-    ## 10   73    lubridate 25260 2024-08-08 2024-08-08
+    ##    rank     package count       from         to
+    ## 1     4          gh 50137 2024-08-09 2024-08-09
+    ## 2     7     usethis 46938 2024-08-09 2024-08-09
+    ## 3    11     foghorn 42281 2024-08-09 2024-08-09
+    ## 4    18       withr 37095 2024-08-09 2024-08-09
+    ## 5    34   htmltools 30117 2024-08-09 2024-08-09
+    ## 6    37      cachem 29084 2024-08-09 2024-08-09
+    ## 7    48       highr 27061 2024-08-09 2024-08-09
+    ## 8    49 textshaping 27013 2024-08-09 2024-08-09
+    ## 9    62        httr 24267 2024-08-09 2024-08-09
+    ## 10   78         hms 21827 2024-08-09 2024-08-09
 
 ## Steps
 
