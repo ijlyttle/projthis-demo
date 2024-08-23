@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2024-08-22 08:05:32.99733 UTC
+2024-08-23 08:06:31.29108 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "n"
+    ## [1] "m"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank     package count       from         to
-    ## 1     4 textshaping 81920 2024-08-20 2024-08-20
-    ## 2     5       rlang 61032 2024-08-20 2024-08-20
-    ## 3     8 systemfonts 56728 2024-08-20 2024-08-20
-    ## 4    13 prettyunits 55243 2024-08-20 2024-08-20
-    ## 5    17  timechange 52750 2024-08-20 2024-08-20
-    ## 6    21       haven 50230 2024-08-20 2024-08-20
-    ## 7    22       shiny 49706 2024-08-20 2024-08-20
-    ## 8    25   RcppEigen 47934 2024-08-20 2024-08-20
-    ## 9    36        xfun 42849 2024-08-20 2024-08-20
-    ## 10   39    jsonlite 40984 2024-08-20 2024-08-20
+    ##    rank       package count       from         to
+    ## 1    11   systemfonts 54801 2024-08-21 2024-08-21
+    ## 2    12          xml2 54681 2024-08-21 2024-08-21
+    ## 3    14         broom 51897 2024-08-21 2024-08-21
+    ## 4    15    timechange 51606 2024-08-21 2024-08-21
+    ## 5    18       rematch 49913 2024-08-21 2024-08-21
+    ## 6    22      promises 47776 2024-08-21 2024-08-21
+    ## 7    28 RcppArmadillo 45114 2024-08-21 2024-08-21
+    ## 8    39          MASS 41648 2024-08-21 2024-08-21
+    ## 9    41      magrittr 40330 2024-08-21 2024-08-21
+    ## 10   42     checkmate 39539 2024-08-21 2024-08-21
 
 ## Steps
 
