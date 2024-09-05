@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2024-09-04 08:05:09.403706 UTC
+2024-09-05 08:05:29.376295 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "p"
+    ## [1] "g"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank     package count       from         to
-    ## 1     5     ggplot2 54823 2024-09-02 2024-09-02
-    ## 2     8 textshaping 53422 2024-09-02 2024-09-02
-    ## 3    11       dplyr 47728 2024-09-02 2024-09-02
-    ## 4    13      pillar 47048 2024-09-02 2024-09-02
-    ## 5    14        Rcpp 45865 2024-09-02 2024-09-02
-    ## 6    22   pkgconfig 40071 2024-09-02 2024-09-02
-    ## 7    24  colorspace 38816 2024-09-02 2024-09-02
-    ## 8    29       cpp11 35802 2024-09-02 2024-09-02
-    ## 9    37     fastmap 33987 2024-09-02 2024-09-02
-    ## 10   43       purrr 33227 2024-09-02 2024-09-02
+    ##    rank   package count       from         to
+    ## 1     1     rlang 77988 2024-09-03 2024-09-03
+    ## 2     5   ggplot2 64872 2024-09-03 2024-09-03
+    ## 3     7      glue 58532 2024-09-03 2024-09-03
+    ## 4    12  magrittr 53651 2024-09-03 2024-09-03
+    ## 5    16    digest 50129 2024-09-03 2024-09-03
+    ## 6    23 pkgconfig 47115 2024-09-03 2024-09-03
+    ## 7    24   stringr 46483 2024-09-03 2024-09-03
+    ## 8    32   stringi 43899 2024-09-03 2024-09-03
+    ## 9    39    gtable 41504 2024-09-03 2024-09-03
+    ## 10   42     highr 40770 2024-09-03 2024-09-03
 
 ## Steps
 
