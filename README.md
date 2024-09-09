@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2024-09-08 08:05:06.443299 UTC
+2024-09-09 08:06:21.517975 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "c"
+    ## [1] "n"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank    package count       from         to
-    ## 1     2        cli 64251 2024-09-06 2024-09-06
-    ## 2     3  lifecycle 59083 2024-09-06 2024-09-06
-    ## 3     5      vctrs 56689 2024-09-06 2024-09-06
-    ## 4    20 colorspace 43087 2024-09-06 2024-09-06
-    ## 5    22       Rcpp 41733 2024-09-06 2024-09-06
-    ## 6    24  pkgconfig 41117 2024-09-06 2024-09-06
-    ## 7    26     scales 40861 2024-09-06 2024-09-06
-    ## 8    28       curl 40010 2024-09-06 2024-09-06
-    ## 9    30 tidyselect 39648 2024-09-06 2024-09-06
-    ## 10   31      cpp11 39013 2024-09-06 2024-09-06
+    ##    rank     package count       from         to
+    ## 1     1       rlang 36835 2024-09-07 2024-09-07
+    ## 2    11 textshaping 28835 2024-09-07 2024-09-07
+    ## 3    14    jsonlite 27650 2024-09-07 2024-09-07
+    ## 4    17       fansi 24810 2024-09-07 2024-09-07
+    ## 5    20   pkgconfig 23830 2024-09-07 2024-09-07
+    ## 6    22        xfun 23202 2024-09-07 2024-09-07
+    ## 7    25     stringr 22634 2024-09-07 2024-09-07
+    ## 8    26       knitr 22039 2024-09-07 2024-09-07
+    ## 9    30   rmarkdown 21292 2024-09-07 2024-09-07
+    ## 10   34     stringi 20863 2024-09-07 2024-09-07
 
 ## Steps
 
