@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2024-09-15 08:05:26.598219 UTC
+2024-09-16 08:06:11.88075 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "o"
+    ## [1] "y"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank      package count       from         to
-    ## 1     4      ggplot2 54293 2024-09-13 2024-09-13
-    ## 2    13     jsonlite 43259 2024-09-13 2024-09-13
-    ## 3    19    pkgconfig 38252 2024-09-13 2024-09-13
-    ## 4    25    rmarkdown 35898 2024-09-13 2024-09-13
-    ## 5    26    htmltools 35893 2024-09-13 2024-09-13
-    ## 6    29   colorspace 35236 2024-09-13 2024-09-13
-    ## 7    35       crayon 33021 2024-09-13 2024-09-13
-    ## 8    49 RColorBrewer 31016 2024-09-13 2024-09-13
-    ## 9    53      isoband 29956 2024-09-13 2024-09-13
-    ## 10   56      openssl 29482 2024-09-13 2024-09-13
+    ##    rank     package count       from         to
+    ## 1     1   lifecycle 34588 2024-09-14 2024-09-14
+    ## 2     6       dplyr 28638 2024-09-14 2024-09-14
+    ## 3    24  tidyselect 19632 2024-09-14 2024-09-14
+    ## 4    37   tidyverse 17550 2024-09-14 2024-09-14
+    ## 5    38      crayon 17515 2024-09-14 2024-09-14
+    ## 6    42        yaml 17296 2024-09-14 2024-09-14
+    ## 7    43       tidyr 17246 2024-09-14 2024-09-14
+    ## 8    50     tinytex 16402 2024-09-14 2024-09-14
+    ## 9    53   jquerylib 16077 2024-09-14 2024-09-14
+    ## 10   65 systemfonts 13079 2024-09-14 2024-09-14
 
 ## Steps
 
