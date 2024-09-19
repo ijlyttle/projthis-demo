@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2024-09-18 08:05:20.889204 UTC
+2024-09-19 08:06:41.872895 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "u"
+    ## [1] "n"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank     package count       from         to
-    ## 1     8        glue 49580 2024-09-16 2024-09-16
-    ## 2    14        xfun 42623 2024-09-16 2024-09-16
-    ## 3    18        utf8 41336 2024-09-16 2024-09-16
-    ## 4    26        curl 38356 2024-09-16 2024-09-16
-    ## 5    33       purrr 35366 2024-09-16 2024-09-16
-    ## 6    41     munsell 33448 2024-09-16 2024-09-16
-    ## 7    43   jquerylib 32884 2024-09-16 2024-09-16
-    ## 8    50    evaluate 32044 2024-09-16 2024-09-16
-    ## 9    66 prettyunits 26921 2024-09-16 2024-09-16
-    ## 10   69   lubridate 25605 2024-09-16 2024-09-16
+    ##    rank   package count       from         to
+    ## 1     1     rlang 67417 2024-09-17 2024-09-17
+    ## 2    11  jsonlite 45446 2024-09-17 2024-09-17
+    ## 3    13      xfun 43906 2024-09-17 2024-09-17
+    ## 4    17     fansi 42982 2024-09-17 2024-09-17
+    ## 5    19     knitr 41549 2024-09-17 2024-09-17
+    ## 6    22 pkgconfig 40576 2024-09-17 2024-09-17
+    ## 7    23   stringr 40267 2024-09-17 2024-09-17
+    ## 8    26 rmarkdown 39290 2024-09-17 2024-09-17
+    ## 9    27   tinytex 38990 2024-09-17 2024-09-17
+    ## 10   31   stringi 36959 2024-09-17 2024-09-17
 
 ## Steps
 
