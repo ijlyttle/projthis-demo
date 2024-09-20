@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2024-09-19 08:06:41.872895 UTC
+2024-09-20 08:05:49.588185 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "n"
+    ## [1] "p"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank   package count       from         to
-    ## 1     1     rlang 67417 2024-09-17 2024-09-17
-    ## 2    11  jsonlite 45446 2024-09-17 2024-09-17
-    ## 3    13      xfun 43906 2024-09-17 2024-09-17
-    ## 4    17     fansi 42982 2024-09-17 2024-09-17
-    ## 5    19     knitr 41549 2024-09-17 2024-09-17
-    ## 6    22 pkgconfig 40576 2024-09-17 2024-09-17
-    ## 7    23   stringr 40267 2024-09-17 2024-09-17
-    ## 8    26 rmarkdown 39290 2024-09-17 2024-09-17
-    ## 9    27   tinytex 38990 2024-09-17 2024-09-17
-    ## 10   31   stringi 36959 2024-09-17 2024-09-17
+    ##    rank    package count       from         to
+    ## 1     4    ggplot2 64601 2024-09-18 2024-09-18
+    ## 2     6      dplyr 59501 2024-09-18 2024-09-18
+    ## 3     9     pillar 50614 2024-09-18 2024-09-18
+    ## 4    15       Rcpp 47018 2024-09-18 2024-09-18
+    ## 5    18      cpp11 45761 2024-09-18 2024-09-18
+    ## 6    22  pkgconfig 42902 2024-09-18 2024-09-18
+    ## 7    29 colorspace 41245 2024-09-18 2024-09-18
+    ## 8    33    fastmap 39260 2024-09-18 2024-09-18
+    ## 9    35      purrr 38569 2024-09-18 2024-09-18
+    ## 10   55         ps 33325 2024-09-18 2024-09-18
 
 ## Steps
 
