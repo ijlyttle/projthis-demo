@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2024-09-21 08:05:12.506778 UTC
+2024-09-22 08:04:54.310572 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "u"
+    ## [1] "o"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank     package count       from         to
-    ## 1     7        glue 56671 2024-09-19 2024-09-19
-    ## 2    16        xfun 47540 2024-09-19 2024-09-19
-    ## 3    17        utf8 47140 2024-09-19 2024-09-19
-    ## 4    24    evaluate 43595 2024-09-19 2024-09-19
-    ## 5    29        curl 41643 2024-09-19 2024-09-19
-    ## 6    36       purrr 39786 2024-09-19 2024-09-19
-    ## 7    40     munsell 38778 2024-09-19 2024-09-19
-    ## 8    46   jquerylib 37755 2024-09-19 2024-09-19
-    ## 9    65 prettyunits 30245 2024-09-19 2024-09-19
-    ## 10   70   lubridate 27409 2024-09-19 2024-09-19
+    ##    rank      package count       from         to
+    ## 1     4     jsonlite 58188 2024-09-20 2024-09-20
+    ## 2     5      ggplot2 56549 2024-09-20 2024-09-20
+    ## 3    20    pkgconfig 39672 2024-09-20 2024-09-20
+    ## 4    25      openssl 37189 2024-09-20 2024-09-20
+    ## 5    26    rmarkdown 36061 2024-09-20 2024-09-20
+    ## 6    27   colorspace 35798 2024-09-20 2024-09-20
+    ## 7    30    htmltools 35301 2024-09-20 2024-09-20
+    ## 8    31       crayon 35065 2024-09-20 2024-09-20
+    ## 9    47 RColorBrewer 31448 2024-09-20 2024-09-20
+    ## 10   52      isoband 29487 2024-09-20 2024-09-20
 
 ## Steps
 
