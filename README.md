@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2024-09-24 08:06:05.016192 UTC
+2024-09-25 08:06:02.513726 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "o"
+    ## [1] "a"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank      package count       from         to
-    ## 1     4     jsonlite 37501 2024-09-22 2024-09-22
-    ## 2     5      ggplot2 35617 2024-09-22 2024-09-22
-    ## 3    19    htmltools 24684 2024-09-22 2024-09-22
-    ## 4    21    rmarkdown 24393 2024-09-22 2024-09-22
-    ## 5    30    pkgconfig 23161 2024-09-22 2024-09-22
-    ## 6    35   colorspace 21775 2024-09-22 2024-09-22
-    ## 7    41  fontawesome 21022 2024-09-22 2024-09-22
-    ## 8    45      memoise 20841 2024-09-22 2024-09-22
-    ## 9    52      openssl 19498 2024-09-22 2024-09-22
-    ## 10   53 RColorBrewer 19449 2024-09-22 2024-09-22
+    ##    rank    package count       from         to
+    ## 1     1      rlang 75376 2024-09-23 2024-09-23
+    ## 2    11     pillar 54774 2024-09-23 2024-09-23
+    ## 3    12   magrittr 52762 2024-09-23 2024-09-23
+    ## 4    14      fansi 49936 2024-09-23 2024-09-23
+    ## 5    20     scales 46905 2024-09-23 2024-09-23
+    ## 6    26 colorspace 44257 2024-09-23 2024-09-23
+    ## 7    28   evaluate 43658 2024-09-23 2024-09-23
+    ## 8    30  rmarkdown 42763 2024-09-23 2024-09-23
+    ## 9    34     gtable 41813 2024-09-23 2024-09-23
+    ## 10   36     farver 41722 2024-09-23 2024-09-23
 
 ## Steps
 
