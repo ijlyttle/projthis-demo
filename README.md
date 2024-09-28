@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2024-09-27 08:06:21.483521 UTC
+2024-09-28 08:05:32.932933 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "p"
+    ## [1] "b"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank    package count       from         to
-    ## 1     3    ggplot2 72977 2024-09-25 2024-09-25
-    ## 2     6      dplyr 65654 2024-09-25 2024-09-25
-    ## 3    11     pillar 55371 2024-09-25 2024-09-25
-    ## 4    13       Rcpp 51640 2024-09-25 2024-09-25
-    ## 5    21  pkgconfig 47478 2024-09-25 2024-09-25
-    ## 6    26      cpp11 45356 2024-09-25 2024-09-25
-    ## 7    27 colorspace 45223 2024-09-25 2024-09-25
-    ## 8    32    fastmap 43390 2024-09-25 2024-09-25
-    ## 9    39      purrr 42079 2024-09-25 2024-09-25
-    ## 10   54    openssl 37739 2024-09-25 2024-09-25
+    ##    rank      package count       from         to
+    ## 1     7       tibble 57862 2024-09-26 2024-09-26
+    ## 2    31        bslib 41207 2024-09-26 2024-09-26
+    ## 3    33    jquerylib 41109 2024-09-26 2024-09-26
+    ## 4    40 RColorBrewer 40544 2024-09-26 2024-09-26
+    ## 5    43       gtable 39538 2024-09-26 2024-09-26
+    ## 6    44     labeling 39266 2024-09-26 2024-09-26
+    ## 7    51      isoband 37941 2024-09-26 2024-09-26
+    ## 8    57    base64enc 36107 2024-09-26 2024-09-26
+    ## 9    61   data.table 34595 2024-09-26 2024-09-26
+    ## 10   65        bit64 33612 2024-09-26 2024-09-26
 
 ## Steps
 
