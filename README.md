@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2024-10-03 08:05:47.1102 UTC
+2024-10-04 08:06:18.537097 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "c"
+    ## [1] "y"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank      package count       from         to
-    ## 1     3    lifecycle 65057 2024-10-01 2024-10-01
-    ## 2     4          cli 63267 2024-10-01 2024-10-01
-    ## 3     7        vctrs 61454 2024-10-01 2024-10-01
-    ## 4    16       scales 45903 2024-10-01 2024-10-01
-    ## 5    17    pkgconfig 44637 2024-10-01 2024-10-01
-    ## 6    20   tidyselect 43658 2024-10-01 2024-10-01
-    ## 7    22         Rcpp 43311 2024-10-01 2024-10-01
-    ## 8    23        cpp11 42065 2024-10-01 2024-10-01
-    ## 9    26         curl 41078 2024-10-01 2024-10-01
-    ## 10   32 RColorBrewer 38921 2024-10-01 2024-10-01
+    ##    rank     package count       from         to
+    ## 1     3   lifecycle 62333 2024-10-02 2024-10-02
+    ## 2     4       dplyr 61742 2024-10-02 2024-10-02
+    ## 3    20  tidyselect 42600 2024-10-02 2024-10-02
+    ## 4    25       tidyr 40259 2024-10-02 2024-10-02
+    ## 5    29   tidyverse 39056 2024-10-02 2024-10-02
+    ## 6    33   jquerylib 37438 2024-10-02 2024-10-02
+    ## 7    47        yaml 34409 2024-10-02 2024-10-02
+    ## 8    55      crayon 33759 2024-10-02 2024-10-02
+    ## 9    56     tinytex 33654 2024-10-02 2024-10-02
+    ## 10   62 prettyunits 31603 2024-10-02 2024-10-02
 
 ## Steps
 
