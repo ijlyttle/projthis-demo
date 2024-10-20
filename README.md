@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2024-10-19 08:05:03.651264 UTC
+2024-10-20 08:05:52.479021 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "d"
+    ## [1] "e"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank     package count       from         to
-    ## 1     4       dplyr 69598 2024-10-17 2024-10-17
-    ## 2    18  tidyselect 48424 2024-10-17 2024-10-17
-    ## 3    22   tidyverse 46439 2024-10-17 2024-10-17
-    ## 4    25       tidyr 45017 2024-10-17 2024-10-17
-    ## 5    31      readxl 43203 2024-10-17 2024-10-17
-    ## 6    33 viridisLite 42892 2024-10-17 2024-10-17
-    ## 7    37     isoband 41920 2024-10-17 2024-10-17
-    ## 8    39   rmarkdown 41101 2024-10-17 2024-10-17
-    ## 9    41      digest 40952 2024-10-17 2024-10-17
-    ## 10   47  rstudioapi 38978 2024-10-17 2024-10-17
+    ##    rank      package count       from         to
+    ## 1     1    lifecycle 63491 2024-10-18 2024-10-18
+    ## 2     7         glue 54791 2024-10-18 2024-10-18
+    ## 3     8       tibble 52497 2024-10-18 2024-10-18
+    ## 4    11     jsonlite 46974 2024-10-18 2024-10-18
+    ## 5    16       scales 44940 2024-10-18 2024-10-18
+    ## 6    20    tidyverse 42062 2024-10-18 2024-10-18
+    ## 7    22   tidyselect 41829 2024-10-18 2024-10-18
+    ## 8    26      munsell 38792 2024-10-18 2024-10-18
+    ## 9    27       readxl 38711 2024-10-18 2024-10-18
+    ## 10   28 RColorBrewer 38582 2024-10-18 2024-10-18
 
 ## Steps
 
