@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2024-10-20 08:05:52.479021 UTC
+2024-10-21 08:06:19.680876 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "e"
+    ## [1] "d"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank      package count       from         to
-    ## 1     1    lifecycle 63491 2024-10-18 2024-10-18
-    ## 2     7         glue 54791 2024-10-18 2024-10-18
-    ## 3     8       tibble 52497 2024-10-18 2024-10-18
-    ## 4    11     jsonlite 46974 2024-10-18 2024-10-18
-    ## 5    16       scales 44940 2024-10-18 2024-10-18
-    ## 6    20    tidyverse 42062 2024-10-18 2024-10-18
-    ## 7    22   tidyselect 41829 2024-10-18 2024-10-18
-    ## 8    26      munsell 38792 2024-10-18 2024-10-18
-    ## 9    27       readxl 38711 2024-10-18 2024-10-18
-    ## 10   28 RColorBrewer 38582 2024-10-18 2024-10-18
+    ##    rank     package count       from         to
+    ## 1     1       dplyr 44967 2024-10-19 2024-10-19
+    ## 2     6   tidyverse 31915 2024-10-19 2024-10-19
+    ## 3    20  tidyselect 24813 2024-10-19 2024-10-19
+    ## 4    21      readxl 24594 2024-10-19 2024-10-19
+    ## 5    25       tidyr 23242 2024-10-19 2024-10-19
+    ## 6    29 viridisLite 22723 2024-10-19 2024-10-19
+    ## 7    30     isoband 22695 2024-10-19 2024-10-19
+    ## 8    36       readr 20792 2024-10-19 2024-10-19
+    ## 9    50    rappdirs 19113 2024-10-19 2024-10-19
+    ## 10   52   lubridate 18945 2024-10-19 2024-10-19
 
 ## Steps
 
