@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2024-10-22 08:05:55.218432 UTC
+2024-10-23 08:06:37.94084 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "f"
+    ## [1] "s"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank     package count       from         to
-    ## 1     1   lifecycle 39348 2024-10-20 2024-10-20
-    ## 2    14       fansi 27026 2024-10-20 2024-10-20
-    ## 3    16        utf8 26926 2024-10-20 2024-10-20
-    ## 4    18   pkgconfig 25575 2024-10-20 2024-10-20
-    ## 5    42        xfun 20776 2024-10-20 2024-10-20
-    ## 6    43      farver 20579 2024-10-20 2024-10-20
-    ## 7    51 fontawesome 19662 2024-10-20 2024-10-20
-    ## 8    58     fastmap 18254 2024-10-20 2024-10-20
-    ## 9    65          fs 17618 2024-10-20 2024-10-20
-    ## 10   82     forcats 16197 2024-10-20 2024-10-20
+    ##    rank    package count       from         to
+    ## 1     6      vctrs 63988 2024-10-21 2024-10-21
+    ## 2    11   jsonlite 53395 2024-10-21 2024-10-21
+    ## 3    12  tidyverse 50407 2024-10-21 2024-10-21
+    ## 4    15      fansi 50104 2024-10-21 2024-10-21
+    ## 5    17     scales 48578 2024-10-21 2024-10-21
+    ## 6    19    stringr 46520 2024-10-21 2024-10-21
+    ## 7    20 tidyselect 46263 2024-10-21 2024-10-21
+    ## 8    24   generics 44894 2024-10-21 2024-10-21
+    ## 9    25  htmltools 43933 2024-10-21 2024-10-21
+    ## 10   29    munsell 42279 2024-10-21 2024-10-21
 
 ## Steps
 
