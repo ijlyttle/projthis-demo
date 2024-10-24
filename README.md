@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2024-10-23 08:06:37.94084 UTC
+2024-10-24 08:05:56.036522 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "s"
+    ## [1] "d"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank    package count       from         to
-    ## 1     6      vctrs 63988 2024-10-21 2024-10-21
-    ## 2    11   jsonlite 53395 2024-10-21 2024-10-21
-    ## 3    12  tidyverse 50407 2024-10-21 2024-10-21
-    ## 4    15      fansi 50104 2024-10-21 2024-10-21
-    ## 5    17     scales 48578 2024-10-21 2024-10-21
-    ## 6    19    stringr 46520 2024-10-21 2024-10-21
-    ## 7    20 tidyselect 46263 2024-10-21 2024-10-21
-    ## 8    24   generics 44894 2024-10-21 2024-10-21
-    ## 9    25  htmltools 43933 2024-10-21 2024-10-21
-    ## 10   29    munsell 42279 2024-10-21 2024-10-21
+    ##    rank     package count       from         to
+    ## 1     4       dplyr 71629 2024-10-22 2024-10-22
+    ## 2    19   tidyverse 49552 2024-10-22 2024-10-22
+    ## 3    22  tidyselect 48952 2024-10-22 2024-10-22
+    ## 4    25      readxl 46767 2024-10-22 2024-10-22
+    ## 5    26       tidyr 46695 2024-10-22 2024-10-22
+    ## 6    34 viridisLite 43574 2024-10-22 2024-10-22
+    ## 7    38     isoband 42773 2024-10-22 2024-10-22
+    ## 8    40   rmarkdown 42317 2024-10-22 2024-10-22
+    ## 9    41      digest 42278 2024-10-22 2024-10-22
+    ## 10   54       readr 39128 2024-10-22 2024-10-22
 
 ## Steps
 
