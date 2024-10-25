@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2024-10-24 08:05:56.036522 UTC
+2024-10-25 08:05:50.860649 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "d"
+    ## [1] "o"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank     package count       from         to
-    ## 1     4       dplyr 71629 2024-10-22 2024-10-22
-    ## 2    19   tidyverse 49552 2024-10-22 2024-10-22
-    ## 3    22  tidyselect 48952 2024-10-22 2024-10-22
-    ## 4    25      readxl 46767 2024-10-22 2024-10-22
-    ## 5    26       tidyr 46695 2024-10-22 2024-10-22
-    ## 6    34 viridisLite 43574 2024-10-22 2024-10-22
-    ## 7    38     isoband 42773 2024-10-22 2024-10-22
-    ## 8    40   rmarkdown 42317 2024-10-22 2024-10-22
-    ## 9    41      digest 42278 2024-10-22 2024-10-22
-    ## 10   54       readr 39128 2024-10-22 2024-10-22
+    ##    rank      package count       from         to
+    ## 1     1      ggplot2 74690 2024-10-23 2024-10-23
+    ## 2    11     jsonlite 54221 2024-10-23 2024-10-23
+    ## 3    17    pkgconfig 50606 2024-10-23 2024-10-23
+    ## 4    23    htmltools 47338 2024-10-23 2024-10-23
+    ## 5    29 RColorBrewer 44557 2024-10-23 2024-10-23
+    ## 6    35   colorspace 43039 2024-10-23 2024-10-23
+    ## 7    38      isoband 42520 2024-10-23 2024-10-23
+    ## 8    40    rmarkdown 41601 2024-10-23 2024-10-23
+    ## 9    47       crayon 39496 2024-10-23 2024-10-23
+    ## 10   49  fontawesome 38844 2024-10-23 2024-10-23
 
 ## Steps
 
