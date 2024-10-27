@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2024-10-26 08:05:19.462797 UTC
+2024-10-27 08:06:19.439139 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "y"
+    ## [1] "l"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank     package count       from         to
-    ## 1     4       dplyr 69433 2024-10-24 2024-10-24
-    ## 2     5   lifecycle 68944 2024-10-24 2024-10-24
-    ## 3    21  tidyselect 47932 2024-10-24 2024-10-24
-    ## 4    23       tidyr 45986 2024-10-24 2024-10-24
-    ## 5    25   tidyverse 45655 2024-10-24 2024-10-24
-    ## 6    44   jquerylib 40878 2024-10-24 2024-10-24
-    ## 7    45      crayon 40602 2024-10-24 2024-10-24
-    ## 8    50     tinytex 39636 2024-10-24 2024-10-24
-    ## 9    51        yaml 39237 2024-10-24 2024-10-24
-    ## 10   64 prettyunits 35245 2024-10-24 2024-10-24
+    ##    rank   package count       from         to
+    ## 1     1     rlang 66777 2024-10-25 2024-10-25
+    ## 2     2 lifecycle 64043 2024-10-25 2024-10-25
+    ## 3     3   ggplot2 63581 2024-10-25 2024-10-25
+    ## 4     4       cli 63556 2024-10-25 2024-10-25
+    ## 5     5     dplyr 60790 2024-10-25 2024-10-25
+    ## 6     6      glue 59006 2024-10-25 2024-10-25
+    ## 7     8    tibble 53718 2024-10-25 2024-10-25
+    ## 8     9  jsonlite 51518 2024-10-25 2024-10-25
+    ## 9    10    pillar 51217 2024-10-25 2024-10-25
+    ## 10   17    gtable 45823 2024-10-25 2024-10-25
 
 ## Steps
 
