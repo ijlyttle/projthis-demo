@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2024-11-04 08:06:29.098432 UTC
+2024-11-05 08:06:07.620179 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "i"
+    ## [1] "b"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank     package count       from         to
-    ## 1     1   tidyverse 54473 2024-11-02 2024-11-02
-    ## 2     3 textshaping 51353 2024-11-02 2024-11-02
-    ## 3     5   lifecycle 41623 2024-11-02 2024-11-02
-    ## 4     6         cli 41159 2024-11-02 2024-11-02
-    ## 5    11    jsonlite 34015 2024-11-02 2024-11-02
-    ## 6    12      tibble 33790 2024-11-02 2024-11-02
-    ## 7    13      pillar 32784 2024-11-02 2024-11-02
-    ## 8    14    magrittr 31539 2024-11-02 2024-11-02
-    ## 9    17       fansi 30427 2024-11-02 2024-11-02
-    ## 10   19       withr 30225 2024-11-02 2024-11-02
+    ##    rank      package count       from         to
+    ## 1    13       tibble 32945 2024-11-03 2024-11-03
+    ## 2    26      isoband 25995 2024-11-03 2024-11-03
+    ## 3    31   data.table 25258 2024-11-03 2024-11-03
+    ## 4    38 RColorBrewer 24317 2024-11-03 2024-11-03
+    ## 5    39        bslib 24225 2024-11-03 2024-11-03
+    ## 6    43     labeling 23857 2024-11-03 2024-11-03
+    ## 7    48       gtable 23555 2024-11-03 2024-11-03
+    ## 8    52    jquerylib 22634 2024-11-03 2024-11-03
+    ## 9    64        broom 21375 2024-11-03 2024-11-03
+    ## 10   70    base64enc 19808 2024-11-03 2024-11-03
 
 ## Steps
 
