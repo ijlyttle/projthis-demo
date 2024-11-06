@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2024-11-05 08:06:07.620179 UTC
+2024-11-06 08:05:37.859222 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "b"
+    ## [1] "o"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -42,16 +42,16 @@ cran_top_downloads(when = "last-day", count = 100) %>%
 ```
 
     ##    rank      package count       from         to
-    ## 1    13       tibble 32945 2024-11-03 2024-11-03
-    ## 2    26      isoband 25995 2024-11-03 2024-11-03
-    ## 3    31   data.table 25258 2024-11-03 2024-11-03
-    ## 4    38 RColorBrewer 24317 2024-11-03 2024-11-03
-    ## 5    39        bslib 24225 2024-11-03 2024-11-03
-    ## 6    43     labeling 23857 2024-11-03 2024-11-03
-    ## 7    48       gtable 23555 2024-11-03 2024-11-03
-    ## 8    52    jquerylib 22634 2024-11-03 2024-11-03
-    ## 9    64        broom 21375 2024-11-03 2024-11-03
-    ## 10   70    base64enc 19808 2024-11-03 2024-11-03
+    ## 1     2      ggplot2 72780 2024-11-04 2024-11-04
+    ## 2     8    rmarkdown 60452 2024-11-04 2024-11-04
+    ## 3    13     jsonlite 56546 2024-11-04 2024-11-04
+    ## 4    24    pkgconfig 47524 2024-11-04 2024-11-04
+    ## 5    28   colorspace 44910 2024-11-04 2024-11-04
+    ## 6    30    htmltools 44249 2024-11-04 2024-11-04
+    ## 7    42 RColorBrewer 41911 2024-11-04 2024-11-04
+    ## 8    43       crayon 41864 2024-11-04 2024-11-04
+    ## 9    51      isoband 39989 2024-11-04 2024-11-04
+    ## 10   57      openssl 37085 2024-11-04 2024-11-04
 
 ## Steps
 
