@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2024-11-06 08:05:37.859222 UTC
+2024-11-07 08:05:34.794776 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "o"
+    ## [1] "p"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank      package count       from         to
-    ## 1     2      ggplot2 72780 2024-11-04 2024-11-04
-    ## 2     8    rmarkdown 60452 2024-11-04 2024-11-04
-    ## 3    13     jsonlite 56546 2024-11-04 2024-11-04
-    ## 4    24    pkgconfig 47524 2024-11-04 2024-11-04
-    ## 5    28   colorspace 44910 2024-11-04 2024-11-04
-    ## 6    30    htmltools 44249 2024-11-04 2024-11-04
-    ## 7    42 RColorBrewer 41911 2024-11-04 2024-11-04
-    ## 8    43       crayon 41864 2024-11-04 2024-11-04
-    ## 9    51      isoband 39989 2024-11-04 2024-11-04
-    ## 10   57      openssl 37085 2024-11-04 2024-11-04
+    ##    rank     package count       from         to
+    ## 1     2     ggplot2 75281 2024-11-05 2024-11-05
+    ## 2     5       dplyr 69577 2024-11-05 2024-11-05
+    ## 3     8        Rcpp 65682 2024-11-05 2024-11-05
+    ## 4    11 textshaping 59372 2024-11-05 2024-11-05
+    ## 5    17      pillar 53210 2024-11-05 2024-11-05
+    ## 6    27   pkgconfig 45879 2024-11-05 2024-11-05
+    ## 7    31  colorspace 44679 2024-11-05 2024-11-05
+    ## 8    32       cpp11 44575 2024-11-05 2024-11-05
+    ## 9    33       purrr 44491 2024-11-05 2024-11-05
+    ## 10   35     fastmap 43588 2024-11-05 2024-11-05
 
 ## Steps
 
