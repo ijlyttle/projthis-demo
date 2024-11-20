@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2024-11-19 08:06:27.306901 UTC
+2024-11-20 08:06:16.413913 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "a"
+    ## [1] "t"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank     package count       from         to
-    ## 1     3        ragg 47418 2024-11-17 2024-11-17
-    ## 2     4 textshaping 46612 2024-11-17 2024-11-17
-    ## 3     5       rlang 40826 2024-11-17 2024-11-17
-    ## 4    13 fontawesome 31581 2024-11-17 2024-11-17
-    ## 5    15    magrittr 29025 2024-11-17 2024-11-17
-    ## 6    16      pillar 28908 2024-11-17 2024-11-17
-    ## 7    22       fansi 26506 2024-11-17 2024-11-17
-    ## 8    24      readxl 26400 2024-11-17 2024-11-17
-    ## 9    26      scales 26337 2024-11-17 2024-11-17
-    ## 10   31  colorspace 24724 2024-11-17 2024-11-17
+    ##    rank     package  count       from         to
+    ## 1     1    devtools 107358 2024-11-18 2024-11-18
+    ## 2     2     ggplot2  71630 2024-11-18 2024-11-18
+    ## 3     8       vctrs  58537 2024-11-18 2024-11-18
+    ## 4     9   tidyverse  57399 2024-11-18 2024-11-18
+    ## 5    11    jsonlite  53999 2024-11-18 2024-11-18
+    ## 6    12      tibble  52956 2024-11-18 2024-11-18
+    ## 7    15 textshaping  49773 2024-11-18 2024-11-18
+    ## 8    16       withr  49213 2024-11-18 2024-11-18
+    ## 9    18    magrittr  48854 2024-11-18 2024-11-18
+    ## 10   19 fontawesome  47994 2024-11-18 2024-11-18
 
 ## Steps
 
