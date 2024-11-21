@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2024-11-20 08:06:16.413913 UTC
+2024-11-21 08:05:56.36961 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "t"
+    ## [1] "i"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank     package  count       from         to
-    ## 1     1    devtools 107358 2024-11-18 2024-11-18
-    ## 2     2     ggplot2  71630 2024-11-18 2024-11-18
-    ## 3     8       vctrs  58537 2024-11-18 2024-11-18
-    ## 4     9   tidyverse  57399 2024-11-18 2024-11-18
-    ## 5    11    jsonlite  53999 2024-11-18 2024-11-18
-    ## 6    12      tibble  52956 2024-11-18 2024-11-18
-    ## 7    15 textshaping  49773 2024-11-18 2024-11-18
-    ## 8    16       withr  49213 2024-11-18 2024-11-18
-    ## 9    18    magrittr  48854 2024-11-18 2024-11-18
-    ## 10   19 fontawesome  47994 2024-11-18 2024-11-18
+    ##    rank    package count       from         to
+    ## 1     5        cli 68404 2024-11-19 2024-11-19
+    ## 2     7  lifecycle 62422 2024-11-19 2024-11-19
+    ## 3     9     tibble 54518 2024-11-19 2024-11-19
+    ## 4    10   jsonlite 53859 2024-11-19 2024-11-19
+    ## 5    12     pillar 51369 2024-11-19 2024-11-19
+    ## 6    13      withr 51147 2024-11-19 2024-11-19
+    ## 7    14   magrittr 50595 2024-11-19 2024-11-19
+    ## 8    18 tidyselect 47142 2024-11-19 2024-11-19
+    ## 9    20    stringr 46899 2024-11-19 2024-11-19
+    ## 10   21      fansi 46727 2024-11-19 2024-11-19
 
 ## Steps
 
