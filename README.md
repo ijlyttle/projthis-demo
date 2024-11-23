@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2024-11-22 08:06:01.115991 UTC
+2024-11-23 08:05:22.975168 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "b"
+    ## [1] "g"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank      package count       from         to
-    ## 1    12       tibble 53164 2024-11-20 2024-11-20
-    ## 2    36        bslib 41447 2024-11-20 2024-11-20
-    ## 3    39 RColorBrewer 40484 2024-11-20 2024-11-20
-    ## 4    47    jquerylib 39023 2024-11-20 2024-11-20
-    ## 5    48   data.table 38926 2024-11-20 2024-11-20
-    ## 6    50       gtable 38625 2024-11-20 2024-11-20
-    ## 7    52     labeling 38318 2024-11-20 2024-11-20
-    ## 8    56      isoband 37455 2024-11-20 2024-11-20
-    ## 9    69    base64enc 33959 2024-11-20 2024-11-20
-    ## 10   70        bit64 33916 2024-11-20 2024-11-20
+    ##    rank     package count       from         to
+    ## 1     2     ggplot2 72753 2024-11-21 2024-11-21
+    ## 2     3       rlang 71303 2024-11-21 2024-11-21
+    ## 3     7        ragg 61582 2024-11-21 2024-11-21
+    ## 4     8        glue 60855 2024-11-21 2024-11-21
+    ## 5    10 textshaping 59861 2024-11-21 2024-11-21
+    ## 6    17    magrittr 49025 2024-11-21 2024-11-21
+    ## 7    20     stringr 45878 2024-11-21 2024-11-21
+    ## 8    29   pkgconfig 43021 2024-11-21 2024-11-21
+    ## 9    32      digest 42209 2024-11-21 2024-11-21
+    ## 10   45    generics 39014 2024-11-21 2024-11-21
 
 ## Steps
 
