@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2024-11-29 08:05:43.73425 UTC
+2024-11-30 08:05:22.265084 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "o"
+    ## [1] "t"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank      package  count       from         to
-    ## 1     1     devtools 124793 2024-11-27 2024-11-27
-    ## 2     2      ggplot2  66046 2024-11-27 2024-11-27
-    ## 3     9     jsonlite  52851 2024-11-27 2024-11-27
-    ## 4    22    pkgconfig  42398 2024-11-27 2024-11-27
-    ## 5    31       crayon  40642 2024-11-27 2024-11-27
-    ## 6    33    htmltools  40208 2024-11-27 2024-11-27
-    ## 7    37   colorspace  39001 2024-11-27 2024-11-27
-    ## 8    40      openssl  38345 2024-11-27 2024-11-27
-    ## 9    48 RColorBrewer  37080 2024-11-27 2024-11-27
-    ## 10   52    rmarkdown  36213 2024-11-27 2024-11-27
+    ##    rank    package  count       from         to
+    ## 1     1   devtools 123925 2024-11-28 2024-11-28
+    ## 2     2    ggplot2  62828 2024-11-28 2024-11-28
+    ## 3     8      vctrs  52382 2024-11-28 2024-11-28
+    ## 4     9   jsonlite  47410 2024-11-28 2024-11-28
+    ## 5    10     tibble  45492 2024-11-28 2024-11-28
+    ## 6    12   magrittr  42978 2024-11-28 2024-11-28
+    ## 7    14      withr  41330 2024-11-28 2024-11-28
+    ## 8    15 tidyselect  40703 2024-11-28 2024-11-28
+    ## 9    18    stringr  40360 2024-11-28 2024-11-28
+    ## 10   21       utf8  39235 2024-11-28 2024-11-28
 
 ## Steps
 
