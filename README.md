@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2024-12-07 08:05:21.246256 UTC
+2024-12-08 08:05:33.448905 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "m"
+    ## [1] "c"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank     package count       from         to
-    ## 1    13    magrittr 45248 2024-12-05 2024-12-05
-    ## 2    28   htmltools 39800 2024-12-05 2024-12-05
-    ## 3    32     fastmap 38991 2024-12-05 2024-12-05
-    ## 4    33   rmarkdown 38946 2024-12-05 2024-12-05
-    ## 5    40 fontawesome 37097 2024-12-05 2024-12-05
-    ## 6    41      cachem 36628 2024-12-05 2024-12-05
-    ## 7    47        yaml 35934 2024-12-05 2024-12-05
-    ## 8    48     munsell 35481 2024-12-05 2024-12-05
-    ## 9    56        mime 33758 2024-12-05 2024-12-05
-    ## 10   58     memoise 32888 2024-12-05 2024-12-05
+    ##    rank    package count       from         to
+    ## 1     4        cli 50374 2024-12-06 2024-12-06
+    ## 2     6  lifecycle 47212 2024-12-06 2024-12-06
+    ## 3     7      vctrs 46334 2024-12-06 2024-12-06
+    ## 4    10       Rcpp 40656 2024-12-06 2024-12-06
+    ## 5    12       curl 40523 2024-12-06 2024-12-06
+    ## 6    13      cpp11 39527 2024-12-06 2024-12-06
+    ## 7    22 tidyselect 35759 2024-12-06 2024-12-06
+    ## 8    24     scales 35285 2024-12-06 2024-12-06
+    ## 9    34  pkgconfig 32994 2024-12-06 2024-12-06
+    ## 10   39 colorspace 32220 2024-12-06 2024-12-06
 
 ## Steps
 
