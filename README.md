@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2024-12-10 08:07:27.29187 UTC
+2024-12-11 08:07:27.225027 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "d"
+    ## [1] "e"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank     package count       from         to
-    ## 1     2       dplyr 38562 2024-12-08 2024-12-08
-    ## 2    18      readxl 24845 2024-12-08 2024-12-08
-    ## 3    19       tidyr 24832 2024-12-08 2024-12-08
-    ## 4    22  tidyselect 24077 2024-12-08 2024-12-08
-    ## 5    25   tidyverse 23990 2024-12-08 2024-12-08
-    ## 6    29   rmarkdown 23101 2024-12-08 2024-12-08
-    ## 7    30      digest 23081 2024-12-08 2024-12-08
-    ## 8    33   lubridate 22548 2024-12-08 2024-12-08
-    ## 9    41  data.table 21644 2024-12-08 2024-12-08
-    ## 10   51 viridisLite 20667 2024-12-08 2024-12-08
+    ##    rank    package count       from         to
+    ## 1     5       glue 53302 2024-12-09 2024-12-09
+    ## 2     6  lifecycle 52974 2024-12-09 2024-12-09
+    ## 3    10   jsonlite 47005 2024-12-09 2024-12-09
+    ## 4    12     tibble 45313 2024-12-09 2024-12-09
+    ## 5    19  lubridate 40572 2024-12-09 2024-12-09
+    ## 6    21 tidyselect 39878 2024-12-09 2024-12-09
+    ## 7    22     scales 39618 2024-12-09 2024-12-09
+    ## 8    25     readxl 39145 2024-12-09 2024-12-09
+    ## 9    31  tidyverse 37666 2024-12-09 2024-12-09
+    ## 10   32     digest 37617 2024-12-09 2024-12-09
 
 ## Steps
 
