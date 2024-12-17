@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2024-12-16 08:07:00.821073 UTC
+2024-12-17 08:06:38.217423 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "f"
+    ## [1] "o"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank     package count       from         to
-    ## 1     2   lifecycle 31876 2024-12-14 2024-12-14
-    ## 2    16        xfun 21907 2024-12-14 2024-12-14
-    ## 3    24       fansi 20369 2024-12-14 2024-12-14
-    ## 4    25        utf8 20329 2024-12-14 2024-12-14
-    ## 5    27          fs 19853 2024-12-14 2024-12-14
-    ## 6    32     fastmap 18960 2024-12-14 2024-12-14
-    ## 7    34   pkgconfig 18937 2024-12-14 2024-12-14
-    ## 8    40 fontawesome 18554 2024-12-14 2024-12-14
-    ## 9    47      farver 17688 2024-12-14 2024-12-14
-    ## 10   71 systemfonts 15426 2024-12-14 2024-12-14
+    ##    rank      package count       from         to
+    ## 1     2      ggplot2 32611 2024-12-15 2024-12-15
+    ## 2     8     jsonlite 25087 2024-12-15 2024-12-15
+    ## 3    29    htmltools 18616 2024-12-15 2024-12-15
+    ## 4    30    pkgconfig 18521 2024-12-15 2024-12-15
+    ## 5    31    rmarkdown 18500 2024-12-15 2024-12-15
+    ## 6    35   colorspace 18335 2024-12-15 2024-12-15
+    ## 7    39       crayon 17830 2024-12-15 2024-12-15
+    ## 8    43  fontawesome 17556 2024-12-15 2024-12-15
+    ## 9    48 RColorBrewer 16982 2024-12-15 2024-12-15
+    ## 10   55      openssl 16660 2024-12-15 2024-12-15
 
 ## Steps
 
