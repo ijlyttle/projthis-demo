@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2024-12-19 08:05:58.541805 UTC
+2024-12-20 08:05:45.895693 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "f"
+    ## [1] "t"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank     package count       from         to
-    ## 1     4   lifecycle 57668 2024-12-17 2024-12-17
-    ## 2    17       fansi 41130 2024-12-17 2024-12-17
-    ## 3    22        utf8 39967 2024-12-17 2024-12-17
-    ## 4    26        xfun 38047 2024-12-17 2024-12-17
-    ## 5    27   pkgconfig 37959 2024-12-17 2024-12-17
-    ## 6    33      farver 35778 2024-12-17 2024-12-17
-    ## 7    42          fs 33968 2024-12-17 2024-12-17
-    ## 8    48     fastmap 32690 2024-12-17 2024-12-17
-    ## 9    53 fontawesome 31492 2024-12-17 2024-12-17
-    ## 10   72 systemfonts 25205 2024-12-17 2024-12-17
+    ##    rank   package count       from         to
+    ## 1     1 tidyverse 57432 2024-12-18 2024-12-18
+    ## 2     5   ggplot2 52830 2024-12-18 2024-12-18
+    ## 3    10     vctrs 45918 2024-12-18 2024-12-18
+    ## 4    11     withr 42603 2024-12-18 2024-12-18
+    ## 5    12  jsonlite 41273 2024-12-18 2024-12-18
+    ## 6    14    tibble 40470 2024-12-18 2024-12-18
+    ## 7    17  magrittr 38170 2024-12-18 2024-12-18
+    ## 8    20     knitr 36174 2024-12-18 2024-12-18
+    ## 9    21   stringr 36015 2024-12-18 2024-12-18
+    ## 10   24     tidyr 35670 2024-12-18 2024-12-18
 
 ## Steps
 
