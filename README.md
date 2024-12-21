@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2024-12-20 08:05:45.895693 UTC
+2024-12-21 08:05:00.91753 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "t"
+    ## [1] "s"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank   package count       from         to
-    ## 1     1 tidyverse 57432 2024-12-18 2024-12-18
-    ## 2     5   ggplot2 52830 2024-12-18 2024-12-18
-    ## 3    10     vctrs 45918 2024-12-18 2024-12-18
-    ## 4    11     withr 42603 2024-12-18 2024-12-18
-    ## 5    12  jsonlite 41273 2024-12-18 2024-12-18
-    ## 6    14    tibble 40470 2024-12-18 2024-12-18
-    ## 7    17  magrittr 38170 2024-12-18 2024-12-18
-    ## 8    20     knitr 36174 2024-12-18 2024-12-18
-    ## 9    21   stringr 36015 2024-12-18 2024-12-18
-    ## 10   24     tidyr 35670 2024-12-18 2024-12-18
+    ##    rank    package count       from         to
+    ## 1     1  tidyverse 56081 2024-12-19 2024-12-19
+    ## 2    10      vctrs 43143 2024-12-19 2024-12-19
+    ## 3    13   jsonlite 39082 2024-12-19 2024-12-19
+    ## 4    15    openssl 36284 2024-12-19 2024-12-19
+    ## 5    20    stringr 33443 2024-12-19 2024-12-19
+    ## 6    22 tidyselect 33037 2024-12-19 2024-12-19
+    ## 7    23     digest 32902 2024-12-19 2024-12-19
+    ## 8    25      fansi 32771 2024-12-19 2024-12-19
+    ## 9    26     scales 32656 2024-12-19 2024-12-19
+    ## 10   30         fs 31389 2024-12-19 2024-12-19
 
 ## Steps
 
