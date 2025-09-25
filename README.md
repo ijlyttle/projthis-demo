@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2025-09-24 08:14:02.909449 UTC
+2025-09-25 08:08:22.814238 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -42,7 +42,8 @@ cran_top_downloads(when = "last-day", count = 100) %>%
 ```
 
     ##   rank package count       from         to
-    ## 1   73    tzdb 34501 2025-09-22 2025-09-22
+    ## 1   72    tzdb 36974 2025-09-23 2025-09-23
+    ## 2   97     zoo 27222 2025-09-23 2025-09-23
 
 ## Steps
 
