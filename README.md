@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2025-11-22 08:06:14.753755 UTC
+2025-11-23 08:06:07.370517 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "u"
+    ## [1] "c"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank     package count       from         to
-    ## 1    14       purrr 57307 2025-11-20 2025-11-20
-    ## 2    16        glue 55188 2025-11-20 2025-11-20
-    ## 3    28        curl 50725 2025-11-20 2025-11-20
-    ## 4    37        xfun 46886 2025-11-20 2025-11-20
-    ## 5    40        utf8 45622 2025-11-20 2025-11-20
-    ## 6    45    evaluate 42951 2025-11-20 2025-11-20
-    ## 7    55   jquerylib 40136 2025-11-20 2025-11-20
-    ## 8    61   lubridate 39374 2025-11-20 2025-11-20
-    ## 9    74 prettyunits 34262 2025-11-20 2025-11-20
-    ## 10   84  rstudioapi 31639 2025-11-20 2025-11-20
+    ##    rank    package count       from         to
+    ## 1     2       Rcpp 68121 2025-11-21 2025-11-21
+    ## 2     7        cli 59098 2025-11-21 2025-11-21
+    ## 3     8  lifecycle 56272 2025-11-21 2025-11-21
+    ## 4     9     scales 52965 2025-11-21 2025-11-21
+    ## 5    20      vctrs 48427 2025-11-21 2025-11-21
+    ## 6    24       curl 47108 2025-11-21 2025-11-21
+    ## 7    38   generics 40836 2025-11-21 2025-11-21
+    ## 8    42 tidyselect 39312 2025-11-21 2025-11-21
+    ## 9    45  pkgconfig 38256 2025-11-21 2025-11-21
+    ## 10   50      cpp11 37040 2025-11-21 2025-11-21
 
 ## Steps
 
