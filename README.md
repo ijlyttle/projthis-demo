@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2025-12-20 08:06:24.600025 UTC
+2025-12-21 08:06:37.489948 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "t"
+    ## [1] "i"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank  package count       from         to
-    ## 1     1  ggplot2 74858 2025-12-18 2025-12-18
-    ## 2     3   tibble 65326 2025-12-18 2025-12-18
-    ## 3     5    tidyr 61698 2025-12-18 2025-12-18
-    ## 4    12    vctrs 53660 2025-12-18 2025-12-18
-    ## 5    13 magrittr 53394 2025-12-18 2025-12-18
-    ## 6    14   gtable 51791 2025-12-18 2025-12-18
-    ## 7    17 jsonlite 49572 2025-12-18 2025-12-18
-    ## 8    18    withr 49290 2025-12-18 2025-12-18
-    ## 9    23 testthat 46072 2025-12-18 2025-12-18
-    ## 10   24  stringr 45063 2025-12-18 2025-12-18
+    ##    rank   package count       from         to
+    ## 1     4     tidyr 62847 2025-12-19 2025-12-19
+    ## 2     5    tibble 60689 2025-12-19 2025-12-19
+    ## 3     9       cli 55168 2025-12-19 2025-12-19
+    ## 4    10     knitr 52708 2025-12-19 2025-12-19
+    ## 5    13  magrittr 50564 2025-12-19 2025-12-19
+    ## 6    14 lifecycle 50132 2025-12-19 2025-12-19
+    ## 7    17    pillar 48082 2025-12-19 2025-12-19
+    ## 8    19  jsonlite 46444 2025-12-19 2025-12-19
+    ## 9    20     withr 45605 2025-12-19 2025-12-19
+    ## 10   22   stringr 42940 2025-12-19 2025-12-19
 
 ## Steps
 
