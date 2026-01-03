@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2026-01-02 08:07:16.662483 UTC
+2026-01-03 08:06:08.783714 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "k"
+    ## [1] "d"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,15 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##   rank    package count       from         to
-    ## 1   21  pkgconfig 26476 2025-12-31 2025-12-31
-    ## 2   28  rmarkdown 25105 2025-12-31 2025-12-31
-    ## 3   47      knitr 23019 2025-12-31 2025-12-31
-    ## 4   65  backports 17869 2025-12-31 2025-12-31
-    ## 5   66    askpass 17772 2025-12-31 2025-12-31
-    ## 6   67 commonmark 17330 2025-12-31 2025-12-31
-    ## 7   75   pkgbuild 16169 2025-12-31 2025-12-31
-    ## 8   81    pkgload 15578 2025-12-31 2025-12-31
+    ##    rank     package count       from         to
+    ## 1     8       dplyr 22980 2026-01-01 2026-01-01
+    ## 2    21   tidyverse 19280 2026-01-01 2026-01-01
+    ## 3    23   rmarkdown 19155 2026-01-01 2026-01-01
+    ## 4    30  tidyselect 18530 2026-01-01 2026-01-01
+    ## 5    41    rappdirs 17080 2026-01-01 2026-01-01
+    ## 6    55 viridisLite 15549 2026-01-01 2026-01-01
+    ## 7    59      digest 15310 2026-01-01 2026-01-01
+    ## 8    62       tidyr 14265 2026-01-01 2026-01-01
+    ## 9    67     isoband 13533 2026-01-01 2026-01-01
+    ## 10   69      readxl 13301 2026-01-01 2026-01-01
 
 ## Steps
 
