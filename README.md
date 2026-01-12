@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2026-01-11 08:06:47.39958 UTC
+2026-01-12 08:07:45.09999 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "y"
+    ## [1] "l"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank     package count       from         to
-    ## 1     2   lifecycle 84033 2026-01-09 2026-01-09
-    ## 2    10       dplyr 67739 2026-01-09 2026-01-09
-    ## 3    26       tidyr 56868 2026-01-09 2026-01-09
-    ## 4    30  tidyselect 55570 2026-01-09 2026-01-09
-    ## 5    32        yaml 55351 2026-01-09 2026-01-09
-    ## 6    46   jquerylib 52476 2026-01-09 2026-01-09
-    ## 7    55      crayon 50414 2026-01-09 2026-01-09
-    ## 8    56     tinytex 49815 2026-01-09 2026-01-09
-    ## 9    69 systemfonts 37180 2026-01-09 2026-01-09
-    ## 10   71   tidyverse 35746 2026-01-09 2026-01-09
+    ##    rank   package count       from         to
+    ## 1     3     rlang 51582 2026-01-10 2026-01-10
+    ## 2     5 lifecycle 44331 2026-01-10 2026-01-10
+    ## 3     6       cli 42348 2026-01-10 2026-01-10
+    ## 4     8     dplyr 38475 2026-01-10 2026-01-10
+    ## 5    10      glue 37980 2026-01-10 2026-01-10
+    ## 6    13  jsonlite 37145 2026-01-10 2026-01-10
+    ## 7    16    tibble 35939 2026-01-10 2026-01-10
+    ## 8    17    pillar 35570 2026-01-10 2026-01-10
+    ## 9    18   ggplot2 34715 2026-01-10 2026-01-10
+    ## 10   21    scales 32157 2026-01-10 2026-01-10
 
 ## Steps
 
