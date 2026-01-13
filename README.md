@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2026-01-12 08:07:45.09999 UTC
+2026-01-13 08:07:29.267608 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "l"
+    ## [1] "o"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank   package count       from         to
-    ## 1     3     rlang 51582 2026-01-10 2026-01-10
-    ## 2     5 lifecycle 44331 2026-01-10 2026-01-10
-    ## 3     6       cli 42348 2026-01-10 2026-01-10
-    ## 4     8     dplyr 38475 2026-01-10 2026-01-10
-    ## 5    10      glue 37980 2026-01-10 2026-01-10
-    ## 6    13  jsonlite 37145 2026-01-10 2026-01-10
-    ## 7    16    tibble 35939 2026-01-10 2026-01-10
-    ## 8    17    pillar 35570 2026-01-10 2026-01-10
-    ## 9    18   ggplot2 34715 2026-01-10 2026-01-10
-    ## 10   21    scales 32157 2026-01-10 2026-01-10
+    ##    rank      package count       from         to
+    ## 1    15     jsonlite 45434 2026-01-11 2026-01-11
+    ## 2    20    pkgconfig 42982 2026-01-11 2026-01-11
+    ## 3    24 RColorBrewer 41771 2026-01-11 2026-01-11
+    ## 4    29      ggplot2 41350 2026-01-11 2026-01-11
+    ## 5    34     processx 39363 2026-01-11 2026-01-11
+    ## 6    35       crayon 39135 2026-01-11 2026-01-11
+    ## 7    42      memoise 37754 2026-01-11 2026-01-11
+    ## 8    43    backports 37676 2026-01-11 2026-01-11
+    ## 9    46      isoband 36870 2026-01-11 2026-01-11
+    ## 10   48    rmarkdown 34576 2026-01-11 2026-01-11
 
 ## Steps
 
