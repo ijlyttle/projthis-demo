@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2026-01-13 08:07:29.267608 UTC
+2026-01-14 08:07:30.741747 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "o"
+    ## [1] "d"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank      package count       from         to
-    ## 1    15     jsonlite 45434 2026-01-11 2026-01-11
-    ## 2    20    pkgconfig 42982 2026-01-11 2026-01-11
-    ## 3    24 RColorBrewer 41771 2026-01-11 2026-01-11
-    ## 4    29      ggplot2 41350 2026-01-11 2026-01-11
-    ## 5    34     processx 39363 2026-01-11 2026-01-11
-    ## 6    35       crayon 39135 2026-01-11 2026-01-11
-    ## 7    42      memoise 37754 2026-01-11 2026-01-11
-    ## 8    43    backports 37676 2026-01-11 2026-01-11
-    ## 9    46      isoband 36870 2026-01-11 2026-01-11
-    ## 10   48    rmarkdown 34576 2026-01-11 2026-01-11
+    ##    rank    package count       from         to
+    ## 1     6      dplyr 53395 2026-01-12 2026-01-12
+    ## 2    21  rmarkdown 41348 2026-01-12 2026-01-12
+    ## 3    30     digest 39283 2026-01-12 2026-01-12
+    ## 4    32      tidyr 38583 2026-01-12 2026-01-12
+    ## 5    33 tidyselect 38553 2026-01-12 2026-01-12
+    ## 6    41  tidyverse 36985 2026-01-12 2026-01-12
+    ## 7    49   rappdirs 35700 2026-01-12 2026-01-12
+    ## 8    52     readxl 34948 2026-01-12 2026-01-12
+    ## 9    53    isoband 34654 2026-01-12 2026-01-12
+    ## 10   54 data.table 34424 2026-01-12 2026-01-12
 
 ## Steps
 
