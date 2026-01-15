@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2026-01-14 08:07:30.741747 UTC
+2026-01-15 08:07:33.404402 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "d"
+    ## [1] "h"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank    package count       from         to
-    ## 1     6      dplyr 53395 2026-01-12 2026-01-12
-    ## 2    21  rmarkdown 41348 2026-01-12 2026-01-12
-    ## 3    30     digest 39283 2026-01-12 2026-01-12
-    ## 4    32      tidyr 38583 2026-01-12 2026-01-12
-    ## 5    33 tidyselect 38553 2026-01-12 2026-01-12
-    ## 6    41  tidyverse 36985 2026-01-12 2026-01-12
-    ## 7    49   rappdirs 35700 2026-01-12 2026-01-12
-    ## 8    52     readxl 34948 2026-01-12 2026-01-12
-    ## 9    53    isoband 34654 2026-01-12 2026-01-12
-    ## 10   54 data.table 34424 2026-01-12 2026-01-12
+    ##    rank     package count       from         to
+    ## 1    13       withr 95224 2026-01-13 2026-01-13
+    ## 2    41   htmltools 78104 2026-01-13 2026-01-13
+    ## 3    43      cachem 77167 2026-01-13 2026-01-13
+    ## 4    56       highr 71336 2026-01-13 2026-01-13
+    ## 5    66 htmlwidgets 58638 2026-01-13 2026-01-13
+    ## 6    69   checkmate 56885 2026-01-13 2026-01-13
+    ## 7    72    testthat 55629 2026-01-13 2026-01-13
+    ## 8    75      httpuv 54218 2026-01-13 2026-01-13
+    ## 9    79       shiny 52025 2026-01-13 2026-01-13
+    ## 10   80    reshape2 51762 2026-01-13 2026-01-13
 
 ## Steps
 
