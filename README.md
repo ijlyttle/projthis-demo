@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2026-01-15 08:07:33.404402 UTC
+2026-01-16 08:07:22.14079 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "h"
+    ## [1] "g"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank     package count       from         to
-    ## 1    13       withr 95224 2026-01-13 2026-01-13
-    ## 2    41   htmltools 78104 2026-01-13 2026-01-13
-    ## 3    43      cachem 77167 2026-01-13 2026-01-13
-    ## 4    56       highr 71336 2026-01-13 2026-01-13
-    ## 5    66 htmlwidgets 58638 2026-01-13 2026-01-13
-    ## 6    69   checkmate 56885 2026-01-13 2026-01-13
-    ## 7    72    testthat 55629 2026-01-13 2026-01-13
-    ## 8    75      httpuv 54218 2026-01-13 2026-01-13
-    ## 9    79       shiny 52025 2026-01-13 2026-01-13
-    ## 10   80    reshape2 51762 2026-01-13 2026-01-13
+    ##    rank   package count       from         to
+    ## 1     1     rlang 84021 2026-01-14 2026-01-14
+    ## 2     4   ggplot2 69626 2026-01-14 2026-01-14
+    ## 3     5  magrittr 65884 2026-01-14 2026-01-14
+    ## 4    10      glue 63359 2026-01-14 2026-01-14
+    ## 5    19   stringr 55761 2026-01-14 2026-01-14
+    ## 6    21    digest 54679 2026-01-14 2026-01-14
+    ## 7    33   stringi 50433 2026-01-14 2026-01-14
+    ## 8    35 pkgconfig 49812 2026-01-14 2026-01-14
+    ## 9    37  generics 49125 2026-01-14 2026-01-14
+    ## 10   39    gtable 48776 2026-01-14 2026-01-14
 
 ## Steps
 
