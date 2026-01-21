@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2026-01-20 08:08:01.662953 UTC
+2026-01-21 08:07:55.526978 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "a"
+    ## [1] "z"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,9 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank    package  count       from         to
-    ## 1     3     pillar 131005 2026-01-18 2026-01-18
-    ## 2     4 data.table 130705 2026-01-18 2026-01-18
-    ## 3     6    dagitty 127479 2026-01-18 2026-01-18
-    ## 4     8  IRdisplay  99413 2026-01-18 2026-01-18
-    ## 5    10      rlang  98401 2026-01-18 2026-01-18
-    ## 6    20   evaluate  72917 2026-01-18 2026-01-18
-    ## 7    21     crayon  71828 2026-01-18 2026-01-18
-    ## 8    22    fastmap  70967 2026-01-18 2026-01-18
-    ## 9    23  base64enc  70214 2026-01-18 2026-01-18
-    ## 10   27   magrittr  42341 2026-01-18 2026-01-18
+    ##   rank package count       from         to
+    ## 1   91    tzdb 30886 2026-01-19 2026-01-19
+    ## 2   99     zoo 28673 2026-01-19 2026-01-19
 
 ## Steps
 
