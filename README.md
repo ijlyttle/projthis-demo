@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2026-01-31 08:07:19.171827 UTC
+2026-02-01 08:08:29.42582 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "g"
+    ## [1] "e"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank   package  count       from         to
-    ## 1     1     rlang 106747 2026-01-29 2026-01-29
-    ## 2     2   ggplot2 104550 2026-01-29 2026-01-29
-    ## 3     9      glue  84206 2026-01-29 2026-01-29
-    ## 4    10  magrittr  79395 2026-01-29 2026-01-29
-    ## 5    19    gtable  68159 2026-01-29 2026-01-29
-    ## 6    20 pkgconfig  66757 2026-01-29 2026-01-29
-    ## 7    21  generics  65574 2026-01-29 2026-01-29
-    ## 8    25  labeling  61240 2026-01-29 2026-01-29
-    ## 9    32 RcppEigen  54865 2026-01-29 2026-01-29
-    ## 10   34    digest  52451 2026-01-29 2026-01-29
+    ##    rank      package  count       from         to
+    ## 1     6    lifecycle 113978 2026-01-30 2026-01-30
+    ## 2     7       tibble 113655 2026-01-30 2026-01-30
+    ## 3     9         glue 105893 2026-01-30 2026-01-30
+    ## 4    15       scales  93860 2026-01-30 2026-01-30
+    ## 5    18       gtable  88522 2026-01-30 2026-01-30
+    ## 6    20     generics  86609 2026-01-30 2026-01-30
+    ## 7    21     processx  85373 2026-01-30 2026-01-30
+    ## 8    24 RColorBrewer  83165 2026-01-30 2026-01-30
+    ## 9    25       farver  83074 2026-01-30 2026-01-30
+    ## 10   27  viridisLite  82037 2026-01-30 2026-01-30
 
 ## Steps
 
