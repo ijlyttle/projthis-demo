@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2026-02-01 08:08:29.42582 UTC
+2026-02-02 08:15:06.671876 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "e"
+    ## [1] "v"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,14 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank      package  count       from         to
-    ## 1     6    lifecycle 113978 2026-01-30 2026-01-30
-    ## 2     7       tibble 113655 2026-01-30 2026-01-30
-    ## 3     9         glue 105893 2026-01-30 2026-01-30
-    ## 4    15       scales  93860 2026-01-30 2026-01-30
-    ## 5    18       gtable  88522 2026-01-30 2026-01-30
-    ## 6    20     generics  86609 2026-01-30 2026-01-30
-    ## 7    21     processx  85373 2026-01-30 2026-01-30
-    ## 8    24 RColorBrewer  83165 2026-01-30 2026-01-30
-    ## 9    25       farver  83074 2026-01-30 2026-01-30
-    ## 10   27  viridisLite  82037 2026-01-30 2026-01-30
+    ##   rank     package count       from         to
+    ## 1    4       vctrs 49315 2026-01-31 2026-01-31
+    ## 2   25      farver 34560 2026-01-31 2026-01-31
+    ## 3   28 viridisLite 33824 2026-01-31 2026-01-31
+    ## 4   41    evaluate 29181 2026-01-31 2026-01-31
+    ## 5   63   tidyverse 24868 2026-01-31 2026-01-31
+    ## 6   76    numDeriv 21040 2026-01-31 2026-01-31
+    ## 7   86       vroom 19136 2026-01-31 2026-01-31
 
 ## Steps
 
