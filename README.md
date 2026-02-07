@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2026-02-06 08:14:33.292626 UTC
+2026-02-07 08:08:20.361351 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "d"
+    ## [1] "a"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank     package count       from         to
-    ## 1     3       dplyr 86499 2026-02-04 2026-02-04
-    ## 2    17 viridisLite 57233 2026-02-04 2026-02-04
-    ## 3    22       tidyr 56346 2026-02-04 2026-02-04
-    ## 4    27     isoband 52654 2026-02-04 2026-02-04
-    ## 5    30      digest 51556 2026-02-04 2026-02-04
-    ## 6    32  tidyselect 51387 2026-02-04 2026-02-04
-    ## 7    34   rmarkdown 51292 2026-02-04 2026-02-04
-    ## 8    48    rappdirs 46116 2026-02-04 2026-02-04
-    ## 9    53   tidyverse 44208 2026-02-04 2026-02-04
-    ## 10   59  data.table 41295 2026-02-04 2026-02-04
+    ##    rank   package  count       from         to
+    ## 1     3     rlang 119655 2026-02-05 2026-02-05
+    ## 2     7    pillar  98394 2026-02-05 2026-02-05
+    ## 3    10    scales  90466 2026-02-05 2026-02-05
+    ## 4    11  magrittr  88526 2026-02-05 2026-02-05
+    ## 5    14    gtable  85897 2026-02-05 2026-02-05
+    ## 6    15   isoband  85659 2026-02-05 2026-02-05
+    ## 7    20     callr  77973 2026-02-05 2026-02-05
+    ## 8    30 base64enc  69040 2026-02-05 2026-02-05
+    ## 9    33    farver  68245 2026-02-05 2026-02-05
+    ## 10   36  labeling  66302 2026-02-05 2026-02-05
 
 ## Steps
 
