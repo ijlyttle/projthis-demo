@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2026-02-08 08:08:35.698223 UTC
+2026-02-09 08:17:03.449085 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "p"
+    ## [1] "l"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank      package  count       from         to
-    ## 1     1      ggplot2 186700 2026-02-06 2026-02-06
-    ## 2     5    RcppEigen 172200 2026-02-06 2026-02-06
-    ## 3     8       pillar 161849 2026-02-06 2026-02-06
-    ## 4    10     pkgbuild 144607 2026-02-06 2026-02-06
-    ## 5    16    posterior 137030 2026-02-06 2026-02-06
-    ## 6    17         Rcpp 133804 2026-02-06 2026-02-06
-    ## 7    18     processx 132400 2026-02-06 2026-02-06
-    ## 8    21 RcppParallel 123983 2026-02-06 2026-02-06
-    ## 9    31        cpp11 107145 2026-02-06 2026-02-06
-    ## 10   35    pkgconfig 101218 2026-02-06 2026-02-06
+    ##    rank        package  count       from         to
+    ## 1     4        ggplot2 256272 2026-02-07 2026-02-07
+    ## 2     5         tibble 247893 2026-02-07 2026-02-07
+    ## 3     7         pillar 236666 2026-02-07 2026-02-07
+    ## 4     8            loo 235018 2026-02-07 2026-02-07
+    ## 5    10 distributional 219039 2026-02-07 2026-02-07
+    ## 6    11       pkgbuild 202475 2026-02-07 2026-02-07
+    ## 7    12      lifecycle 200725 2026-02-07 2026-02-07
+    ## 8    14         scales 196011 2026-02-07 2026-02-07
+    ## 9    15          rlang 192023 2026-02-07 2026-02-07
+    ## 10   16         gtable 190194 2026-02-07 2026-02-07
 
 ## Steps
 
