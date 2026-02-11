@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2026-02-10 08:17:21.959281 UTC
+2026-02-11 08:16:25.450264 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "s"
+    ## [1] "i"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank        package  count       from         to
-    ## 1     1    StanHeaders 246050 2026-02-08 2026-02-08
-    ## 2     2          rstan 233766 2026-02-08 2026-02-08
-    ## 3     6          vctrs 201413 2026-02-08 2026-02-08
-    ## 4     9      posterior 188350 2026-02-08 2026-02-08
-    ## 5    10 distributional 178998 2026-02-08 2026-02-08
-    ## 6    15         scales 165866 2026-02-08 2026-02-08
-    ## 7    22        isoband 162214 2026-02-08 2026-02-08
-    ## 8    25       generics 157383 2026-02-08 2026-02-08
-    ## 9    26             S7 156827 2026-02-08 2026-02-08
-    ## 10   30       processx 156077 2026-02-08 2026-02-08
+    ##    rank     package  count       from         to
+    ## 1     5      tibble 202312 2026-02-09 2026-02-09
+    ## 2     7   RcppEigen 193330 2026-02-09 2026-02-09
+    ## 3     8      pillar 189467 2026-02-09 2026-02-09
+    ## 4     9   lifecycle 188202 2026-02-09 2026-02-09
+    ## 5    10         cli 179067 2026-02-09 2026-02-09
+    ## 6    12    magrittr 170087 2026-02-09 2026-02-09
+    ## 7    16       withr 164558 2026-02-09 2026-02-09
+    ## 8    20     isoband 160250 2026-02-09 2026-02-09
+    ## 9    21 viridisLite 159614 2026-02-09 2026-02-09
+    ## 10   24   pkgconfig 157634 2026-02-09 2026-02-09
 
 ## Steps
 
