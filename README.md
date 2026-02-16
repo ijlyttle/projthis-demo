@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2026-02-15 08:08:58.659681 UTC
+2026-02-16 08:16:11.501343 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "c"
+    ## [1] "p"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank    package count       from         to
-    ## 1     2  lifecycle 58161 2026-02-13 2026-02-13
-    ## 2     3      vctrs 56462 2026-02-13 2026-02-13
-    ## 3     5        cli 53951 2026-02-13 2026-02-13
-    ## 4    10       Rcpp 45363 2026-02-13 2026-02-13
-    ## 5    16      cpp11 41348 2026-02-13 2026-02-13
-    ## 6    17       curl 40202 2026-02-13 2026-02-13
-    ## 7    22     scales 38694 2026-02-13 2026-02-13
-    ## 8    28   generics 36766 2026-02-13 2026-02-13
-    ## 9    30  pkgconfig 36363 2026-02-13 2026-02-13
-    ## 10   31 tidyselect 36275 2026-02-13 2026-02-13
+    ##    rank     package count       from         to
+    ## 1     5       dplyr 29771 2026-02-14 2026-02-14
+    ## 2     9     ggplot2 28153 2026-02-14 2026-02-14
+    ## 3    10        Rcpp 28125 2026-02-14 2026-02-14
+    ## 4    14      pillar 26586 2026-02-14 2026-02-14
+    ## 5    19 textshaping 24007 2026-02-14 2026-02-14
+    ## 6    20       purrr 24005 2026-02-14 2026-02-14
+    ## 7    28       cpp11 23274 2026-02-14 2026-02-14
+    ## 8    29   pkgconfig 23265 2026-02-14 2026-02-14
+    ## 9    35    rappdirs 22317 2026-02-14 2026-02-14
+    ## 10   49     fastmap 20608 2026-02-14 2026-02-14
 
 ## Steps
 
