@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2026-02-18 08:15:00.260986 UTC
+2026-02-19 08:15:20.973263 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "b"
+    ## [1] "d"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank      package count       from         to
-    ## 1     9       tibble 48883 2026-02-16 2026-02-16
-    ## 2    44    jquerylib 34332 2026-02-16 2026-02-16
-    ## 3    45      isoband 34321 2026-02-16 2026-02-16
-    ## 4    46       gtable 34060 2026-02-16 2026-02-16
-    ## 5    52        bslib 32723 2026-02-16 2026-02-16
-    ## 6    55    base64enc 32332 2026-02-16 2026-02-16
-    ## 7    57   data.table 31990 2026-02-16 2026-02-16
-    ## 8    60 RColorBrewer 31610 2026-02-16 2026-02-16
-    ## 9    65     labeling 30167 2026-02-16 2026-02-16
-    ## 10   73         tzdb 26079 2026-02-16 2026-02-16
+    ##    rank    package count       from         to
+    ## 1     5      dplyr 59304 2026-02-17 2026-02-17
+    ## 2    20      tidyr 42908 2026-02-17 2026-02-17
+    ## 3    27 tidyselect 39623 2026-02-17 2026-02-17
+    ## 4    28     digest 39516 2026-02-17 2026-02-17
+    ## 5    30  tidyverse 39373 2026-02-17 2026-02-17
+    ## 6    31  rmarkdown 39271 2026-02-17 2026-02-17
+    ## 7    36   rappdirs 37430 2026-02-17 2026-02-17
+    ## 8    37    isoband 37427 2026-02-17 2026-02-17
+    ## 9    42     readxl 36624 2026-02-17 2026-02-17
+    ## 10   46      readr 36236 2026-02-17 2026-02-17
 
 ## Steps
 
