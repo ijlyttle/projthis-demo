@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2026-02-21 08:08:23.374234 UTC
+2026-02-22 08:08:45.452796 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "p"
+    ## [1] "g"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank     package count       from         to
-    ## 1     5       dplyr 60613 2026-02-19 2026-02-19
-    ## 2     6     ggplot2 59273 2026-02-19 2026-02-19
-    ## 3    13        Rcpp 47791 2026-02-19 2026-02-19
-    ## 4    16       cpp11 45176 2026-02-19 2026-02-19
-    ## 5    17      pillar 45047 2026-02-19 2026-02-19
-    ## 6    19       purrr 42372 2026-02-19 2026-02-19
-    ## 7    32   pkgconfig 38920 2026-02-19 2026-02-19
-    ## 8    39    rappdirs 38009 2026-02-19 2026-02-19
-    ## 9    51     fastmap 35385 2026-02-19 2026-02-19
-    ## 10   54 textshaping 35112 2026-02-19 2026-02-19
+    ##    rank   package count       from         to
+    ## 1     1     rlang 68033 2026-02-20 2026-02-20
+    ## 2     7   ggplot2 51274 2026-02-20 2026-02-20
+    ## 3    10  magrittr 45659 2026-02-20 2026-02-20
+    ## 4    12      glue 44617 2026-02-20 2026-02-20
+    ## 5    18   stringr 39326 2026-02-20 2026-02-20
+    ## 6    29    digest 36223 2026-02-20 2026-02-20
+    ## 7    30  generics 35574 2026-02-20 2026-02-20
+    ## 8    34 pkgconfig 34809 2026-02-20 2026-02-20
+    ## 9    36   stringi 34597 2026-02-20 2026-02-20
+    ## 10   39    gtable 34532 2026-02-20 2026-02-20
 
 ## Steps
 
