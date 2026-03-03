@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2026-03-02 08:14:38.995782 UTC
+2026-03-03 08:13:29.072158 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "m"
+    ## [1] "k"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,15 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank     package count       from         to
-    ## 1     7    magrittr 33431 2026-02-28 2026-02-28
-    ## 2    30        yaml 25509 2026-02-28 2026-02-28
-    ## 3    31 systemfonts 24854 2026-02-28 2026-02-28
-    ## 4    32   rmarkdown 24788 2026-02-28 2026-02-28
-    ## 5    37   htmltools 24126 2026-02-28 2026-02-28
-    ## 6    42        mime 23328 2026-02-28 2026-02-28
-    ## 7    51     fastmap 22001 2026-02-28 2026-02-28
-    ## 8    54      cachem 21840 2026-02-28 2026-02-28
-    ## 9    57     memoise 21461 2026-02-28 2026-02-28
-    ## 10   58 fontawesome 21436 2026-02-28 2026-02-28
+    ##   rank    package count       from         to
+    ## 1   28  pkgconfig 26709 2026-03-01 2026-03-01
+    ## 2   29      knitr 26514 2026-03-01 2026-03-01
+    ## 3   41  rmarkdown 25219 2026-03-01 2026-03-01
+    ## 4   65    askpass 20623 2026-03-01 2026-03-01
+    ## 5   73  backports 18655 2026-03-01 2026-03-01
+    ## 6   84 commonmark 15442 2026-03-01 2026-03-01
+    ## 7   93   pkgbuild 14458 2026-03-01 2026-03-01
+    ## 8   99    pkgload 13855 2026-03-01 2026-03-01
 
 ## Steps
 
