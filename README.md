@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2026-03-16 08:25:29.96606 UTC
+2026-03-17 08:17:29.315732 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "g"
+    ## [1] "f"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank   package count       from         to
-    ## 1     1     rlang 49165 2026-03-14 2026-03-14
-    ## 2     6   ggplot2 40431 2026-03-14 2026-03-14
-    ## 3     9  magrittr 34422 2026-03-14 2026-03-14
-    ## 4    10      glue 33951 2026-03-14 2026-03-14
-    ## 5    19   stringr 27773 2026-03-14 2026-03-14
-    ## 6    22 pkgconfig 26998 2026-03-14 2026-03-14
-    ## 7    25  generics 26628 2026-03-14 2026-03-14
-    ## 8    28    digest 26238 2026-03-14 2026-03-14
-    ## 9    34    gtable 25502 2026-03-14 2026-03-14
-    ## 10   38   stringi 25022 2026-03-14 2026-03-14
+    ##    rank         package count       from         to
+    ## 1     1     systemfonts 58405 2026-03-15 2026-03-15
+    ## 2     3              sf 42947 2026-03-15 2026-03-15
+    ## 3     4       lifecycle 42245 2026-03-15 2026-03-15
+    ## 4    14           Rmpfr 34683 2026-03-15 2026-03-15
+    ## 5    26         mvnfast 30943 2026-03-15 2026-03-15
+    ## 6    31              fs 27965 2026-03-15 2026-03-15
+    ## 7    35            utf8 27068 2026-03-15 2026-03-15
+    ## 8    40            xfun 26112 2026-03-15 2026-03-15
+    ## 9    41       pkgconfig 26027 2026-03-15 2026-03-15
+    ## 10   56 marginaleffects 24734 2026-03-15 2026-03-15
 
 ## Steps
 
