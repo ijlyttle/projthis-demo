@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2026-03-28 08:13:46.749504 UTC
+2026-03-29 08:13:37.521173 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "l"
+    ## [1] "u"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank   package  count       from         to
-    ## 1     1     rlang 101526 2026-03-26 2026-03-26
-    ## 2     3 lifecycle  86583 2026-03-26 2026-03-26
-    ## 3     4   ggplot2  82543 2026-03-26 2026-03-26
-    ## 4     5       cli  80934 2026-03-26 2026-03-26
-    ## 5     6     dplyr  80820 2026-03-26 2026-03-26
-    ## 6     8      glue  70453 2026-03-26 2026-03-26
-    ## 7    10    tibble  69439 2026-03-26 2026-03-26
-    ## 8    14    pillar  62643 2026-03-26 2026-03-26
-    ## 9    16  jsonlite  61026 2026-03-26 2026-03-26
-    ## 10   17    scales  56659 2026-03-26 2026-03-26
+    ##    rank     package count       from         to
+    ## 1     8        glue 51551 2026-03-27 2026-03-27
+    ## 2    18        xfun 42749 2026-03-27 2026-03-27
+    ## 3    21        utf8 41394 2026-03-27 2026-03-27
+    ## 4    23       purrr 40534 2026-03-27 2026-03-27
+    ## 5    27        curl 39723 2026-03-27 2026-03-27
+    ## 6    39    evaluate 36538 2026-03-27 2026-03-27
+    ## 7    48   jquerylib 35148 2026-03-27 2026-03-27
+    ## 8    71 prettyunits 27026 2026-03-27 2026-03-27
+    ## 9    74   lubridate 26308 2026-03-27 2026-03-27
+    ## 10   75  rstudioapi 26036 2026-03-27 2026-03-27
 
 ## Steps
 
