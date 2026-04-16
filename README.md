@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2026-04-15 08:36:47.388808 UTC
+2026-04-16 08:37:16.873101 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "s"
+    ## [1] "i"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank     package count       from         to
-    ## 1     2       vctrs 87841 2026-04-13 2026-04-13
-    ## 2     8    jsonlite 66948 2026-04-13 2026-04-13
-    ## 3    15          fs 56304 2026-04-13 2026-04-13
-    ## 4    19      scales 49278 2026-04-13 2026-04-13
-    ## 5    21     stringr 48621 2026-04-13 2026-04-13
-    ## 6    25          S7 47515 2026-04-13 2026-04-13
-    ## 7    26       bslib 46894 2026-04-13 2026-04-13
-    ## 8    28   htmltools 45765 2026-04-13 2026-04-13
-    ## 9    30    generics 45579 2026-04-13 2026-04-13
-    ## 10   32 viridisLite 45160 2026-04-13 2026-04-13
+    ##    rank   package count       from         to
+    ## 1     3       cli 89557 2026-04-14 2026-04-14
+    ## 2     6 lifecycle 77819 2026-04-14 2026-04-14
+    ## 3     7  magrittr 72267 2026-04-14 2026-04-14
+    ## 4     9  jsonlite 67326 2026-04-14 2026-04-14
+    ## 5    11    tibble 62972 2026-04-14 2026-04-14
+    ## 6    14     withr 59931 2026-04-14 2026-04-14
+    ## 7    17    pillar 56259 2026-04-14 2026-04-14
+    ## 8    23   stringr 51552 2026-04-14 2026-04-14
+    ## 9    24 pkgconfig 51115 2026-04-14 2026-04-14
+    ## 10   25     tidyr 51046 2026-04-14 2026-04-14
 
 ## Steps
 
