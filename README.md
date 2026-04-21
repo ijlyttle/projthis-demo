@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2026-04-20 08:48:23.037125 UTC
+2026-04-21 08:39:49.771003 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -33,7 +33,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "f"
+    ## [1] "c"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,17 +41,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank     package count       from         to
-    ## 1     4   lifecycle 59588 2026-04-18 2026-04-18
-    ## 2    19          fs 38941 2026-04-18 2026-04-18
-    ## 3    25      farver 35213 2026-04-18 2026-04-18
-    ## 4    26   pkgconfig 34974 2026-04-18 2026-04-18
-    ## 5    28        utf8 34571 2026-04-18 2026-04-18
-    ## 6    33        xfun 32338 2026-04-18 2026-04-18
-    ## 7    52 fontawesome 27624 2026-04-18 2026-04-18
-    ## 8    55     fastmap 27299 2026-04-18 2026-04-18
-    ## 9    61 systemfonts 26097 2026-04-18 2026-04-18
-    ## 10  100     diffobj 16154 2026-04-18 2026-04-18
+    ##    rank   package count       from         to
+    ## 1     2       cli 52526 2026-04-19 2026-04-19
+    ## 2     3 lifecycle 52155 2026-04-19 2026-04-19
+    ## 3     4     vctrs 51200 2026-04-19 2026-04-19
+    ## 4     6      Rcpp 47721 2026-04-19 2026-04-19
+    ## 5    15     cpp11 36763 2026-04-19 2026-04-19
+    ## 6    18    scales 35545 2026-04-19 2026-04-19
+    ## 7    21  generics 32982 2026-04-19 2026-04-19
+    ## 8    27 pkgconfig 31965 2026-04-19 2026-04-19
+    ## 9    29      curl 30634 2026-04-19 2026-04-19
+    ## 10   31  processx 30005 2026-04-19 2026-04-19
 
 ## Steps
 
