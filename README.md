@@ -1,9 +1,11 @@
 projthis Demonstration
 ================
-2026-04-29 08:49:01.72034 UTC
+2026-04-30 08:50:04.391614 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+
 <!-- badges: start -->
+
 <!-- badges: end -->
 
 The goal of this project is to show how you can use the [projthis]()
@@ -33,7 +35,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "x"
+    ## [1] "q"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -41,14 +43,8 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##   rank     package count       from         to
-    ## 1   23        xfun 54429 2026-04-27 2026-04-27
-    ## 2   37    processx 48342 2026-04-27 2026-04-27
-    ## 3   38     tinytex 48341 2026-04-27 2026-04-27
-    ## 4   47      readxl 44765 2026-04-27 2026-04-27
-    ## 5   66        xml2 37165 2026-04-27 2026-04-27
-    ## 6   69 textshaping 36487 2026-04-27 2026-04-27
-    ## 7   86   gridExtra 29970 2026-04-27 2026-04-27
+    ##   rank   package count       from         to
+    ## 1   48 jquerylib 46582 2026-04-28 2026-04-28
 
 ## Steps
 
