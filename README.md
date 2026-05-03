@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2026-05-02 08:33:35.584629 UTC
+2026-05-03 08:37:09.419406 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -35,7 +35,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "r"
+    ## [1] "d"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -43,17 +43,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank   package count       from         to
-    ## 1     1     rlang 99442 2026-04-30 2026-04-30
-    ## 2     2     vctrs 85083 2026-04-30 2026-04-30
-    ## 3     6     dplyr 77989 2026-04-30 2026-04-30
-    ## 4     7      Rcpp 73679 2026-04-30 2026-04-30
-    ## 5     9  magrittr 69638 2026-04-30 2026-04-30
-    ## 6    10        R6 67975 2026-04-30 2026-04-30
-    ## 7    14     withr 64346 2026-04-30 2026-04-30
-    ## 8    16      curl 62292 2026-04-30 2026-04-30
-    ## 9    17 rmarkdown 59672 2026-04-30 2026-04-30
-    ## 10   18    pillar 59471 2026-04-30 2026-04-30
+    ##    rank     package count       from         to
+    ## 1     6       dplyr 50263 2026-05-01 2026-05-01
+    ## 2    21   rmarkdown 36820 2026-05-01 2026-05-01
+    ## 3    24       tidyr 34752 2026-05-01 2026-05-01
+    ## 4    31 viridisLite 33559 2026-05-01 2026-05-01
+    ## 5    32  tidyselect 32521 2026-05-01 2026-05-01
+    ## 6    34     isoband 32237 2026-05-01 2026-05-01
+    ## 7    36      digest 31822 2026-05-01 2026-05-01
+    ## 8    48   tidyverse 29234 2026-05-01 2026-05-01
+    ## 9    52    rappdirs 28444 2026-05-01 2026-05-01
+    ## 10   60     pkgload 26568 2026-05-01 2026-05-01
 
 ## Steps
 
