@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2026-05-13 09:04:43.649914 UTC
+2026-05-14 08:58:39.037654 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -35,7 +35,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "s"
+    ## [1] "o"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -43,17 +43,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank     package count       from         to
-    ## 1     5       vctrs 79461 2026-05-11 2026-05-11
-    ## 2    11          fs 64133 2026-05-11 2026-05-11
-    ## 3    17          S7 54908 2026-05-11 2026-05-11
-    ## 4    18      scales 54791 2026-05-11 2026-05-11
-    ## 5    19    jsonlite 54741 2026-05-11 2026-05-11
-    ## 6    21       bslib 52371 2026-05-11 2026-05-11
-    ## 7    27        sass 49522 2026-05-11 2026-05-11
-    ## 8    28 viridisLite 49240 2026-05-11 2026-05-11
-    ## 9    30     stringr 48850 2026-05-11 2026-05-11
-    ## 10   31    generics 48837 2026-05-11 2026-05-11
+    ##    rank      package  count       from         to
+    ## 1     1   conflicted 271451 2026-05-12 2026-05-12
+    ## 2     6      ggplot2  87246 2026-05-12 2026-05-12
+    ## 3    17     jsonlite  59698 2026-05-12 2026-05-12
+    ## 4    20    rmarkdown  56529 2026-05-12 2026-05-12
+    ## 5    33      isoband  51768 2026-05-12 2026-05-12
+    ## 6    34    pkgconfig  51410 2026-05-12 2026-05-12
+    ## 7    39    htmltools  47725 2026-05-12 2026-05-12
+    ## 8    40 RColorBrewer  47306 2026-05-12 2026-05-12
+    ## 9    47       crayon  44762 2026-05-12 2026-05-12
+    ## 10   49     processx  44671 2026-05-12 2026-05-12
 
 ## Steps
 
