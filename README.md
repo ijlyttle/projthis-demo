@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2026-06-14 09:08:40.5828 UTC
+2026-06-15 10:10:43.96474 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -35,7 +35,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "f"
+    ## [1] "g"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -43,17 +43,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank     package count       from         to
-    ## 1     6   lifecycle 78346 2026-06-12 2026-06-12
-    ## 2    17          fs 61752 2026-06-12 2026-06-12
-    ## 3    25        utf8 54014 2026-06-12 2026-06-12
-    ## 4    26   pkgconfig 53600 2026-06-12 2026-06-12
-    ## 5    35      farver 50878 2026-06-12 2026-06-12
-    ## 6    42        xfun 46380 2026-06-12 2026-06-12
-    ## 7    63     fastmap 38698 2026-06-12 2026-06-12
-    ## 8    64 fontawesome 38669 2026-06-12 2026-06-12
-    ## 9    78 systemfonts 33458 2026-06-12 2026-06-12
-    ## 10   99     diffobj 25921 2026-06-12 2026-06-12
+    ##    rank   package count       from         to
+    ## 1     1 RcppEigen 74182 2026-06-13 2026-06-13
+    ## 2     3     rlang 69161 2026-06-13 2026-06-13
+    ## 3     4   ggplot2 68800 2026-06-13 2026-06-13
+    ## 4    12      glue 54707 2026-06-13 2026-06-13
+    ## 5    13  magrittr 53713 2026-06-13 2026-06-13
+    ## 6    16    gtable 49873 2026-06-13 2026-06-13
+    ## 7    22  pkgbuild 46335 2026-06-13 2026-06-13
+    ## 8    29 pkgconfig 42387 2026-06-13 2026-06-13
+    ## 9    30 gridExtra 42219 2026-06-13 2026-06-13
+    ## 10   32  generics 41719 2026-06-13 2026-06-13
 
 ## Steps
 
