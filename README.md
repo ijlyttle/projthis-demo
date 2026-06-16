@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2026-06-15 10:10:43.96474 UTC
+2026-06-16 09:50:21.342214 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -35,7 +35,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "g"
+    ## [1] "e"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -43,17 +43,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank   package count       from         to
-    ## 1     1 RcppEigen 74182 2026-06-13 2026-06-13
-    ## 2     3     rlang 69161 2026-06-13 2026-06-13
-    ## 3     4   ggplot2 68800 2026-06-13 2026-06-13
-    ## 4    12      glue 54707 2026-06-13 2026-06-13
-    ## 5    13  magrittr 53713 2026-06-13 2026-06-13
-    ## 6    16    gtable 49873 2026-06-13 2026-06-13
-    ## 7    22  pkgbuild 46335 2026-06-13 2026-06-13
-    ## 8    29 pkgconfig 42387 2026-06-13 2026-06-13
-    ## 9    30 gridExtra 42219 2026-06-13 2026-06-13
-    ## 10   32  generics 41719 2026-06-13 2026-06-13
+    ##    rank     package count       from         to
+    ## 1     1   RcppEigen 71081 2026-06-14 2026-06-14
+    ## 2     7   lifecycle 60801 2026-06-14 2026-06-14
+    ## 3     9      tibble 59774 2026-06-14 2026-06-14
+    ## 4    10 StanHeaders 58940 2026-06-14 2026-06-14
+    ## 5    13        glue 54042 2026-06-14 2026-06-14
+    ## 6    16      scales 51738 2026-06-14 2026-06-14
+    ## 7    20      gtable 48772 2026-06-14 2026-06-14
+    ## 8    27    processx 46157 2026-06-14 2026-06-14
+    ## 9    31    generics 42391 2026-06-14 2026-06-14
+    ## 10   34   gridExtra 41760 2026-06-14 2026-06-14
 
 ## Steps
 
