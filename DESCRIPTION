@@ -9,6 +9,8 @@ Authors@R:
            comment = c(ORCID = "0000-0001-9962-4849"))
 Description: Shows how you can create a project-based workflow using the
   projthis package.
+SystemRequirements: 
+  Python 3.9.13, with requirements.txt
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true

@@ -3,8 +3,8 @@
 on:
   # push:
   #   branches: [main, master]
-  # pull_request:
-  #   branches: [main, master]
+  pull_request:
+    branches: [main, master]
 
   push:
     paths:
@@ -36,6 +36,13 @@ jobs:
           use-public-rspm: true
 
       - uses: r-lib/actions/setup-r-dependencies@v2
+
+      - uses: actions/setup-python@v4
+        with:
+          python-version: 3.9.13
+          cache: pip # caching pip dependencies
+
+      - run: pip install -r requirements.txt
 
       # adapt this step to build your project
       - name: Render
