@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2026-06-18 09:33:04.295305 UTC
+2026-06-19 09:37:42.068291 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -35,7 +35,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "e"
+    ## [1] "b"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -43,17 +43,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank     package count       from         to
-    ## 1     5   lifecycle 83890 2026-06-16 2026-06-16
-    ## 2     9   RcppEigen 80372 2026-06-16 2026-06-16
-    ## 3    10      tibble 78415 2026-06-16 2026-06-16
-    ## 4    11        glue 75324 2026-06-16 2026-06-16
-    ## 5    20      scales 69053 2026-06-16 2026-06-16
-    ## 6    23      gtable 63916 2026-06-16 2026-06-16
-    ## 7    28 StanHeaders 61298 2026-06-16 2026-06-16
-    ## 8    30    jsonlite 59837 2026-06-16 2026-06-16
-    ## 9    33     tinytex 57238 2026-06-16 2026-06-16
-    ## 10   35    generics 57121 2026-06-16 2026-06-16
+    ##    rank      package count       from         to
+    ## 1     7       tibble 81619 2026-06-17 2026-06-17
+    ## 2    18        bslib 68805 2026-06-17 2026-06-17
+    ## 3    20       gtable 67019 2026-06-17 2026-06-17
+    ## 4    24      isoband 63560 2026-06-17 2026-06-17
+    ## 5    43 RColorBrewer 54641 2026-06-17 2026-06-17
+    ## 6    47     pkgbuild 53574 2026-06-17 2026-06-17
+    ## 7    48     labeling 52727 2026-06-17 2026-06-17
+    ## 8    52    jquerylib 49661 2026-06-17 2026-06-17
+    ## 9    61    backports 46122 2026-06-17 2026-06-17
+    ## 10   62    base64enc 45717 2026-06-17 2026-06-17
 
 ## Steps
 
