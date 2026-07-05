@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2026-07-04 08:55:25.445392 UTC
+2026-07-05 09:04:08.717136 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -35,7 +35,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "f"
+    ## [1] "e"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -43,17 +43,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank     package count       from         to
-    ## 1     5   lifecycle 70141 2026-07-02 2026-07-02
-    ## 2    11          fs 61837 2026-07-02 2026-07-02
-    ## 3    28   pkgconfig 49222 2026-07-02 2026-07-02
-    ## 4    30        utf8 48509 2026-07-02 2026-07-02
-    ## 5    34      farver 47510 2026-07-02 2026-07-02
-    ## 6    36        xfun 46297 2026-07-02 2026-07-02
-    ## 7    62     fastmap 37593 2026-07-02 2026-07-02
-    ## 8    64 fontawesome 37110 2026-07-02 2026-07-02
-    ## 9    71 systemfonts 32604 2026-07-02 2026-07-02
-    ## 10   94     diffobj 27237 2026-07-02 2026-07-02
+    ##    rank   package count       from         to
+    ## 1     4 lifecycle 74155 2026-07-03 2026-07-03
+    ## 2     7      glue 68799 2026-07-03 2026-07-03
+    ## 3    12    tibble 63664 2026-07-03 2026-07-03
+    ## 4    13 RcppEigen 62933 2026-07-03 2026-07-03
+    ## 5    17    scales 55956 2026-07-03 2026-07-03
+    ## 6    18  jsonlite 53893 2026-07-03 2026-07-03
+    ## 7    22    gtable 52575 2026-07-03 2026-07-03
+    ## 8    23  generics 52386 2026-07-03 2026-07-03
+    ## 9    27  processx 51145 2026-07-03 2026-07-03
+    ## 10   30      otel 50768 2026-07-03 2026-07-03
 
 ## Steps
 
