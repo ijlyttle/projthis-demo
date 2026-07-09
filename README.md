@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2026-07-08 08:54:03.119689 UTC
+2026-07-09 09:08:11.771822 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -35,7 +35,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "d"
+    ## [1] "b"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -43,17 +43,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank     package count       from         to
-    ## 1    17       dplyr 59466 2026-07-06 2026-07-06
-    ## 2    20     isoband 57867 2026-07-06 2026-07-06
-    ## 3    25 StanHeaders 55230 2026-07-06 2026-07-06
-    ## 4    27   rmarkdown 54431 2026-07-06 2026-07-06
-    ## 5    32 viridisLite 53364 2026-07-06 2026-07-06
-    ## 6    40    pkgbuild 49837 2026-07-06 2026-07-06
-    ## 7    42   gridExtra 46828 2026-07-06 2026-07-06
-    ## 8    44        desc 46389 2026-07-06 2026-07-06
-    ## 9    45       tidyr 43452 2026-07-06 2026-07-06
-    ## 10   47      digest 42942 2026-07-06 2026-07-06
+    ##    rank      package count       from         to
+    ## 1     9       tibble 61557 2026-07-07 2026-07-07
+    ## 2    19        bslib 51428 2026-07-07 2026-07-07
+    ## 3    20       gtable 50932 2026-07-07 2026-07-07
+    ## 4    21      isoband 50352 2026-07-07 2026-07-07
+    ## 5    35 RColorBrewer 45437 2026-07-07 2026-07-07
+    ## 6    36           BH 44975 2026-07-07 2026-07-07
+    ## 7    37     labeling 44245 2026-07-07 2026-07-07
+    ## 8    42     pkgbuild 40953 2026-07-07 2026-07-07
+    ## 9    52    backports 37171 2026-07-07 2026-07-07
+    ## 10   55    base64enc 36289 2026-07-07 2026-07-07
 
 ## Steps
 
