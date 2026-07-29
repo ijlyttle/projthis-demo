@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2026-07-28 08:57:42.433071 UTC
+2026-07-29 09:00:05.748426 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -35,7 +35,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "e"
+    ## [1] "t"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -43,17 +43,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank      package count       from         to
-    ## 1     3    lifecycle 62824 2026-07-25 2026-07-25
-    ## 2     7    RcppEigen 57032 2026-07-25 2026-07-25
-    ## 3     8         glue 55995 2026-07-25 2026-07-25
-    ## 4     9 RcppParallel 54192 2026-07-25 2026-07-25
-    ## 5    13       tibble 50432 2026-07-25 2026-07-25
-    ## 6    16  StanHeaders 47758 2026-07-25 2026-07-25
-    ## 7    18     jsonlite 45010 2026-07-25 2026-07-25
-    ## 8    19       scales 44676 2026-07-25 2026-07-25
-    ## 9    22       gtable 42270 2026-07-25 2026-07-25
-    ## 10   25     generics 40983 2026-07-25 2026-07-25
+    ##    rank     package  count       from         to
+    ## 1     5       vctrs 100789 2026-07-27 2026-07-27
+    ## 2     8    magrittr  88957 2026-07-27 2026-07-27
+    ## 3     9       withr  84582 2026-07-27 2026-07-27
+    ## 4    10     ggplot2  84316 2026-07-27 2026-07-27
+    ## 5    12    jsonlite  77960 2026-07-27 2026-07-27
+    ## 6    13      tibble  77507 2026-07-27 2026-07-27
+    ## 7    22      gtable  65033 2026-07-27 2026-07-27
+    ## 8    24        utf8  63360 2026-07-27 2026-07-27
+    ## 9    27 viridisLite  61680 2026-07-27 2026-07-27
+    ## 10   35        otel  57022 2026-07-27 2026-07-27
 
 ## Steps
 
