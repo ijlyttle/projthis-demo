@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2026-07-30 08:57:22.952769 UTC
+2026-07-31 09:03:01.315472 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -35,7 +35,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "a"
+    ## [1] "n"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -43,17 +43,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank      package  count       from         to
-    ## 1     1        rlang 121859 2026-07-28 2026-07-28
-    ## 2     8     magrittr  85924 2026-07-28 2026-07-28
-    ## 3    15       pillar  70902 2026-07-28 2026-07-28
-    ## 4    18 RcppParallel  68022 2026-07-28 2026-07-28
-    ## 5    19       scales  66897 2026-07-28 2026-07-28
-    ## 6    24       gtable  62484 2026-07-28 2026-07-28
-    ## 7    26      isoband  61760 2026-07-28 2026-07-28
-    ## 8    28    rmarkdown  59318 2026-07-28 2026-07-28
-    ## 9    29       farver  59316 2026-07-28 2026-07-28
-    ## 10   30  StanHeaders  59167 2026-07-28 2026-07-28
+    ##    rank   package  count       from         to
+    ## 1     1     rlang 131742 2026-07-29 2026-07-29
+    ## 2    14  jsonlite  74209 2026-07-29 2026-07-29
+    ## 3    16 RcppEigen  72893 2026-07-29 2026-07-29
+    ## 4    17 pkgconfig  71376 2026-07-29 2026-07-29
+    ## 5    22  generics  66518 2026-07-29 2026-07-29
+    ## 6    24   isoband  65486 2026-07-29 2026-07-29
+    ## 7    29  labeling  60746 2026-07-29 2026-07-29
+    ## 8    33 rmarkdown  58211 2026-07-29 2026-07-29
+    ## 9    35   stringi  57529 2026-07-29 2026-07-29
+    ## 10   39   stringr  56032 2026-07-29 2026-07-29
 
 ## Steps
 
