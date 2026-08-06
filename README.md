@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2026-08-05 08:58:07.069909 UTC
+2026-08-06 08:58:03.402425 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -35,7 +35,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "t"
+    ## [1] "r"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -43,17 +43,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank     package count       from         to
-    ## 1     3       vctrs 53151 2026-08-02 2026-08-02
-    ## 2     9 StanHeaders 46254 2026-08-02 2026-08-02
-    ## 3    10     ggplot2 46189 2026-08-02 2026-08-02
-    ## 4    11       withr 45243 2026-08-02 2026-08-02
-    ## 5    12    magrittr 44654 2026-08-02 2026-08-02
-    ## 6    14       rstan 43364 2026-08-02 2026-08-02
-    ## 7    15      tibble 43044 2026-08-02 2026-08-02
-    ## 8    22        utf8 36135 2026-08-02 2026-08-02
-    ## 9    25    jsonlite 34662 2026-08-02 2026-08-02
-    ## 10   27      gtable 34385 2026-08-02 2026-08-02
+    ##    rank      package count       from         to
+    ## 1     1        rlang 60282 2026-08-02 2026-08-02
+    ## 2     2    RcppEigen 56245 2026-08-02 2026-08-02
+    ## 3     3        vctrs 53151 2026-08-02 2026-08-02
+    ## 4     5 RcppParallel 50670 2026-08-02 2026-08-02
+    ## 5     8         Rcpp 46462 2026-08-02 2026-08-02
+    ## 6     9  StanHeaders 46254 2026-08-02 2026-08-02
+    ## 7    11        withr 45243 2026-08-02 2026-08-02
+    ## 8    12     magrittr 44654 2026-08-02 2026-08-02
+    ## 9    13           R6 43818 2026-08-02 2026-08-02
+    ## 10   14        rstan 43364 2026-08-02 2026-08-02
 
 ## Steps
 
