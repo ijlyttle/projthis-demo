@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2026-08-16 08:07:22.935432 UTC
+2026-08-17 08:15:01.004889 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -35,7 +35,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "l"
+    ## [1] "n"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -43,17 +43,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank      package count       from         to
-    ## 1     1        rlang 76245 2026-08-14 2026-08-14
-    ## 2     5      ggplot2 66503 2026-08-14 2026-08-14
-    ## 3     6          cli 63864 2026-08-14 2026-08-14
-    ## 4     7    lifecycle 63147 2026-08-14 2026-08-14
-    ## 5     9 RcppParallel 61668 2026-08-14 2026-08-14
-    ## 6    10     jsonlite 60548 2026-08-14 2026-08-14
-    ## 7    11         curl 57781 2026-08-14 2026-08-14
-    ## 8    12       tibble 56516 2026-08-14 2026-08-14
-    ## 9    13         glue 56351 2026-08-14 2026-08-14
-    ## 10   18       pillar 52716 2026-08-14 2026-08-14
+    ##    rank     package count       from         to
+    ## 1     1   RcppEigen 65440 2026-08-15 2026-08-15
+    ## 2     4       rlang 56751 2026-08-15 2026-08-15
+    ## 3     5 StanHeaders 53738 2026-08-15 2026-08-15
+    ## 4     7    jsonlite 52949 2026-08-15 2026-08-15
+    ## 5    14       rstan 47466 2026-08-15 2026-08-15
+    ## 6    19   rmarkdown 43009 2026-08-15 2026-08-15
+    ## 7    28     isoband 37506 2026-08-15 2026-08-15
+    ## 8    32   pkgconfig 36052 2026-08-15 2026-08-15
+    ## 9    35    generics 34805 2026-08-15 2026-08-15
+    ## 10   42     openssl 32968 2026-08-15 2026-08-15
 
 ## Steps
 
