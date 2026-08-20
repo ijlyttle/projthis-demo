@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2026-08-18 08:10:50.256757 UTC
+2026-08-20 08:13:05.310834 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -35,7 +35,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "i"
+    ## [1] "u"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -43,17 +43,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank   package count       from         to
-    ## 1     3 RcppEigen 50214 2026-08-16 2026-08-16
-    ## 2     4  jsonlite 50195 2026-08-16 2026-08-16
-    ## 3     7       cli 45676 2026-08-16 2026-08-16
-    ## 4     8 lifecycle 44851 2026-08-16 2026-08-16
-    ## 5    15    tibble 39507 2026-08-16 2026-08-16
-    ## 6    16     withr 39453 2026-08-16 2026-08-16
-    ## 7    17      mime 38996 2026-08-16 2026-08-16
-    ## 8    19  magrittr 38058 2026-08-16 2026-08-16
-    ## 9    20    pillar 37074 2026-08-16 2026-08-16
-    ## 10   25     bslib 34809 2026-08-16 2026-08-16
+    ##    rank        package count       from         to
+    ## 1     5           curl 48130 2026-08-16 2026-08-16
+    ## 2    14           glue 39866 2026-08-16 2026-08-16
+    ## 3    36           utf8 30848 2026-08-16 2026-08-16
+    ## 4    43       pkgbuild 29417 2026-08-16 2026-08-16
+    ## 5    46          purrr 28225 2026-08-16 2026-08-16
+    ## 6    54           xfun 25727 2026-08-16 2026-08-16
+    ## 7    66       evaluate 23180 2026-08-16 2026-08-16
+    ## 8    71      jquerylib 22744 2026-08-16 2026-08-16
+    ## 9    79       numDeriv 21114 2026-08-16 2026-08-16
+    ## 10   84 distributional 20300 2026-08-16 2026-08-16
 
 ## Steps
 
