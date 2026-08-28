@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2026-08-27 11:25:38.646869 UTC
+2026-08-28 11:53:23.737311 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -35,7 +35,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "s"
+    ## [1] "p"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -43,17 +43,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank     package count       from         to
-    ## 1     3       vctrs 79396 2026-08-25 2026-08-25
-    ## 2    16      scales 60192 2026-08-25 2026-08-25
-    ## 3    17          fs 59804 2026-08-25 2026-08-25
-    ## 4    19          S7 57663 2026-08-25 2026-08-25
-    ## 5    22    jsonlite 53721 2026-08-25 2026-08-25
-    ## 6    23     isoband 53501 2026-08-25 2026-08-25
-    ## 7    27       bslib 52642 2026-08-25 2026-08-25
-    ## 8    28 viridisLite 51616 2026-08-25 2026-08-25
-    ## 9    29 StanHeaders 51450 2026-08-25 2026-08-25
-    ## 10   31    generics 50514 2026-08-25 2026-08-25
+    ##    rank      package count       from         to
+    ## 1     5      ggplot2 76133 2026-08-26 2026-08-26
+    ## 2     8         Rcpp 66093 2026-08-26 2026-08-26
+    ## 3    12        cpp11 63288 2026-08-26 2026-08-26
+    ## 4    14    RcppEigen 59975 2026-08-26 2026-08-26
+    ## 5    15       pillar 59299 2026-08-26 2026-08-26
+    ## 6    16        dplyr 58760 2026-08-26 2026-08-26
+    ## 7    23      openssl 53002 2026-08-26 2026-08-26
+    ## 8    27    pkgconfig 51696 2026-08-26 2026-08-26
+    ## 9    32 RcppParallel 48993 2026-08-26 2026-08-26
+    ## 10   39        purrr 45239 2026-08-26 2026-08-26
 
 ## Steps
 
