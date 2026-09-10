@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2026-09-09 08:14:40.301804 UTC
+2026-09-10 08:16:12.188009 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -35,7 +35,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "d"
+    ## [1] "t"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -43,17 +43,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank     package count       from         to
-    ## 1    10       dplyr 58829 2026-09-07 2026-09-07
-    ## 2    17   rmarkdown 52890 2026-09-07 2026-09-07
-    ## 3    26     isoband 45918 2026-09-07 2026-09-07
-    ## 4    29 viridisLite 44912 2026-09-07 2026-09-07
-    ## 5    40       tidyr 39647 2026-09-07 2026-09-07
-    ## 6    41  tidyselect 39590 2026-09-07 2026-09-07
-    ## 7    43      digest 38524 2026-09-07 2026-09-07
-    ## 8    48 StanHeaders 37322 2026-09-07 2026-09-07
-    ## 9    62    rappdirs 33826 2026-09-07 2026-09-07
-    ## 10   64      readxl 30665 2026-09-07 2026-09-07
+    ##    rank  package count       from         to
+    ## 1     3  ggplot2 81050 2026-09-08 2026-09-08
+    ## 2     4    vctrs 79638 2026-09-08 2026-09-08
+    ## 3     8     httr 66261 2026-09-08 2026-09-08
+    ## 4    11    withr 64658 2026-09-08 2026-09-08
+    ## 5    12   tibble 64319 2026-09-08 2026-09-08
+    ## 6    14 magrittr 63609 2026-09-08 2026-09-08
+    ## 7    19 jsonlite 58362 2026-09-08 2026-09-08
+    ## 8    21   gtable 55950 2026-09-08 2026-09-08
+    ## 9    24     utf8 52232 2026-09-08 2026-09-08
+    ## 10   25    knitr 52003 2026-09-08 2026-09-08
 
 ## Steps
 
