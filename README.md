@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2026-09-17 08:15:24.701324 UTC
+2026-09-18 08:14:03.289893 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -35,7 +35,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "r"
+    ## [1] "o"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -43,17 +43,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank   package  count       from         to
-    ## 1     1     rlang 100138 2026-09-15 2026-09-15
-    ## 2     3        R6  82397 2026-09-15 2026-09-15
-    ## 3     4     vctrs  82349 2026-09-15 2026-09-15
-    ## 4     9     dplyr  71222 2026-09-15 2026-09-15
-    ## 5    10     withr  69724 2026-09-15 2026-09-15
-    ## 6    11  magrittr  69657 2026-09-15 2026-09-15
-    ## 7    12      curl  69252 2026-09-15 2026-09-15
-    ## 8    15      Rcpp  68578 2026-09-15 2026-09-15
-    ## 9    17 rmarkdown  63726 2026-09-15 2026-09-15
-    ## 10   18    pillar  62488 2026-09-15 2026-09-15
+    ##    rank      package count       from         to
+    ## 1     2      ggplot2 85058 2026-09-16 2026-09-16
+    ## 2     9     jsonlite 69601 2026-09-16 2026-09-16
+    ## 3    18    rmarkdown 59514 2026-09-16 2026-09-16
+    ## 4    26    pkgconfig 52538 2026-09-16 2026-09-16
+    ## 5    29      isoband 51260 2026-09-16 2026-09-16
+    ## 6    36 RColorBrewer 47889 2026-09-16 2026-09-16
+    ## 7    37      openssl 47469 2026-09-16 2026-09-16
+    ## 8    43    htmltools 44247 2026-09-16 2026-09-16
+    ## 9    44         otel 44163 2026-09-16 2026-09-16
+    ## 10   47       crayon 43406 2026-09-16 2026-09-16
 
 ## Steps
 
