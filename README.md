@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2026-10-27 08:14:48.214057 UTC
+2026-10-28 08:11:07.169682 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -35,7 +35,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "r"
+    ## [1] "i"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -43,17 +43,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank      package count       from         to
-    ## 1     1           R6 77999 2026-10-25 2026-10-25
-    ## 2     2        rlang 57003 2026-10-25 2026-10-25
-    ## 3     3         httr 56550 2026-10-25 2026-10-25
-    ## 4     4    RcppEigen 52887 2026-10-25 2026-10-25
-    ## 5     6         Rcpp 49499 2026-10-25 2026-10-25
-    ## 6     9        vctrs 46627 2026-10-25 2026-10-25
-    ## 7    11 RcppParallel 42769 2026-10-25 2026-10-25
-    ## 8    13  StanHeaders 41625 2026-10-25 2026-10-25
-    ## 9    15        withr 41329 2026-10-25 2026-10-25
-    ## 10   16     magrittr 41018 2026-10-25 2026-10-25
+    ##    rank   package count       from         to
+    ## 1     2       cli 83917 2026-10-26 2026-10-26
+    ## 2     5 lifecycle 78928 2026-10-26 2026-10-26
+    ## 3    10    tibble 68392 2026-10-26 2026-10-26
+    ## 4    11  magrittr 68308 2026-10-26 2026-10-26
+    ## 5    12     withr 65548 2026-10-26 2026-10-26
+    ## 6    13  jsonlite 65387 2026-10-26 2026-10-26
+    ## 7    15    pillar 62259 2026-10-26 2026-10-26
+    ## 8    19 RcppEigen 59801 2026-10-26 2026-10-26
+    ## 9    20     bslib 59546 2026-10-26 2026-10-26
+    ## 10   22    digest 56916 2026-10-26 2026-10-26
 
 ## Steps
 
