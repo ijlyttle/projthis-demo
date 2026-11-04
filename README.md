@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2026-11-03 08:09:58.327574 UTC
+2026-11-04 08:09:10.024204 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -35,7 +35,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "g"
+    ## [1] "e"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -43,17 +43,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank   package count       from         to
-    ## 1     1     rlang 54842 2026-11-01 2026-11-01
-    ## 2     2   ggplot2 49455 2026-11-01 2026-11-01
-    ## 3     9      glue 40448 2026-11-01 2026-11-01
-    ## 4    12  magrittr 39337 2026-11-01 2026-11-01
-    ## 5    13 RcppEigen 38417 2026-11-01 2026-11-01
-    ## 6    22  generics 30309 2026-11-01 2026-11-01
-    ## 7    23 pkgconfig 29334 2026-11-01 2026-11-01
-    ## 8    25    digest 28698 2026-11-01 2026-11-01
-    ## 9    28    gtable 28417 2026-11-01 2026-11-01
-    ## 10   41  labeling 25791 2026-11-01 2026-11-01
+    ##    rank      package count       from         to
+    ## 1     6    lifecycle 68881 2026-11-02 2026-11-02
+    ## 2     9         glue 64576 2026-11-02 2026-11-02
+    ## 3    11    RcppEigen 62524 2026-11-02 2026-11-02
+    ## 4    13       tibble 60627 2026-11-02 2026-11-02
+    ## 5    17       scales 55055 2026-11-02 2026-11-02
+    ## 6    19     jsonlite 53459 2026-11-02 2026-11-02
+    ## 7    25       gtable 48580 2026-11-02 2026-11-02
+    ## 8    27 RcppParallel 47962 2026-11-02 2026-11-02
+    ## 9    28     generics 47936 2026-11-02 2026-11-02
+    ## 10   29  viridisLite 47083 2026-11-02 2026-11-02
 
 ## Steps
 
