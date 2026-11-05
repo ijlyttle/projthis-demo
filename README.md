@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2026-11-04 08:09:10.024204 UTC
+2026-11-05 08:09:32.636619 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -35,7 +35,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "e"
+    ## [1] "u"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -43,17 +43,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank      package count       from         to
-    ## 1     6    lifecycle 68881 2026-11-02 2026-11-02
-    ## 2     9         glue 64576 2026-11-02 2026-11-02
-    ## 3    11    RcppEigen 62524 2026-11-02 2026-11-02
-    ## 4    13       tibble 60627 2026-11-02 2026-11-02
-    ## 5    17       scales 55055 2026-11-02 2026-11-02
-    ## 6    19     jsonlite 53459 2026-11-02 2026-11-02
-    ## 7    25       gtable 48580 2026-11-02 2026-11-02
-    ## 8    27 RcppParallel 47962 2026-11-02 2026-11-02
-    ## 9    28     generics 47936 2026-11-02 2026-11-02
-    ## 10   29  viridisLite 47083 2026-11-02 2026-11-02
+    ##    rank    package count       from         to
+    ## 1     8       glue 69887 2026-11-03 2026-11-03
+    ## 2    22       utf8 52951 2026-11-03 2026-11-03
+    ## 3    28       curl 50261 2026-11-03 2026-11-03
+    ## 4    29       xfun 50115 2026-11-03 2026-11-03
+    ## 5    32      purrr 48957 2026-11-03 2026-11-03
+    ## 6    62  jquerylib 38468 2026-11-03 2026-11-03
+    ## 7    63   evaluate 37610 2026-11-03 2026-11-03
+    ## 8    68   numDeriv 34663 2026-11-03 2026-11-03
+    ## 9    74   pkgbuild 32050 2026-11-03 2026-11-03
+    ## 10   77 rstudioapi 31461 2026-11-03 2026-11-03
 
 ## Steps
 
