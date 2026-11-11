@@ -1,6 +1,6 @@
 projthis Demonstration
 ================
-2026-11-10 08:15:11.558435 UTC
+2026-11-11 08:08:51.001204 UTC
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
@@ -35,7 +35,7 @@ letter <- sample(letters, 1)
 letter
 ```
 
-    ## [1] "i"
+    ## [1] "e"
 
 ``` r
 cran_top_downloads(when = "last-day", count = 100) %>%
@@ -43,17 +43,17 @@ cran_top_downloads(when = "last-day", count = 100) %>%
   head(10)
 ```
 
-    ##    rank   package count       from         to
-    ## 1     2       cli 49461 2026-11-08 2026-11-08
-    ## 2     4 lifecycle 47288 2026-11-08 2026-11-08
-    ## 3     8 RcppEigen 43177 2026-11-08 2026-11-08
-    ## 4    10     withr 42021 2026-11-08 2026-11-08
-    ## 5    11  magrittr 41643 2026-11-08 2026-11-08
-    ## 6    14    tibble 38018 2026-11-08 2026-11-08
-    ## 7    15     bslib 37571 2026-11-08 2026-11-08
-    ## 8    16  jsonlite 36729 2026-11-08 2026-11-08
-    ## 9    20    pillar 33813 2026-11-08 2026-11-08
-    ## 10   26 pkgconfig 30555 2026-11-08 2026-11-08
+    ##    rank    package count       from         to
+    ## 1     5  lifecycle 67353 2026-11-09 2026-11-09
+    ## 2     9       glue 62839 2026-11-09 2026-11-09
+    ## 3    13   jsonlite 58798 2026-11-09 2026-11-09
+    ## 4    15     tibble 57471 2026-11-09 2026-11-09
+    ## 5    16     scales 51150 2026-11-09 2026-11-09
+    ## 6    20  RcppEigen 50097 2026-11-09 2026-11-09
+    ## 7    25       otel 46220 2026-11-09 2026-11-09
+    ## 8    27     gtable 45027 2026-11-09 2026-11-09
+    ## 9    28 data.table 44856 2026-11-09 2026-11-09
+    ## 10   29   generics 44288 2026-11-09 2026-11-09
 
 ## Steps
 
